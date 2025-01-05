@@ -33,10 +33,9 @@ If I'm traveling light, I have the iPhone 16 Pro as the only thing in my pants p
 - a pair of binoculars or a DSLR
 - tote bag
 
-
-```mermaid
+<div class="mermaid" markdown="0">
 pie showData title weight (g)
     "Passport Case" : 386
     "Toiletries" : 85
     "Tech" : 15
-```
+</div>
