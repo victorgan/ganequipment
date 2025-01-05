@@ -1,5 +1,7 @@
 ## Daily Packing List
 
+Updated January 2025
+
 My essentials are an apartment key and iPhone 16 Pro. 
 
 If I'm driving, bussing, or might need a physical credit card, I have a 3-card  magnetic card holder that attaches to the phone. It holds my driver's license, bus pass and a USBank Smartly credit card. Separately, I'll carry my work badge.
@@ -29,7 +31,7 @@ If I'm traveling light, I have the iPhone 16 Pro as the only thing in my pants p
 
 - one pencil case for toiletries: sunscreen, toothbrush, razor, floss, tweezers, nail cutter, face serum, eye cream, lip balm containers (shaving cream, moisturizer, toothpaste - one per week)
 - one pencil case for tech: Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, Crucial X10 Pro 4TB SSD, a Garmin Watch cable, wired earbuds and 0.5/3 ft USB-C cables, ear plugs
-- one pencil case for electrolytes, salt sticks, vitamins and first aid (advil, claritin, imodium, polysporin, pepcid AC, bandages)
+- one pencil case for electrolytes, salt sticks, herbal tea bags, spork, vitamins and first aid (advil, claritin, imodium, polysporin, pepcid AC, bandages)
 - one packing cube: x2 extra underwear, x1 extra socks, gym clothes, sleep clothes and insulation, travel clothesline
 - passport case: passport, visas,  home keys, debit card, magnetic card holder
 - in a pocket: sunglasses, glasses, earbuds, watch
