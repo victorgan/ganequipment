@@ -25,11 +25,12 @@ When planning to run I'll bring
 
 ## Travel Packing List
 
-If I'm traveling light, I'll just bring the CT15 with:
+If I'm traveling light, I have the iPhone 16 Pro as the only thing in my pants pocket. I bring the CT15 with:
 
-- one pencil case for toiletries
-- one pencil case for tech
+- one pencil case for toiletries: sunscreen, toothbrush, razor, floss, tweezers, nail cutter, face serum, eye cream, lip balm containers (shaving cream, moisturizer, toothpaste - one per week)
+- one pencil case for tech: Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, Crucial X10 Pro 4TB SSD, a Garmin Watch cable, wired earbuds and 0.5/3 ft USB-C cables, ear plugs
 - one pencil case for electrolytes, salt sticks, vitamins and first aid (advil, claritin, imodium, polysporin, pepcid AC, bandages)
-- one packing cube with gym clothes, sleep clothes and insulation
-- passport
-- sunglasses, glasses, earbuds, watch
+- one packing cube: x2 extra underwear, x1 extra socks, gym clothes, sleep clothes and insulation, travel clothesline
+- passport case: passport, visas,  home keys, debit card, magnetic card holder
+- in a pocket: sunglasses, glasses, earbuds, watch
+- binoculars or dslr
