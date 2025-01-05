@@ -25,9 +25,10 @@ If I'm traveling light, I have the iPhone 16 Pro as the only thing in my pants p
 - a passport case for authorization: passport, visas, home keys, debit card, magsafe card holder, work badge
 - a pencil case for toiletries: sunscreen, toothbrush, razor, floss, tweezers, nail cutter, face serum, eye cream, lip balm containers (shaving cream, moisturizer, toothpaste - one per week)
 - a pencil case for tech: Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, Crucial X10 Pro 4TB SSD, a Garmin Watch cable, wired earbuds and 0.5/3 ft USB-C cables 
-- a pencil case for health: salt sticks, hand sanitizer, spork, vitamins and OTC medications (Advil, Claritin, Imodium, Peptol Bismol, Dramamine)
+- a pencil case for health: face mask, salt sticks, hand sanitizer, spork, vitamins and OTC medications (Advil, Claritin, Imodium, Peptol Bismol, Dramamine)
 - a pencil case for snacks
 - a packing cube for clothes: x2 extra underwear, x1 extra socks, gym clothes, sleep clothes, insulation layers 
 - sunglasses, glasses, travel clothesline, ear plugs and Soundcore Aerofit Pro earbuds
 - 13" Macbook Air M2
 - a pair of binoculars or a DSLR
+- tote bag
