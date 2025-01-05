@@ -32,3 +32,11 @@ If I'm traveling light, I have the iPhone 16 Pro as the only thing in my pants p
 - 13" Macbook Air M2
 - a pair of binoculars or a DSLR
 - tote bag
+
+
+```mermaid
+pie showData title weight (g)
+    "Passport Case" : 386
+    "Toiletries" : 85
+    "Tech" : 15
+```
