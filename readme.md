@@ -1,6 +1,6 @@
-## Daily Packing List
-
 Updated January 2025
+
+## Daily Packing List
 
 My essentials are an apartment key and iPhone 16 Pro. 
 
