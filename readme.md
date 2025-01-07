@@ -4,7 +4,7 @@ Updated January 2025
 
 I always bring my iPhone 16 Pro and sometimes wear my Garmin Forerunner 255s watch.
 
-For authorization I always bring my apartment key. I sometimes bring a keyring for car, mailbox, bike and yubi keys. I have a 3-card magsafe card holder for my driver's license, bus pass, work badge or USBank Smartly credit card.
+For authorization I always bring my apartment key. I sometimes bring a keyring for car, mailbox, bike and yubi keys. I have a 3-card magsafe card holder for my driver's license, bus pass, and USBank Smartly credit card. I carry my work badge separately, since it's sensitive to other RFID cards.
 
 Some days I'll bring a backpack; the CTactical CT15. Depending on the day, this holds :
 
