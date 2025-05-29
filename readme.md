@@ -1,9 +1,10 @@
-Updated January 2026
+Updated May 2025
 
 ## Contents
 
 - [Everyday Carry](#everyday-carry)
 - [Travel Onebag List](#travel-onebag-list)
+- [Specific Items](#specific-items)
 - [Change Log](#change-log)
 
 ## Everyday Carry
@@ -35,18 +36,36 @@ I'll generally take my phone, watch and auth whenever I leave my home. When I'm 
 
 ## Travel Onebag List
 
+### On Body
 
-If I'm traveling light, I have the iPhone 16 Pro as the only thing in my pants pocket. I bring the CT15 with:
+- Pants: Outlier New Dungarees
+- Underwear: Saxx Synthetic Boxers
+- Shirt: Wool and Prince Henley
+- Socks: Darn Tough Socks
+- Shoes: [Nike Pegasus 41](#nike-pegasus-41)
+- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s)
+- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight) 
+- Phone: iPhone 16 Pro with Magsafe Wallet
+
+### In the Ctactical CT15 
+
+Up to 6 pencil cases:
+
+- A hygiene pouch with a toothbrush, razor, toothpaste, shave cream, moisturizer, toner, sunscreen, floss, tweezers, nail cutter, cleanser, eye cream.
+- A tech pouch with a Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, a Garmin Watch cable, wired earbuds and 0.5/3 ft USB-C cables, SD card reader, Crucial X10 Pro 4TB SSD.
+- A shirt pouch with a wool t shirt and a synthetic running shirt.
+- A shorts pouch with running shorts and an extra pair of underwear.
+- A pencil case for health: face mask, salt sticks, hand sanitizer, spork, vitamins and OTC medications (Advil, Claritin, Imodium, Peptol Bismol, Dramamine)
+- A pencil case for snacks
 
 - a passport case for authorization: passport, visas, home keys, debit card, magsafe card holder, work badge
-- a pencil case for toiletries: sunscreen, toothbrush, razor, floss, tweezers, nail cutter, face serum, eye cream, lip balm containers (shaving cream, moisturizer, toothpaste - one per week)
-- a pencil case for tech: Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, Crucial X10 Pro 4TB SSD, a Garmin Watch cable, wired earbuds and 0.5/3 ft USB-C cables 
-- a pencil case for health: face mask, salt sticks, hand sanitizer, spork, vitamins and OTC medications (Advil, Claritin, Imodium, Peptol Bismol, Dramamine)
-- a pencil case for snacks
-- a packing cube for clothes: x2 extra underwear, x1 extra socks, gym clothes, sleep clothes, insulation layers 
+- A packing zip bag for clothes: x1 extra underwear, x1 extra socks, gym clothes, sleep clothes
+- insulation layers 
 - sunglasses, glasses, travel clothesline, ear plugs and Soundcore Aerofit Pro earbuds
-- 13" Macbook Air M2
-- a pair of binoculars or a DSLR
+- Personal laptop: 13" Macbook Air M2
+- Work laptop: 13" Macbook Air M3
+- a pair of binoculars 
+- DSLR
 - tote bag
 
 ## Specific Items
@@ -69,7 +88,21 @@ After using Google Pixels and Nexuses exclusively since 2012, I finally gave in 
 #### Garmin Foreunner 255s
 A 41mm smartwatch, Garmin's smallest and lightest. It's the last one with an e-ink style display, that saves battery life and is visible in the sun.
 
+I've been trying mechanical watches for daily wear, but it's hard to beat the convenience of not having to set the time every day. I also considered the new Pebble time, but the Garmin is just too integrated with running features.
+
+### Clothes
+#### Patagonia Nano Air Ultralight
+This is an 'active insulation' layer that is kind of ridiculous, because there's almost no insulation in it. I sized up to a medium because it's a slim fit, and now it looks baggy in a trendy way.
+
+### Shoes
+#### Nike Pegasus 41
+Packing running shoes takes a ton of space, and I wanted a pair of primarily casual shoes that I can also run in. Nike recently came out with a colorway (Sail/Blue Tint/Wolf Grey/Anthracite FD2722-113) that looked a lot like the Eliot Tracksmith's but less pretentious, and fit the bill well. I actually like the look of it more than the New Balance 574s and 327s that I was previously using as casual shoes, so even if I'm not running I'll wear them.
 
 ## Change Log
-- 2025-05-29: Added an Airtag to my keyring.
+- 2025-05-29: Upgraded the Black Diamond Access Down Hoody to the [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight).
+- 2025-05-29: Replaced the Asics Superblast 2 + casual shoe combo for traveling with the [Nike Pegasus 41](#nike-pegasus-41) running shoes.
+- 2025-05-29: Added an Airtag to my keyring, using a keychain holder from Elevation Labs. I now have 5 airtags: car, ebike, luggage, backpack, and keys.
 - 2025-05-29: Upgraded the USB-A Garmin Watch cable with a USB-C Garmin Watch cable. The slight downside is this might compete with the 2 USB-C slots of the Anker 100 GaN Charger.
+
+## Deliberations
+- 2025-05-29: [Darn Tough Socks](https://darntough.com/collections/men/products/mens-merino-wool-element-micro-crew-lightweight-running-socks?variant=42474173956282) in white, to match the Pegasus shoes.
