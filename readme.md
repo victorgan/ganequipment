@@ -1,5 +1,10 @@
 Updated January 2025
 
+## Contents
+
+- [Daily Packing List](#daily-packing-list)
+- [Travel Onebag List](#travel-onebag-list)
+
 ## Daily Packing List
 
 I always bring my iPhone 16 Pro and sometimes wear my Garmin Forerunner 255s watch.
@@ -18,7 +23,7 @@ Some days I'll bring a backpack; the CTactical CT15. Depending on the day, this 
 - sunscreen
 - sunglasses with case
 
-## Travel Packing List
+## Travel Onebag List
 
 If I'm traveling light, I have the iPhone 16 Pro as the only thing in my pants pocket. I bring the CT15 with:
 
