@@ -124,6 +124,7 @@ I quite like that it's a pullover, since it reduces bulk in the hood area. It's 
 **Perfect Item**. Packing running shoes takes a ton of space, and I wanted a pair of primarily casual shoes that I can also run in. Nike recently came out with a colorway (Sail/Blue Tint/Wolf Grey/Anthracite FD2722-113) that looked a lot like the Eliot Tracksmith's but less pretentious, and fit the bill well. I actually like the look of it more than the New Balance 574s and 327s that I was previously using as casual shoes, so even if I'm not running I'll wear them.
 
 ## Change Log
+- 2025-05-29: Replaced the tearing Maduka Men's Pro Shorts with Patagonia Men's 7-in Strider Pro Shorts. The Patagonia shorts are more technical, lighter and pack down smaller, but they're not as comfortable - I wouldn't sleep in them.
 - 2025-05-29: Upgraded the Black Diamond Access Down Hoody to the [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight).
 - 2025-05-29: Replaced the Asics Superblast 2 + casual shoe combo for traveling with the [Nike Pegasus 41](#nike-pegasus-41) running shoes.
 - 2025-05-29: Added an Airtag to my keyring, using a keychain holder from Elevation Labs. I now have 5 airtags: car, ebike, luggage, backpack, and keys.
