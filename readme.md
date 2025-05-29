@@ -10,15 +10,15 @@ Updated January 2026
 
 ### On Body
 
-- Phone: iPhone 16 Pro
-- Watch: Garmin Forerunner 255s
+- Phone: [iPhone 16 Pro](#iphone-16-pro)
+- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s)
 - Authorization: Keyring with car fob, bike lock key, apartment fob, yubi key, and airtag.
 - Authorization: 3-card magsafe card holder with driver's license, bus pass, and USBank Smartly credit card.
 - Authorization: Work badge on fob. I carry this separately from the other cards since the badge readers are sensitive to other cards.
 
 ### Packed
 
-- Backpack: CTactical CT15 V3 Kevin/Obsidian
+- Backpack: [CTactical CT15](#ctactical-ct15)
 - Personal Laptop: 13" Macbook Air M2
 - Work Laptop: 13" Macbook Air M3
 - Bike Lock: Kryptonite Evolution U-Lock
@@ -51,6 +51,23 @@ If I'm traveling light, I have the iPhone 16 Pro as the only thing in my pants p
 
 ## Specific Items
 
+### Bags
+#### CTactical CT15
+A custom version of CTactical's CT15 V3.0 from a Facebook group buy, nicknamed Kevin/Obsidian. After getting this pack, I stopped searching for new packs because I love it so much.
+
+- The size is great to carry around every day. Anything smaller and an a tote or sling would be more appropriate. I've also used it as my only bag for a 2 week trip with no problems.
+- I like the understated aesthetic. It's shaped like a classic rectangle, similar to GoRuck's GR1, and has no logos.
+- It's made of  Ultra 200tx material, which is technically great (light and waterproof) and is crinkly and feels like it'll wear well like leather or denim.
+- The main compartment opens completely clamshell, which allows for easy packing and unpacking. A TSA agent complimented this once during an inspection.
+- There's a top quick access pocket and two side water bottle holders that zip away when not in use. These are great to access things while on the go. I had a previous version of the bag without these, and they make a world of a difference.
+- The laptop area is padded and has a side zip for dedicated laptop access. This saves weight over a dedicated laptop compartment. Sometimes I forget to close the side zips and the laptop falls out.
+
+### Tech
+#### Iphone 16 Pro
+After using Google Pixels and Nexuses exclusively since 2012, I finally gave in to the ecosystem. I tried my best.
+
+#### Garmin Foreunner 255s
+A 41mm smartwatch, Garmin's smallest and lightest. It's the last one with an e-ink style display, that saves battery life and is visible in the sun.
 
 
 ## Change Log
