@@ -1,32 +1,40 @@
+Updated January 2026
+
 ## Contents
 
-- [Daily Packing List](#daily-packing-list)
+- [Everyday Carry](#everyday-carry)
 - [Travel Onebag List](#travel-onebag-list)
 - [Change Log](#change-log)
 
-## Daily Packing List
+## Everyday Carry
 
-Updated January 2025
+### On Body
 
-I always bring my iPhone 16 Pro and sometimes wear my Garmin Forerunner 255s watch.
+- Phone: iPhone 16 Pro
+- Watch: Garmin Forerunner 255s
+- Authorization: Keyring with car fob, bike lock key, apartment fob, yubi key, and airtag.
+- Authorization: 3-card magsafe card holder with driver's license, bus pass, and USBank Smartly credit card.
+- Authorization: Work badge on fob. I carry this separately from the other cards since the badge readers are sensitive to other cards.
 
-For authorization I always bring my apartment key. I sometimes bring a keyring for car, mailbox, bike and yubi keys. I have a 3-card magsafe card holder for my driver's license, bus pass, and USBank Smartly credit card. I carry my work badge separately, since it's sensitive to other RFID cards.
+### Packed
 
-Some days I'll bring a backpack; the CTactical CT15. Depending on the day, this holds :
+- Backpack: CTactical CT15 V3 Kevin/Obsidian
+- Personal Laptop: 13" Macbook Air M2
+- Work Laptop: 13" Macbook Air M3
+- Bike Lock: Kryptonite Evolution U-Lock
+- Earbuds: Soundcore Aerofit Pro
+- Glasses with case
+- Sunscreen
+- Sunglasses with case
+- Tech Pouch: Aer Slim Pouch for tech: an Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, Crucial X10 Pro 4TB SSD, a Garmin Watch cable, wired earbuds and 0.5, 3, and 10 ft USB-C to USB-C cables
+- Running Gear: Black Diamond Sprinter 500 Headlamp, gym clothes, running shoes
 
-- personal 13" Macbook Air M2
-- work 13" Macbook Air M3
-- Aer Slim Pouch for tech: an Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, Crucial X10 Pro 4TB SSD, a Garmin Watch cable, wired earbuds and 0.5, 3, and 10 ft USB-C to USB-C cables
-- Soundcore Aerofit Pro
-- bike lock with bike lock key on a keyring
-- glasses with case
-- workout gear: Black Diamond Sprinter 500 Headlamp, gym clothes, running shoes
-- sunscreen
-- sunglasses with case
+### Rationale
+
+I'll generally take my phone, watch and auth whenever I leave my home. When I'm commuting by ebike, I'll bring my u lock, which generally means I'm bringing my backpack.
 
 ## Travel Onebag List
 
-Updated January 2025
 
 If I'm traveling light, I have the iPhone 16 Pro as the only thing in my pants pocket. I bring the CT15 with:
 
@@ -41,6 +49,10 @@ If I'm traveling light, I have the iPhone 16 Pro as the only thing in my pants p
 - a pair of binoculars or a DSLR
 - tote bag
 
-## Change Log
+## Specific Items
 
-- 2025-05-29: Upgraded the USB-A Garmin Watch cable with a USB-C Garmin Watch cable.
+
+
+## Change Log
+- 2025-05-29: Added an Airtag to my keyring.
+- 2025-05-29: Upgraded the USB-A Garmin Watch cable with a USB-C Garmin Watch cable. The slight downside is this might compete with the 2 USB-C slots of the Anker 100 GaN Charger.
