@@ -5,9 +5,13 @@ Updated May 2025
 
 ## Contents
 
+### Lists
+
 - [Everyday Carry](#everyday-carry)
 - [Onebag Travel](#onebag-travel)
 - [Trail Running](#trail-running)
+
+### Items
 
 - [Specific Items](#specific-items)
 - [Change Log](#change-log)
@@ -18,16 +22,15 @@ Updated May 2025
 
 ### On Body
 
-- Phone: [iPhone 16 Pro](#iphone-16-pro)
-- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s)
+- Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
+- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
 - Authorization: Keyring with car fob, bike lock key, apartment fob, yubi key, and airtag.
 - Authorization: 3-card magsafe card holder with driver's license, bus pass, and USBank Smartly credit card.
 - Authorization: Work badge on fob. I carry this separately from the other cards since the badge readers are sensitive to other cards.
 
 ### Packs
 
-- Backpack: [CTactical CT15](#ctactical-ct15)
-- Eyeglass Case: 
+- Backpack: [CTactical CT15](#ctactical-ct15-backpack)
 - Tech Pouch: Aer Slim Pouch
 - Clothes Zip Bag: Aer Zip Bag Small
 
@@ -39,30 +42,34 @@ Updated May 2025
 - Earbuds: Soundcore Aerofit Pro
 - Glasses: Lindberg Frameless in a [Linrong Capsule Eyelass Case](linrong-capsule-eyelass-case)
 - Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
-- Sunscreen
 - Running Gear: Black Diamond Sprinter 500 Headlamp, gym clothes, running shoes
-
-### Tech Pouch
-- Tech Pouch: an Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, Crucial X10 Pro 4TB SSD, a Garmin Watch cable, wired earbuds and 0.5, 3, and 10 ft USB-C to USB-C cables
+- Sunscreen
 
 ### Rationale
 
-I'll generally take my phone, watch and auth whenever I leave my home. When I'm commuting by ebike, I'll bring my u lock, which generally means I'm bringing my backpack.
+I'll generally take my phone, watch and auth whenever I leave my home. When I'm
+commuting by ebike, I'll bring my u lock, which generally means I'm bringing my
+backpack.
 
 ## Onebag Travel
 
 ### On Body
 
-- Pants: [Outlier New Dungarees](#outlier-new-dungarees)
+- Pants: [Outlier New Dungarees](#outlier-new-dungarees-pants)
 - Underwear: Saxx Synthetic Boxers
 - Shirt: Wool and Prince Henley
 - Socks: [Darn Tough Socks](#darn-tough-socks)
-- Shoes: [Nike Pegasus 41](#nike-pegasus-41)
-- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s)
-- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight) 
+- Shoes: [Nike Pegasus 41](#nike-pegasus-41-shoes)
+- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
 - Phone: iPhone 16 Pro with Magsafe Wallet
 
-### In the Ctactical CT15 
+### Packs
+
+- Backpack: [CTactical CT15](#ctactical-ct15-backpack)
+- Pouches x6: [Black Diamond Skin Maintenance Kit Pouch](#black-diamond-skin-maintenance-kit-pouch)
+
+
+### In the Ctactical CT15
 
 Up to 6 pencil cases:
 
@@ -75,7 +82,7 @@ Up to 6 pencil cases:
 
 - a passport case for authorization: passport, visas, home keys, debit card, magsafe card holder, work badge
 - A packing zip bag for clothes: x1 extra underwear, x1 extra socks, gym clothes, sleep clothes
-- insulation layers 
+- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
 - sunglasses, glasses, travel clothesline, ear plugs and Soundcore Aerofit Pro earbuds
 - Personal laptop: 13" Macbook Air M2
 - Work laptop: 13" Macbook Air M3
@@ -162,9 +169,14 @@ This pants have a more modern cut that the cult classic New Dungarees. The mater
 
 #### Patagonia Airshed Pro Pullover
 
-**Best in Slot**. This acts as a sun hoodie, running shirt and windshirt combined. In high exertion hot weather, the elastic on the sleeves let you bunch them up securely and the zipper goes down very deep. It's extremely breathable; often more breathable than polyester T-shirts. I can usually run in this until 5C, since it blocks enough wind to keep me warm when moving.
+**Best in Slot**. This acts as a sun hoodie, running shirt and windshirt
+combined. In high exertion hot weather, the elastic on the sleeves let you bunch
+them up securely and the zipper goes down very deep. It's extremely breathable;
+often more breathable than polyester T-shirts. I can usually run in this until
+5C, since it blocks enough wind to keep me warm when moving.
 
-In theory, this combined with the Patagonia Nano Air Ultralight can be all you need until around 5C, both running and stationary.
+In theory, this combined with the Patagonia Nano Air Ultralight can be all you
+need until around 5C, both running and stationary.
 
 - Wear the Airshed by itself while active or stationary.
 - Put on the Nano Air Ultralight when it gets colder.
@@ -174,9 +186,12 @@ The downside is the color (Wispy Green) is a little see through.
 
 #### Patagonia Nano Air Ultralight Pullover
 
-**Best in Slot**. This is an 'active insulation' pullover that is kind of ridiculous, because there's almost no insulation in it. I sized up to a medium because it's a slim fit, and now it looks baggy in a trendy way.
+**Best in Slot**. This is an 'active insulation' pullover that is kind of
+ridiculous, because there's almost no insulation in it. I sized up to a medium
+because it's a slim fit, and now it looks baggy in a trendy way.
 
-I quite like that it's a pullover, since it reduces bulk in the hood area. It's comfy and light enough to wear casually.
+I quite like that it's a pullover, since it reduces bulk in the hood area. It's
+comfy and light enough to wear casually.
 
 ### Shoes
 #### Nike Pegasus 41 Shoes
@@ -198,8 +213,8 @@ click.
 #### Cafe Du Cyclist Gabin Sunglasses
 
 I like the sheild-like coverage of one piece cycling sunglasses and
-photochromatic lenses for changing weather and daylight. These ones satisfy
-these without looking too gaudy.
+photochromatic lenses for changing weather and daylight. These ones fit the bill
+without looking too gaudy.
 
 ## Change Log
 - 2025-05-29: [Darn Tough Socks](https://darntough.com/collections/men/products/mens-merino-wool-element-micro-crew-lightweight-running-socks?variant=42474173956282) in white, to match the Pegasus shoes.
