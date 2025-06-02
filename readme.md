@@ -7,6 +7,7 @@ Updated May 2025
 
 - [Everyday Carry](#everyday-carry)
 - [Travel Onebag List](#travel-onebag-list)
+
 - [Specific Items](#specific-items)
 - [Change Log](#change-log)
 - [Prospective Purchases](#prospective-purchases)
@@ -78,10 +79,39 @@ Up to 6 pencil cases:
 - DSLR
 - tote bag
 
+## Trail Running
+
+### On Person
+
+- Hat
+- Sunglasses
+- Patagonia Airshed Pro
+- Patagonia Strider Pro Shorts
+- Darn Tough Lightweight Wool Socks
+- Saucony Endorphin Rift Trail Runners
+- Outdoor Research Sun Gloves
+- Garmin Fenix 6X
+
+### On Person
+
+- Running Vest: Salomon Sense Pro 6
+- Poles: Black Diamond Carbon Z Trekking Poles with Salmon Custom Quiver
+- Water Filter: Salomon Soft Flask XA Filter
+- Phone: iPhone 16 Pro
+- Sunscreen: Stick Sunscreen
+- Headlamp: Black Diamond Sprinter 500 Headlamp
+- USB-C battery: Anker 10k Slim
+- Insulation: Patagonia Nano Air Ultralight Pullover
+
+### Consumables
+- Water: Water with Gatorade Drink Mix
+- Food: Welches Gummies, one for every 30 mins
+- Electrolyte tablets
+
 ## Specific Items
 
 ### Bags
-#### CTactical CT15
+#### CTactical CT15 Backpack
 
 **Personal Favorite**. A custom version of CTactical's CT15 V3.0 from a Facebook group buy, nicknamed Kevin/Obsidian. After getting this pack, I stopped searching for new packs because I love it so much.
 
@@ -98,10 +128,10 @@ Up to 6 pencil cases:
 I think I love them mostly because they're just so no-frills and functional; for a storage case nothing else is needed.
 
 ### Tech
-#### Iphone 16 Pro
+#### Iphone 16 Pro Phone
 **Best in Slot**. After using Google Pixels and Nexuses exclusively since 2012, I finally gave in to the ecosystem. I tried my best. I wish it was a bit smaller.
 
-#### Garmin Foreunner 255s
+#### Garmin Foreunner 255s Watch
 
 **Best in Slot**. A 41mm smartwatch, Garmin's smallest and lightest. It's the last one with an e-ink style display, that saves battery life and is visible in the sun. Garmin's Forerunner 9XX and Fenix watches have the ability to display maps, but none of them are as small as the 255s, and the 255s' breadcrumb feature is good enough for most hikes and trail runs to keep you on course for downloaded trails. 
 
@@ -110,7 +140,7 @@ I've been trying mechanical watches for daily wear, but it's hard to beat the co
 
 ### Clothes
 
-#### Outlier New Dungarees
+#### Outlier New Dungarees Pants
 
 This pants have a more modern cut that the cult classic New Dungarees. The material is textured a bit more than other techwear pants, which makes it more casual.
 
@@ -118,7 +148,7 @@ This pants have a more modern cut that the cult classic New Dungarees. The mater
 
 **Best in Slot**. Before Darn Tough I cycled through Costco Kirkland Signature socks, which got holes in them often. Now I have a couple pairs and plan to return them if they get any holes.
 
-#### Patagonia Airshed Pro
+#### Patagonia Airshed Pro Pullover
 
 **Best in Slot**. This acts as a sun hoodie, running shirt and windshirt combined. In high exertion hot weather, the elastic on the sleeves let you bunch them up securely and the zipper goes down very deep. It's extremely breathable; often more breathable than polyester T-shirts. I can usually run in this until 5C, since it blocks enough wind to keep me warm when moving.
 
@@ -130,18 +160,18 @@ In theory, this combined with the Patagonia Nano Air Ultralight can be all you n
 
 The downside is the color (Wispy Green) is a little see through.
 
-#### Patagonia Nano Air Ultralight
+#### Patagonia Nano Air Ultralight Pullover
 
 **Best in Slot**. This is an 'active insulation' pullover that is kind of ridiculous, because there's almost no insulation in it. I sized up to a medium because it's a slim fit, and now it looks baggy in a trendy way.
 
 I quite like that it's a pullover, since it reduces bulk in the hood area. It's comfy and light enough to wear casually.
 
 ### Shoes
-#### Nike Pegasus 41
+#### Nike Pegasus 41 Shoes
 
 **Personal Like**. Packing running shoes takes a ton of space, and I wanted a pair of primarily casual shoes that I can also run in. Nike recently came out with a colorway (Sail/Blue Tint/Wolf Grey/Anthracite FD2722-113) that looked a lot like the Eliot Tracksmith's but less pretentious, and fit the bill well. I actually like the look of it more than the New Balance 574s and 327s that I was previously using as casual shoes, so even if I'm not running I'll wear them.
 
-#### Asics Superblast 2
+#### Asics Superblast 2 Shoes
 
 **Personal Like** I partially credit the original Superblasts in getting me into running - they were the first high stack superfoam shoe without a plate, and made recovering from runs a lot faster, and my favorite running shoe of all time. After 500+ miles on them, I replaced it with the successor, but by now other companies have made similar shoes and I'm not as adamant that this model is as far ahead compared to the competition. Still, no complaints.
 
