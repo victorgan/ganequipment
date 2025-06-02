@@ -26,22 +26,22 @@ Updated May 2025
 - Authorization: 3-card magsafe card holder with driver's license, bus pass, and USBank Smartly credit card.
 - Authorization: Work badge on fob. I carry this separately from the other cards since the badge readers are sensitive to other cards.
 
-### Packs
+### Packed
 
 - Backpack: [CTactical CT15](#ctactical-ct15-backpack)
-- Tech Pouch: Aer Slim Pouch
-- Clothes Zip Bag: Aer Zip Bag Small
-
-### Backpack
-
+- Tech Pouch: Aer Slim Pouch with an Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, Crucial X10 Pro 4TB SSD, a Garmin Watch cable, wired earbuds and 0.5, 3, and 10 ft USB-C to USB-C cables
+- Clothes Zip Bag: Aer Zip Bag Small with gym clothes
 - Personal Laptop: 13" Macbook Air M2
 - Work Laptop: 13" Macbook Air M3
 - Bike Lock: Kryptonite Evolution U-Lock
 - Earbuds: Soundcore Aerofit Pro
 - Glasses: Lindberg Frameless in a [Linrong Capsule Eyelass Case](linrong-capsule-eyelass-case)
 - Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
-- Running Gear: Black Diamond Sprinter 500 Headlamp, gym clothes, running shoes
 - Sunscreen
+
+### Situational
+
+- Black Diamond Sprinter 500 Headlamp
 
 ### Rationale
 
