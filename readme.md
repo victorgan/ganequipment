@@ -6,7 +6,8 @@ Updated May 2025
 ## Contents
 
 - [Everyday Carry](#everyday-carry)
-- [Travel Onebag List](#travel-onebag-list)
+- [Onebag Travel](#onebag-travel)
+- [Trail Running](#trail-running)
 
 - [Specific Items](#specific-items)
 - [Change Log](#change-log)
@@ -23,29 +24,32 @@ Updated May 2025
 - Authorization: 3-card magsafe card holder with driver's license, bus pass, and USBank Smartly credit card.
 - Authorization: Work badge on fob. I carry this separately from the other cards since the badge readers are sensitive to other cards.
 
-### Packed
+### Packs
 
 - Backpack: [CTactical CT15](#ctactical-ct15)
-- Sunglass Case
-- Eyeglass Case
+- Eyeglass Case: 
 - Tech Pouch: Aer Slim Pouch
 - Clothes Zip Bag: Aer Zip Bag Small
+
+### Backpack
 
 - Personal Laptop: 13" Macbook Air M2
 - Work Laptop: 13" Macbook Air M3
 - Bike Lock: Kryptonite Evolution U-Lock
 - Earbuds: Soundcore Aerofit Pro
-- Glasses
-- Sunglasses
+- Glasses: Lindberg Frameless in a [Linrong Capsule Eyelass Case](linrong-capsule-eyelass-case)
+- Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
 - Sunscreen
-- Tech Pouch: an Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, Crucial X10 Pro 4TB SSD, a Garmin Watch cable, wired earbuds and 0.5, 3, and 10 ft USB-C to USB-C cables
 - Running Gear: Black Diamond Sprinter 500 Headlamp, gym clothes, running shoes
+
+### Tech Pouch
+- Tech Pouch: an Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, Crucial X10 Pro 4TB SSD, a Garmin Watch cable, wired earbuds and 0.5, 3, and 10 ft USB-C to USB-C cables
 
 ### Rationale
 
 I'll generally take my phone, watch and auth whenever I leave my home. When I'm commuting by ebike, I'll bring my u lock, which generally means I'm bringing my backpack.
 
-## Travel Onebag List
+## Onebag Travel
 
 ### On Body
 
@@ -92,7 +96,7 @@ Up to 6 pencil cases:
 - Outdoor Research Sun Gloves
 - Garmin Fenix 6X
 
-### On Person
+### In Vest
 
 - Running Vest: Salomon Sense Pro 6
 - Poles: Black Diamond Carbon Z Trekking Poles with Salmon Custom Quiver
@@ -104,13 +108,21 @@ Up to 6 pencil cases:
 - Insulation: Patagonia Nano Air Ultralight Pullover
 
 ### Consumables
+
 - Water: Water with Gatorade Drink Mix
 - Food: Welches Gummies, one for every 30 mins
 - Electrolyte tablets
 
+### In the Car
+
+- Extra clothes
+- Towel
+- Fairlife protein shakes
+
 ## Specific Items
 
 ### Bags
+
 #### CTactical CT15 Backpack
 
 **Personal Favorite**. A custom version of CTactical's CT15 V3.0 from a Facebook group buy, nicknamed Kevin/Obsidian. After getting this pack, I stopped searching for new packs because I love it so much.
@@ -175,7 +187,22 @@ I quite like that it's a pullover, since it reduces bulk in the hood area. It's 
 
 **Personal Like** I partially credit the original Superblasts in getting me into running - they were the first high stack superfoam shoe without a plate, and made recovering from runs a lot faster, and my favorite running shoe of all time. After 500+ miles on them, I replaced it with the successor, but by now other companies have made similar shoes and I'm not as adamant that this model is as far ahead compared to the competition. Still, no complaints.
 
+### Accessories
+
+#### Linrong Capsule Eyelass Case
+
+These are cheap, hardshell cases that protect my glasses at lot more than the
+current one, without being bulky or heavy. They open up on the short end with a
+click.
+
+#### Cafe Du Cyclist Gabin Sunglasses
+
+I like the sheild-like coverage of one piece cycling sunglasses and
+photochromatic lenses for changing weather and daylight. These ones satisfy
+these without looking too gaudy.
+
 ## Change Log
+- 2025-05-29: [Darn Tough Socks](https://darntough.com/collections/men/products/mens-merino-wool-element-micro-crew-lightweight-running-socks?variant=42474173956282) in white, to match the Pegasus shoes.
 - 2025-05-29: Replaced the tearing Maduka Men's Pro Shorts with Patagonia Men's 7-in Strider Pro Shorts. The Patagonia shorts are more technical, lighter and pack down smaller, but they're not as comfortable - I wouldn't sleep in them.
 - 2025-05-29: Upgraded the Black Diamond Access Down Hoody to the [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight).
 - 2025-05-29: Replaced the Asics Superblast 2 + casual shoe combo for traveling with the [Nike Pegasus 41](#nike-pegasus-41) running shoes.
@@ -183,8 +210,3 @@ I quite like that it's a pullover, since it reduces bulk in the hood area. It's 
 - 2025-05-29: Upgraded the USB-A Garmin Watch cable with a USB-C Garmin Watch cable. The slight downside is this might compete with the 2 USB-C slots of the Anker 100 GaN Charger.
 
 ## Prospective Purchases
-- 2025-05-29: [Darn Tough Socks](https://darntough.com/collections/men/products/mens-merino-wool-element-micro-crew-lightweight-running-socks?variant=42474173956282) in white, to match the Pegasus shoes.
-
-## Retired Items
-
-TBD.
