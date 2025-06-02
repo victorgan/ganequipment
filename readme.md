@@ -15,8 +15,6 @@ Updated May 2025
 
 - [Specific Items](#specific-items)
 - [Change Log](#change-log)
-- [Prospective Purchases](#prospective-purchases)
-- [Retired Items](#retired-items)
 
 ## Everyday Carry
 
@@ -217,11 +215,8 @@ photochromatic lenses for changing weather and daylight. These ones fit the bill
 without looking too gaudy.
 
 ## Change Log
-- 2025-05-29: [Darn Tough Socks](https://darntough.com/collections/men/products/mens-merino-wool-element-micro-crew-lightweight-running-socks?variant=42474173956282) in white, to match the Pegasus shoes.
 - 2025-05-29: Replaced the tearing Maduka Men's Pro Shorts with Patagonia Men's 7-in Strider Pro Shorts. The Patagonia shorts are more technical, lighter and pack down smaller, but they're not as comfortable - I wouldn't sleep in them.
-- 2025-05-29: Upgraded the Black Diamond Access Down Hoody to the [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight).
-- 2025-05-29: Replaced the Asics Superblast 2 + casual shoe combo for traveling with the [Nike Pegasus 41](#nike-pegasus-41) running shoes.
+- 2025-05-29: Upgraded the Black Diamond Access Down Hoody to the [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover).
+- 2025-05-29: Replaced the Asics Superblast 2 + casual shoe combo for traveling with the [Nike Pegasus 41](#nike-pegasus-41-shoes) running shoes.
 - 2025-05-29: Added an Airtag to my keyring, using a keychain holder from Elevation Labs. I now have 5 airtags: car, ebike, luggage, backpack, and keys.
 - 2025-05-29: Upgraded the USB-A Garmin Watch cable with a USB-C Garmin Watch cable. The slight downside is this might compete with the 2 USB-C slots of the Anker 100 GaN Charger.
-
-## Prospective Purchases
