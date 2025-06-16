@@ -123,6 +123,8 @@ Up to 6 pencil cases:
 - Extra clothes
 - Towel
 - Fairlife protein shakes
+- Slippers
+- Extra water
 
 ## Specific Items
 
