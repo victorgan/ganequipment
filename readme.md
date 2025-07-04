@@ -125,8 +125,11 @@ Pre-ride checklist:
 - Garmin Fenix 6X
 - Garmin Varia rear light
 - Two water bottles
-- Patch Kit: extra tube, tire levers, co2 inflater with cartridge
-- Hand pump
+- Tools:
+    - Patch Kit: extra tube, tire levers, co2 inflater with cartridge
+    - Hand pump
+    - Disc brake pad spacer
+    - Multitool
 - Extra food
 
 ## Trail Running
