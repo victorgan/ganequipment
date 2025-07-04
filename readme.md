@@ -182,8 +182,6 @@ Pre-ride checklist:
 
 - Headlamp: Black Diamond Sprinter 500 Headlamp
 
-
-
 # Specific Items
 
 ## Bags
@@ -266,6 +264,9 @@ comfy and light enough to wear casually.
 
 ## Shoes
 
+If space is at a premium, take the Nike Pegasus as the only pair. Otherwise,
+pack one in the the [Aer Zip Large Bag](#aer-zip-large-bag).
+
 ### Darn Tough Socks
 
 **Best in Slot**. Before Darn Tough I cycled through Costco Kirkland Signature socks, which got holes in them often. Now I have a couple pairs and plan to return them if they get any holes.
@@ -290,7 +291,9 @@ Almost 10 years old going strong.
 
 Mostly cause of the thick Peba foam and Vibram Megagrip soles.
 
-## Headwear
+## Headwear and Gloves
+
+The sunhat, running cap and gloves fit in the [Aer Zip Small Bag](#aer-zip-small-bag).
 
 ### North Face Sun Hat
 
@@ -314,20 +317,16 @@ I like the shield-like coverage of one piece cycling sunglasses and
 photochromatic lenses for changing weather and daylight. These ones fit the bill
 without looking too gaudy.
 
-## Gloves
-
 ### Outdoor Research Sun Gloves
 
 There's holes in it, but used for everything.
 
-## Accessories
-
 ### Linrong Capsule Eyelass Case
 
-These are cheap, hardshell cases that protect my glasses at lot more than the
-current one, without being bulky or heavy. They open up on the short end with a
+Hardshell case without being bulky or heavy. They open up on the short end with a
 click.
 
+## Accessories
 
 ### Swimming Goggles and Cap
 
