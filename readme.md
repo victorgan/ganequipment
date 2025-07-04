@@ -113,12 +113,14 @@ Pre-ride checklist:
 - Bibs
 - Socks
 - Cycling Shoes
-- Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
-- Apartment Key Fob
-- Card holder with driver's license, bus pass, and credit card
-- Gummies
-- Headlamp: Black Diamond Sprinter 500 Headlamp
+- In jersey pockets
+    - Sunscreen
+    - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
+    - Apartment Key Fob
+    - Card holder with driver's license, bus pass, and credit card
+    - Gummies
+    - Headlamp: Black Diamond Sprinter 500 Headlamp
 
 ### On Bike
 
