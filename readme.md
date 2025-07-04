@@ -35,7 +35,7 @@ Updated June 2025
 - Work Laptop: 13" Macbook Air M3
 - Bike Lock: Kryptonite Evolution U-Lock
 - Earbuds: Soundcore Aerofit Pro
-- Glasses: Lindberg Frameless in a [Linrong Capsule Eyelass Case](linrong-capsule-eyelass-case)
+- Glasses: Lindberg Frameless in a [Linrong Capsule Eyelass Case](#linrong-capsule-eyelass-case)
 - Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
 - Sunscreen
 
@@ -97,7 +97,7 @@ Up to 6 pencil cases:
 - Patagonia Airshed Pro
 - Patagonia Strider Pro Shorts
 - Darn Tough Lightweight Wool Socks
-- Saucony Endorphin Rift Trail Runners
+- Saucony Xodus Ultra 4
 - Outdoor Research Sun Gloves
 - Garmin Fenix 6X
 
