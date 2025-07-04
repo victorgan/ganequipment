@@ -17,6 +17,8 @@ Updated July 2025
 - [Bags](#bags)
 - [Tech](#tech)
 - [Clothes](#clothes)
+- [Headwear](#headwear)
+- [Gloves](#gloves)
 - [Shoes](#shoes)
 
 [Change Log](#change-log)
