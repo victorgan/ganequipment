@@ -173,6 +173,8 @@ Pre-ride checklist:
 
 ### Shelter
 
+Carried in a 40L pack or the red duffle.
+
 - Tent
 - Sleeping Bag
 - Sleeping pad
