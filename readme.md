@@ -10,6 +10,7 @@ Updated July 2025
 - [Everyday Carry](#everyday-carry)
 - [Onebag Travel](#onebag-travel)
 - [Trail Running](#trail-running)
+- [Cycling](#cycling)
 - [Camping](#camping)
 
 ## [Items](#specific-items)
@@ -32,7 +33,7 @@ Updated July 2025
 - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
 - Authorization: Keyring with car fob, bike lock key, apartment fob, yubi key, and airtag.
-- Authorization: 3-card magsafe card holder with driver's license, bus pass, and USBank Smartly credit card.
+- Authorization: 3-card magsafe card holder with driver's license, bus pass, and credit card.
 - Authorization: Work badge on fob. I carry this separately from the other cards since the badge readers are sensitive to other cards.
 
 ### Packed
@@ -93,6 +94,40 @@ backpack.
 - A pair of binoculars 
 - DSLR
 - Tote bag
+
+## Cycling
+
+Pre-ride checklist:
+
+- Downlad the route to the 6X
+- Charge the Fenix 6X, 255s, and Varia
+- Pump tires
+- Fill water bottles
+- Stock food
+
+### On Person
+
+- Helmet
+- Sunglasses
+- Jersey
+- Bibs
+- Socks
+- Cycling Shoes
+- Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
+- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
+- Apartment Key Fob
+- Card holder with driver's license, bus pass, and credit card
+- Gummies
+- Headlamp: Black Diamond Sprinter 500 Headlamp
+
+### On Bike
+
+- Garmin Fenix 6X
+- Garmin Varia rear light
+- Two water bottles
+- Patch Kit: extra tube, tire levers, co2 inflater with cartridge
+- Hand pump
+- Extra food
 
 ## Trail Running
 
