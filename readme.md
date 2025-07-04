@@ -114,6 +114,7 @@ Pre-ride checklist:
 - Socks
 - Cycling Shoes
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
+- Gloves
 - In jersey pockets
     - Sunscreen
     - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
