@@ -3,18 +3,25 @@
 
 Updated July 2025
 
-## Contents
+# Contents
 
-### Lists
+## Lists
 
 - [Everyday Carry](#everyday-carry)
 - [Onebag Travel](#onebag-travel)
 - [Trail Running](#trail-running)
+- [Camping](#camping)
 
-### Items
+## [Specific Items](#specific-items)
 
-- [Specific Items](#specific-items)
-- [Change Log](#change-log)
+- [Bags](#bags)
+- [Tech](#tech)
+- [Clothes](#clothes)
+- [Shoes](#shoes)
+
+[Change Log](#change-log)
+
+# Lists
 
 ## Everyday Carry
 
@@ -126,11 +133,26 @@ Up to 6 pencil cases:
 - Slippers
 - Extra water
 
-## Specific Items
+## Camping
 
-### Bags
+### Shelter
 
-#### CTactical CT15 Backpack
+- Tent
+- Sleeping Bag
+- Sleeping pad
+- Pillow
+
+### Misc
+
+- Headlamp: Black Diamond Sprinter 500 Headlamp
+
+
+
+# Specific Items
+
+## Bags
+
+### CTactical CT15 Backpack
 
 **Personal Favorite**. A custom version of CTactical's CT15 V3.0 from a Facebook group buy, nicknamed Kevin/Obsidian. After getting this pack, I stopped searching for new packs because I love it so much.
 
@@ -141,33 +163,31 @@ Up to 6 pencil cases:
 - There's a top quick access pocket and two side water bottle holders that zip away when not in use. These are great to access things while on the go. I had a previous version of the bag without these, and they make a world of a difference.
 - The laptop area is padded and has a side zip for dedicated laptop access. This saves weight over a dedicated laptop compartment. Sometimes I forget to close the side zips and the laptop falls out.
 
-#### Black Diamond Skin Maintenance Kit Pouch
+### Black Diamond Skin Maintenance Kit Pouch
 **Personal Favorite**. These were on sale for $4 each, so I bought 6. The pencil case shaped bags hold their structure, and is made of nylon with a single zipper, which makes it feel very durable without it having any unnecessary details to weigh it down.
 
 I think I love them mostly because they're just so no-frills and functional; for a storage case nothing else is needed.
 
-### Tech
-#### Iphone 16 Pro Phone
+## Tech
+### Iphone 16 Pro Phone
 **Best in Slot**. After using Google Pixels and Nexuses exclusively since 2012, I finally gave in to the ecosystem. I tried my best. I wish it was a bit smaller.
 
-#### Garmin Foreunner 255s Watch
+### Garmin Foreunner 255s Watch
 
 **Best in Slot**. A 41mm smartwatch, Garmin's smallest and lightest. It's the last one with an e-ink style display, that saves battery life and is visible in the sun. Garmin's Forerunner 9XX and Fenix watches have the ability to display maps, but none of them are as small as the 255s, and the 255s' breadcrumb feature is good enough for most hikes and trail runs to keep you on course for downloaded trails. 
 
 I've been trying mechanical watches for daily wear, but it's hard to beat the convenience of not having to set the time every day. I also considered the new Pebble time, but the Garmin is just too integrated with running features.
 
 
-### Clothes
+## Clothes
 
-#### Outlier New Dungarees Pants
+### Outlier New Dungarees Pants
 
-This pants have a more modern cut that the cult classic New Dungarees. The material is textured a bit more than other techwear pants, which makes it more casual.
+This pants have a more modern cut that the cult classic New Dungarees. The
+material is textured a bit more than other techwear pants, which makes it more
+casual.
 
-#### Darn Tough Socks
-
-**Best in Slot**. Before Darn Tough I cycled through Costco Kirkland Signature socks, which got holes in them often. Now I have a couple pairs and plan to return them if they get any holes.
-
-#### Patagonia Airshed Pro Pullover
+### Patagonia Airshed Pro Pullover
 
 **Best in Slot**. This acts as a sun hoodie, running shirt and windshirt
 combined. In high exertion hot weather, the elastic on the sleeves let you bunch
@@ -184,7 +204,7 @@ need until around 5C, both running and stationary.
 
 The downside is the color (Wispy Green) is a little see through.
 
-#### Patagonia Nano Air Ultralight Pullover
+### Patagonia Nano Air Ultralight Pullover
 
 **Best in Slot**. This is an 'active insulation' pullover that is kind of
 ridiculous, because there's almost no insulation in it. I sized up to a medium
@@ -193,30 +213,67 @@ because it's a slim fit, and now it looks baggy in a trendy way.
 I quite like that it's a pullover, since it reduces bulk in the hood area. It's
 comfy and light enough to wear casually.
 
-### Shoes
-#### Nike Pegasus 41 Shoes
+## Shoes
+
+### Darn Tough Socks
+
+**Best in Slot**. Before Darn Tough I cycled through Costco Kirkland Signature socks, which got holes in them often. Now I have a couple pairs and plan to return them if they get any holes.
+
+### Costco Slides
+
+Comfy for recovery.
+
+### Chacos
+
+Almost 10 years old going strong.
+
+### Nike Pegasus 41 Shoes
 
 **Personal Like**. Packing running shoes takes a ton of space, and I wanted a pair of primarily casual shoes that I can also run in. Nike recently came out with a colorway (Sail/Blue Tint/Wolf Grey/Anthracite FD2722-113) that looked a lot like the Eliot Tracksmith's but less pretentious, and fit the bill well. I actually like the look of it more than the New Balance 574s and 327s that I was previously using as casual shoes, so even if I'm not running I'll wear them.
 
-#### Asics Superblast 2 Shoes
+### Asics Superblast 2 Shoes
 
 **Personal Like** I partially credit the original Superblasts in getting me into running - they were the first high stack superfoam shoe without a plate, and made recovering from runs a lot faster, and my favorite running shoe of all time. After 500+ miles on them, I replaced it with the successor, but by now other companies have made similar shoes and I'm not as adamant that this model is as far ahead compared to the competition. Still, no complaints.
 
-### Accessories
+### Saucony Xodus Ultra 4
 
-#### Linrong Capsule Eyelass Case
+Mostly cause of the thick Peba foam and Vibram Megagrip soles.
+
+## Headwear
+
+### North Face Sun Hat
+
+It's packable, and has good coverage.
+
+### Ciele Running Cap
+
+Packable.
+
+## Gloves
+
+### Outdoor Research Sun Gloves
+
+There's holes in it, but used for everything.
+
+## Accessories
+
+### Linrong Capsule Eyelass Case
 
 These are cheap, hardshell cases that protect my glasses at lot more than the
 current one, without being bulky or heavy. They open up on the short end with a
 click.
 
-#### Cafe Du Cyclist Gabin Sunglasses
+### Cafe Du Cyclist Gabin Sunglasses
 
 I like the shield-like coverage of one piece cycling sunglasses and
 photochromatic lenses for changing weather and daylight. These ones fit the bill
 without looking too gaudy.
 
-## Change Log
+### Swimming Goggles and Cap
+
+Random ones from REI.
+
+# Change Log
 - 2025-07-04: Replaced the breaking Saucony Endorphin Rift shoes with the Saucony Xodus Trail 4's.
 - 2025-05-29: Replaced the tearing Maduka Men's Pro Shorts with Patagonia Men's 7-in Strider Pro Shorts. The Patagonia shorts are more technical, lighter and pack down smaller, but they're not as comfortable - I wouldn't sleep in them.
 - 2025-05-29: Upgraded the Black Diamond Access Down Hoody to the [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover).
