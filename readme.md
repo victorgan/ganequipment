@@ -251,6 +251,20 @@ It's packable, and has good coverage.
 
 Packable.
 
+### Lindberg Frameless Eyeglasses
+
+Looks grandpa but I kinda like it.
+
+### Gentle Monster Sunglasses
+
+For when I don't wanna look like a cyclist.
+
+### Cafe Du Cyclist Gabin Sunglasses
+
+I like the shield-like coverage of one piece cycling sunglasses and
+photochromatic lenses for changing weather and daylight. These ones fit the bill
+without looking too gaudy.
+
 ## Gloves
 
 ### Outdoor Research Sun Gloves
@@ -265,11 +279,6 @@ These are cheap, hardshell cases that protect my glasses at lot more than the
 current one, without being bulky or heavy. They open up on the short end with a
 click.
 
-### Cafe Du Cyclist Gabin Sunglasses
-
-I like the shield-like coverage of one piece cycling sunglasses and
-photochromatic lenses for changing weather and daylight. These ones fit the bill
-without looking too gaudy.
 
 ### Swimming Goggles and Cap
 
