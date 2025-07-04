@@ -28,6 +28,10 @@ Updated July 2025
 
 ## Everyday Carry
 
+I'll generally take my phone, watch and auth whenever I leave my home. When I'm
+commuting by ebike, I'll bring my u lock, which generally means I'm bringing my
+backpack.
+
 ### On Body
 
 - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
@@ -53,12 +57,6 @@ Updated July 2025
 
 - Black Diamond Sprinter 500 Headlamp
 
-### Rationale
-
-I'll generally take my phone, watch and auth whenever I leave my home. When I'm
-commuting by ebike, I'll bring my u lock, which generally means I'm bringing my
-backpack.
-
 ## Onebag Travel
 
 ### On Body
@@ -75,7 +73,6 @@ backpack.
 
 - Backpack: [CTactical CT15](#ctactical-ct15-backpack)
 - Pouches x6: [Black Diamond Skin Maintenance Kit Pouch](#black-diamond-skin-maintenance-kit-pouch)
-
 
 ### In the Ctactical CT15
 
@@ -172,17 +169,12 @@ Pre-ride checklist:
 
 ## Camping
 
-### Shelter
-
 Carried in a 40L pack or the red duffle.
 
 - Tent
 - Sleeping Bag
 - Sleeping pad
 - Pillow
-
-### Misc
-
 - Headlamp: Black Diamond Sprinter 500 Headlamp
 
 # Specific Items
