@@ -28,8 +28,9 @@ Updated July 2025
 
 ## Everyday Carry
 
-I'll generally take my phone, watch and auth whenever I leave my home. When I'm
-commuting by ebike, I'll bring my u lock, which generally means I'm bringing my
+Phone and Auth normally.
+
+I'll bring my u lock, which generally means I'm bringing my
 backpack.
 
 ### On Body
