@@ -217,6 +217,7 @@ photochromatic lenses for changing weather and daylight. These ones fit the bill
 without looking too gaudy.
 
 ## Change Log
+- 2025-07-04: Replaced the breaking Saucony Endorphin Rift shoes with the Saucony Xodus Trail 4's.
 - 2025-05-29: Replaced the tearing Maduka Men's Pro Shorts with Patagonia Men's 7-in Strider Pro Shorts. The Patagonia shorts are more technical, lighter and pack down smaller, but they're not as comfortable - I wouldn't sleep in them.
 - 2025-05-29: Upgraded the Black Diamond Access Down Hoody to the [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover).
 - 2025-05-29: Replaced the Asics Superblast 2 + casual shoe combo for traveling with the [Nike Pegasus 41](#nike-pegasus-41-shoes) running shoes.
