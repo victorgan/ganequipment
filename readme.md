@@ -5,14 +5,14 @@ Updated July 2025
 
 # Contents
 
-## Lists
+## [Lists](#equipment-lists)
 
 - [Everyday Carry](#everyday-carry)
 - [Onebag Travel](#onebag-travel)
 - [Trail Running](#trail-running)
 - [Camping](#camping)
 
-## [Specific Items](#specific-items)
+## [Items](#specific-items)
 
 - [Bags](#bags)
 - [Tech](#tech)
@@ -23,7 +23,7 @@ Updated July 2025
 
 [Change Log](#change-log)
 
-# Lists
+# Equipment Lists
 
 ## Everyday Carry
 
@@ -78,24 +78,21 @@ backpack.
 
 ### In the Ctactical CT15
 
-Up to 6 pencil cases:
-
 - A hygiene pouch with a toothbrush, razor, toothpaste, shave cream, moisturizer, toner, sunscreen, floss, tweezers, nail cutter, cleanser, eye cream.
 - A tech pouch with a Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, a Garmin Watch cable, wired earbuds and 0.5/3 ft USB-C cables, SD card reader, Crucial X10 Pro 4TB SSD.
-- A shirt pouch with a wool t shirt and a synthetic running shirt.
-- A shorts pouch with running shorts and an extra pair of underwear.
+- Clothes. Either:
+    - A packing zip bag for clothes: x1 extra underwear, x1 extra socks, gym clothes, sleep clothes
+    - A pencil case with a wool t shirt and a synthetic running shirt, and a pencil case with running shorts and an extra pair of underwear
+- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
 - A pencil case for health: face mask, salt sticks, hand sanitizer, spork, vitamins and OTC medications (Advil, Claritin, Imodium, Peptol Bismol, Dramamine)
 - A pencil case for snacks
-
-- a passport case for authorization: passport, visas, home keys, debit card, magsafe card holder, work badge
-- A packing zip bag for clothes: x1 extra underwear, x1 extra socks, gym clothes, sleep clothes
-- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
+- A passport case: passport, visas, home keys, debit card, magsafe card holder, work badge
 - sunglasses, glasses, travel clothesline, ear plugs and Soundcore Aerofit Pro earbuds
 - Personal laptop: 13" Macbook Air M2
 - Work laptop: 13" Macbook Air M3
-- a pair of binoculars 
+- A pair of binoculars 
 - DSLR
-- tote bag
+- Tote bag
 
 ## Trail Running
 
@@ -165,10 +162,22 @@ Up to 6 pencil cases:
 - There's a top quick access pocket and two side water bottle holders that zip away when not in use. These are great to access things while on the go. I had a previous version of the bag without these, and they make a world of a difference.
 - The laptop area is padded and has a side zip for dedicated laptop access. This saves weight over a dedicated laptop compartment. Sometimes I forget to close the side zips and the laptop falls out.
 
-### Black Diamond Skin Maintenance Kit Pouch
-**Personal Favorite**. These were on sale for $4 each, so I bought 6. The pencil case shaped bags hold their structure, and is made of nylon with a single zipper, which makes it feel very durable without it having any unnecessary details to weigh it down.
+### Aer Large Packing Cube
 
-I think I love them mostly because they're just so no-frills and functional; for a storage case nothing else is needed.
+For a lot of clothing.
+
+### Aer Zip Large Bag
+
+For shoes.
+
+### Aer Zip Small Bag 
+
+For 3-4 pieces of clothing, or sun gloves/sun hat/running cap.
+
+### Black Diamond Skin Maintenance Kit Pouch
+**Personal Favorite**. 6 of them. The pencil case shaped bags hold their
+structure, and is made of nylon with a single zipper, which makes it feel very
+durable without it having any unnecessary details to weigh it down.
 
 ## Tech
 ### Iphone 16 Pro Phone
@@ -182,6 +191,9 @@ I've been trying mechanical watches for daily wear, but it's hard to beat the co
 
 
 ## Clothes
+
+I store them in the large packing cube, zip small bag or multiple
+pencile cases, depending on the amount.
 
 ### Outlier New Dungarees Pants
 
