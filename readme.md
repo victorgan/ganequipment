@@ -212,7 +212,7 @@ click.
 
 #### Cafe Du Cyclist Gabin Sunglasses
 
-I like the sheild-like coverage of one piece cycling sunglasses and
+I like the shield-like coverage of one piece cycling sunglasses and
 photochromatic lenses for changing weather and daylight. These ones fit the bill
 without looking too gaudy.
 
