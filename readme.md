@@ -140,7 +140,7 @@ Pre-ride checklist:
 - Hat: [Ciele Running Cap](#ciele-running-cap) 
 - Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
 - Shirt: [Patagonia Airshed Pro Pullover](#patagonia-airshed-pro-pullover)
-- Pants: [Patagonia Strider Pro Shorts](patagonia-strider-pro-shorts)
+- Pants: [Patagonia Strider Pro Shorts](#patagonia-strider-pro-shorts)
 - Socks: [Darn Tough Quarter Cushioned Ultra-Lightweight Running Socks](#darn-tough-quarter-cushioned-ultra-lightweight-running-socks)
 - Shoes: [Saucony Xodus Ultra 4](#saucony-xodus-ultra-4)
 - Gloves: [Outdoor Research Sun Gloves](#outdoor-research-sun-gloves)
