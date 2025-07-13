@@ -137,14 +137,14 @@ Pre-ride checklist:
 
 ### On Person
 
-- Hat
-- Sunglasses
-- Patagonia Airshed Pro
-- Patagonia Strider Pro Shorts
-- Darn Tough Lightweight Wool Socks
-- Saucony Xodus Ultra 4
-- Outdoor Research Sun Gloves
-- Garmin Fenix 6X
+- Hat: [Ciele Running Cap](#ciele-running-cap) 
+- Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
+- Shirt: [Patagonia Airshed Pro Pullover](#patagonia-airshed-pro-pullover)
+- Pants: [Patagonia Strider Pro Shorts](patagonia-strider-pro-shorts)
+- Socks: [Darn Tough Quarter Cushioned Ultra-Lightweight Running Socks](#darn-tough-quarter-cushioned-ultra-lightweight-running-socks)
+- Shoes: [Saucony Xodus Ultra 4](#saucony-xodus-ultra-4)
+- Gloves: [Outdoor Research Sun Gloves](#outdoor-research-sun-gloves)
+- Watch: [Garmin Fenix 6X Watch](#garmin-fenix-6x-watch)
 
 ### In Vest
 
@@ -223,6 +223,10 @@ durable without it having any unnecessary details to weigh it down.
 
 I've been trying mechanical watches for daily wear, but it's hard to beat the convenience of not having to set the time every day. I also considered the new Pebble time, but the Garmin is just too integrated with running features.
 
+### Garmin Fenix 6X Watch
+
+I use this for maps when cycling (on my handlebar) or trail running.
+
 
 ## Clothes
 
@@ -261,14 +265,20 @@ because it's a slim fit, and now it looks baggy in a trendy way.
 I quite like that it's a pullover, since it reduces bulk in the hood area. It's
 comfy and light enough to wear casually.
 
+### Patagonia Strider Pro Shorts
+
+Likes: it's light and has a built-in liner.
+
+Dislikes: no pocket that fully fits my phone.
+
 ## Shoes
 
 If space is at a premium, take the Nike Pegasus as the only pair. Otherwise,
 pack one in the the [Aer Zip Large Bag](#aer-zip-large-bag).
 
-### Darn Tough Socks
+### Darn Tough Quarter Cushioned Ultra-Lightweight Running Socks 
 
-**Best in Slot**. Before Darn Tough I cycled through Costco Kirkland Signature socks, which got holes in them often. Now I have a couple pairs and plan to return them if they get any holes.
+**Best in Slot**. Before I cycled through Costco Kirkland Signature socks, which got holes in them often. I'll return these if they get any holes.
 
 ### Costco Slides
 
