@@ -156,6 +156,9 @@ Pre-ride checklist:
 - Headlamp: Black Diamond Sprinter 500 Headlamp
 - USB-C battery: Anker 10k Slim
 - Insulation: Patagonia Nano Air Ultralight Pullover
+- Toilet Paper
+- First Aid
+- Ziploc Bags
 
 ### Consumables
 
