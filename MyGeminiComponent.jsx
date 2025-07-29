@@ -292,7 +292,7 @@ export default function App() {
   const saveCustomList = async (list) => {
     if (!userId) return;
     const listsRef = collection(db, "artifacts", appId, "users", userId, "customLists");
-    const { id, ...dataToSave } = list;
+    const dataToSave = { name: list.name, items: list.items, date: list.date };
     if (list.id) {
         await updateDoc(doc(listsRef, list.id), dataToSave);
     } else {
@@ -350,7 +350,7 @@ export default function App() {
             </div>
           </main>
           <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={editingGear ? updateGearItem : addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} onDelete={deleteGearItem} />
-          <CustomListModal isOpen={isListModalOpen} onClose={() => setIsListModalOpen(false)} onSave={saveCustomList} existingList={editingList} allGear={gear} />
+          <CustomListModal isOpen={isListModalOpen} onClose={() => setIsListModalOpen(false)} onSave={saveCustomList} existingList={editingList} allGear={gear} onDelete={deleteCustomList} />
         </div>
       </div>
     </div>
@@ -358,7 +358,7 @@ export default function App() {
 }
 
 // --- Sub-components ---
-const Header = () => <header className="text-center"><h1 className="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight">Outdoor Gear Hub</h1><p className="mt-2 text-lg text-slate-600">Track your gear, pack for your next adventure.</p></header>;
+const Header = () => <header className="text-center"><h1 className="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight">Packlist.Pro</h1><p className="mt-2 text-lg text-slate-600">Track Your Gear</p></header>;
 
 const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, selectedList, onToggleItemInList }) => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -389,7 +389,7 @@ const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, sele
     }, [filteredGear]);
 
     return (
-        <div className="bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg"><div className="flex justify-between items-center mb-4"><h2 className="text-2xl font-bold text-slate-800">My Gear Inventory</h2><button onClick={onAddClick} className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"><Plus size={18} /><span>Add Gear</span></button></div>
+        <div className="bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg h-full flex flex-col"><div className="flex justify-between items-center mb-4"><h2 className="text-2xl font-bold text-slate-800">My Gear Inventory</h2><button onClick={onAddClick} className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"><Plus size={18} /><span>Add Gear</span></button></div>
         <div className="relative mb-4">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
             <input 
@@ -400,7 +400,7 @@ const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, sele
                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
             />
         </div>
-        <div className="space-y-2 max-h-[55vh] overflow-y-auto pr-2">{Object.keys(groupedGear).length > 0 ? Object.entries(groupedGear).map(([category, items]) => <GearCategoryGroup key={category} category={category} items={items} onEditClick={onEditClick} onDeleteClick={onDeleteClick} selectedList={selectedList} onToggleItemInList={onToggleItemInList} />) : <p className="text-center text-gray-500 py-8">No gear found.</p>}</div></div>
+        <div className="space-y-2 flex-grow overflow-y-auto pr-2">{Object.keys(groupedGear).length > 0 ? Object.entries(groupedGear).map(([category, items]) => <GearCategoryGroup key={category} category={category} items={items} onEditClick={onEditClick} onDeleteClick={onDeleteClick} selectedList={selectedList} onToggleItemInList={onToggleItemInList} />) : <p className="text-center text-gray-500 py-8">No gear found.</p>}</div></div>
     );
 };
 
@@ -478,7 +478,6 @@ const ActivityPanel = ({ selectedList, onSelectList, packingData, onAddPredefine
                 </button>
                 <div className="flex gap-2">
                     <button onClick={() => onEditListClick(list)} className="p-1 text-blue-600 hover:text-blue-800"><Edit size={16}/></button>
-                    <button onClick={() => onDeleteListClick(list.id)} className="p-1 text-red-600 hover:text-red-800"><Trash2 size={16}/></button>
                 </div>
             </div>
         ))}
@@ -724,10 +723,11 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
   );
 };
 
-const CustomListModal = ({ isOpen, onClose, onSave, existingList, allGear }) => {
+const CustomListModal = ({ isOpen, onClose, onSave, existingList, allGear, onDelete }) => {
     const [name, setName] = useState('');
     const [selectedItemIds, setSelectedItemIds] = useState([]);
     const [date, setDate] = useState('');
+    const [isConfirmingDelete, setIsConfirmingDelete] = useState(false);
     
     const groupedGear = useMemo(() => {
         const groups = allGear.filter(item => !item.retired).reduce((acc, item) => {
@@ -752,6 +752,7 @@ const CustomListModal = ({ isOpen, onClose, onSave, existingList, allGear }) => 
             setName(existingList?.name || '');
             setSelectedItemIds(existingList?.items || []);
             setDate(existingList?.date || new Date().toISOString().split('T')[0]);
+            setIsConfirmingDelete(false);
         }
     }, [isOpen, existingList]);
 
@@ -766,42 +767,66 @@ const CustomListModal = ({ isOpen, onClose, onSave, existingList, allGear }) => 
         onClose();
     };
 
+    const handleDelete = () => {
+        onDelete(existingList.id);
+        onClose();
+    };
+
     if (!isOpen) return null;
 
     return (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 p-4">
             <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-lg transform transition-all flex flex-col">
                 <div className="flex justify-between items-center mb-6"><h2 className="text-2xl font-bold text-gray-900">{existingList ? 'Edit' : 'Create'} Custom List</h2><button onClick={onClose} className="text-gray-400 hover:text-gray-600"><X size={24} /></button></div>
-                <form onSubmit={handleSubmit} className="flex-grow flex flex-col">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div>
-                            <label htmlFor="list-date" className="block text-sm font-medium text-gray-700 mb-1">Date</label>
-                            <input type="date" id="list-date" value={date} onChange={e => setDate(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" />
-                        </div>
-                        <div>
-                            <label htmlFor="list-name" className="block text-sm font-medium text-gray-700 mb-1">List Name</label>
-                            <input type="text" id="list-name" value={name} onChange={e => setName(e.target.value)} placeholder="e.g., Weekend Backpacking Trip" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" />
+                {isConfirmingDelete ? (
+                    <div className="text-center">
+                        <p className="text-lg">Are you sure you want to delete this list?</p>
+                        <p className="font-bold mt-2">{name}</p>
+                        <div className="flex justify-center gap-4 mt-6">
+                            <button onClick={() => setIsConfirmingDelete(false)} className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300">Cancel</button>
+                            <button onClick={handleDelete} className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">Yes, Delete</button>
                         </div>
                     </div>
-                    <p className="font-medium text-gray-700 mt-4 mb-2">Select items from your inventory:</p>
-                    <div className="flex-grow border rounded-lg p-2 overflow-y-auto max-h-[40vh] space-y-1">
-                        {groupedGear.map(group => (
-                            <div key={group.category}>
-                                <h5 className="font-semibold text-gray-600 text-sm uppercase tracking-wider mt-2 px-2">{group.category}</h5>
-                                {group.items.map(item => (
-                                    <label key={item.id} className={`flex items-center gap-3 p-2 rounded-md cursor-pointer transition-colors ${selectedItemIds.includes(item.id) ? 'bg-green-100' : 'hover:bg-slate-100'}`}>
-                                        <input type="checkbox" checked={selectedItemIds.includes(item.id)} onChange={() => handleToggleItem(item.id)} className="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500" />
-                                        <span>
-                                            {item.name}
-                                            {item.model && <em className="text-gray-500 ml-2">({item.model})</em>}
-                                        </span>
-                                    </label>
-                                ))}
+                ) : (
+                    <form onSubmit={handleSubmit} className="flex-grow flex flex-col">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label htmlFor="list-date" className="block text-sm font-medium text-gray-700 mb-1">Date</label>
+                                <input type="date" id="list-date" value={date} onChange={e => setDate(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" />
                             </div>
-                        ))}
-                    </div>
-                    <div className="flex justify-end gap-3 pt-4 mt-2"><button type="button" onClick={onClose} className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300">Cancel</button><button type="submit" className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Save List</button></div>
-                </form>
+                            <div>
+                                <label htmlFor="list-name" className="block text-sm font-medium text-gray-700 mb-1">List Name</label>
+                                <input type="text" id="list-name" value={name} onChange={e => setName(e.target.value)} placeholder="e.g., Weekend Backpacking Trip" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" />
+                            </div>
+                        </div>
+                        <p className="font-medium text-gray-700 mt-4 mb-2">Select items from your inventory:</p>
+                        <div className="flex-grow border rounded-lg p-2 overflow-y-auto max-h-[40vh] space-y-1">
+                            {groupedGear.map(group => (
+                                <div key={group.category}>
+                                    <h5 className="font-semibold text-gray-600 text-sm uppercase tracking-wider mt-2 px-2">{group.category}</h5>
+                                    {group.items.map(item => (
+                                        <label key={item.id} className={`flex items-center gap-3 p-2 rounded-md cursor-pointer transition-colors ${selectedItemIds.includes(item.id) ? 'bg-green-100' : 'hover:bg-slate-100'}`}>
+                                            <input type="checkbox" checked={selectedItemIds.includes(item.id)} onChange={() => handleToggleItem(item.id)} className="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500" />
+                                            <span>
+                                                {item.name}
+                                                {item.model && <em className="text-gray-500 ml-2">({item.model})</em>}
+                                            </span>
+                                        </label>
+                                    ))}
+                                </div>
+                            ))}
+                        </div>
+                        <div className="flex justify-between items-center pt-4 mt-2">
+                            <div>
+                                {existingList && <button type="button" onClick={() => setIsConfirmingDelete(true)} className="px-4 py-2 bg-red-100 text-red-700 rounded-lg hover:bg-red-200 transition-colors">Delete</button>}
+                            </div>
+                            <div className="flex gap-3">
+                                <button type="button" onClick={onClose} className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300">Cancel</button>
+                                <button type="submit" className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Save List</button>
+                            </div>
+                        </div>
+                    </form>
+                )}
             </div>
         </div>
     );
