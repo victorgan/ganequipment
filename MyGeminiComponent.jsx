@@ -551,7 +551,7 @@ const RecommendedList = ({ items, onAddItem }) => {
 };
 
 
-const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategories, categoryToGearNamesMap, onDelete }) => {
+const GearModal = ({ isOpen, onClose, onSave, existingGear, uniqueCategories, categoryToGearNamesMap, onDelete }) => {
   const [name, setName] = useState('');
   const [model, setModel] = useState('');
   const [category, setCategory] = useState('');
@@ -615,11 +615,7 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
     e.preventDefault();
     if (!name.trim()) { setError('Gear name is required.'); return; }
     const gearData = { id: existingGear?.id, name: name.trim(), model: model.trim(), category: category.trim(), weight: parseInt(weight, 10) || 0, notes: notes.trim(), quantity: parseInt(quantity, 10) || 1, retired };
-    if (existingGear) {
-        onSave(gearData);
-    } else {
-        onAdd(gearData);
-    }
+    onSave(gearData);
     onClose();
   };
 
