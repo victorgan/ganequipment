@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getFirestore, doc, setDoc, getDoc, onSnapshot, collection, addDoc, deleteDoc, updateDoc } from 'firebase/firestore';
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
-import { ArrowDown, ArrowUp, Plus, Trash2, Edit, X, Wind, Mountain, Briefcase, Bike, ChevronDown, ChevronRight, Weight, Package } from 'lucide-react';
+import { ArrowDown, ArrowUp, Plus, Trash2, Edit, X, Wind, Mountain, Briefcase, Bike, ChevronDown, ChevronRight, Weight, Package, Backpack, Tent, Map as MapIcon, Fish, Sailboat, Snowflake, Camera, Plane, Car, Flame, Bed, Star, Search } from 'lucide-react';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 // --- Firebase Configuration ---
@@ -109,21 +109,21 @@ const PREDEFINED_GEAR_LISTS = {
 };
 
 const DEFAULT_GEAR_INVENTORY = [
-    { name: 'Backpack (30-45L)', model: 'Osprey Farpoint 40', category: 'Packs', notes: '', weight: 1000, quantity: 1 },
-    { name: 'Hydration Vest', model: 'Salomon ADV Skin 12', category: 'Packs', notes: '', weight: 300, quantity: 1 },
-    { name: 'Technical T-Shirt', model: '', category: 'Clothing', notes: '', weight: 150, quantity: 3 },
-    { name: 'Running Shorts', model: '', category: 'Clothing', notes: '', weight: 120, quantity: 2 },
-    { name: 'Rain Jacket', model: 'Patagonia Torrentshell 3L', category: 'Clothing', notes: 'Lightweight and packable', weight: 250, quantity: 1 },
-    { name: 'Fleece/Insulated Jacket', model: 'Arc\'teryx Atom LT', category: 'Clothing', notes: '', weight: 400, quantity: 1 },
-    { name: 'Hiking Boots/Shoes', model: 'Merrell Moab 3', category: 'Footwear', notes: '', weight: 1200, quantity: 1 },
-    { name: 'Trail Running Shoes', model: 'Saucony Xodus Ultra 4', category: 'Footwear', notes: '', weight: 600, quantity: 1 },
-    { name: 'Headlamp', model: 'Petzl Actik Core', category: 'Electronics', notes: 'With extra batteries', weight: 90, quantity: 1 },
-    { name: 'GPS Watch', model: 'Garmin Fenix 7', category: 'Electronics', notes: '', weight: 60, quantity: 1 },
-    { name: 'GPS Watch', model: 'Garmin Forerunner 255s', category: 'Electronics', notes: '', weight: 49, quantity: 1 },
-    { name: 'First-Aid Kit', model: 'Adventure Medical Kits', category: 'Safety', notes: 'Check supplies regularly', weight: 150, quantity: 1 },
-    { name: 'Water Filter/Purifier', model: 'Sawyer Squeeze', category: 'Hydration', notes: '', weight: 80, quantity: 1 },
-    { name: 'Energy Gels/Snacks', model: 'GU Energy Gels', category: 'Consumables', notes: '', weight: 30, quantity: 5 },
-    { name: 'Sunscreen', model: '', category: 'Consumables', notes: '', weight: 100, quantity: 1 },
+    { name: 'Backpack (30-45L)', model: 'Osprey Farpoint 40', category: 'Packs', notes: '', weight: 1000, quantity: 1, retired: false },
+    { name: 'Hydration Vest', model: 'Salomon ADV Skin 12', category: 'Packs', notes: '', weight: 300, quantity: 1, retired: false },
+    { name: 'Technical T-Shirt', model: '', category: 'Clothing', notes: '', weight: 150, quantity: 3, retired: false },
+    { name: 'Running Shorts', model: '', category: 'Clothing', notes: '', weight: 120, quantity: 2, retired: false },
+    { name: 'Rain Jacket', model: 'Patagonia Torrentshell 3L', category: 'Clothing', notes: 'Lightweight and packable', weight: 250, quantity: 1, retired: false },
+    { name: 'Fleece/Insulated Jacket', model: 'Arc\'teryx Atom LT', category: 'Clothing', notes: '', weight: 400, quantity: 1, retired: false },
+    { name: 'Hiking Boots/Shoes', model: 'Merrell Moab 3', category: 'Footwear', notes: '', weight: 1200, quantity: 1, retired: false },
+    { name: 'Trail Running Shoes', model: 'Saucony Xodus Ultra 4', category: 'Footwear', notes: '', weight: 600, quantity: 1, retired: false },
+    { name: 'Headlamp', model: 'Petzl Actik Core', category: 'Electronics', notes: 'With extra batteries', weight: 90, quantity: 1, retired: false },
+    { name: 'GPS Watch', model: 'Garmin Fenix 7', category: 'Electronics', notes: '', weight: 60, quantity: 1, retired: false },
+    { name: 'GPS Watch', model: 'Garmin Forerunner 255s', category: 'Electronics', notes: '', weight: 49, quantity: 1, retired: false },
+    { name: 'First-Aid Kit', model: 'Adventure Medical Kits', category: 'Safety', notes: 'Check supplies regularly', weight: 150, quantity: 1, retired: false },
+    { name: 'Water Filter/Purifier', model: 'Sawyer Squeeze', category: 'Hydration', notes: '', weight: 80, quantity: 1, retired: false },
+    { name: 'Energy Gels/Snacks', model: 'GU Energy Gels', category: 'Consumables', notes: '', weight: 30, quantity: 5, retired: false },
+    { name: 'Sunscreen', model: '', category: 'Consumables', notes: '', weight: 100, quantity: 1, retired: false },
 ].map(item => ({ ...item, id: crypto.randomUUID() }));
 
 // --- Main App Component ---
@@ -223,7 +223,7 @@ export default function App() {
             
             have = haveItems;
         } else {
-            const requiredItemIds = new Set(selectedList.items);
+            const requiredItemIds = new Set(selectedList.items || []);
             have = gear.filter(gearItem => requiredItemIds.has(gearItem.id));
             
             const grouped = have.reduce((acc, item) => {
@@ -271,7 +271,7 @@ export default function App() {
     } catch (e) { console.error(e); setError("Could not save gear."); }
   };
 
-  const addGearItem = (item) => handleSaveGear([...gear, { ...item, id: crypto.randomUUID() }]);
+  const addGearItem = (item) => handleSaveGear([...gear, { ...item, id: crypto.randomUUID(), retired: false }]);
   const updateGearItem = (updatedItem) => handleSaveGear(gear.map(g => g.id === updatedItem.id ? updatedItem : g));
   const deleteGearItem = (id) => handleSaveGear(gear.filter(g => g.id !== id));
 
@@ -292,10 +292,11 @@ export default function App() {
   const saveCustomList = async (list) => {
     if (!userId) return;
     const listsRef = collection(db, "artifacts", appId, "users", userId, "customLists");
+    const { id, ...dataToSave } = list;
     if (list.id) {
-        await updateDoc(doc(listsRef, list.id), { name: list.name, items: list.items });
+        await updateDoc(doc(listsRef, list.id), dataToSave);
     } else {
-        await addDoc(listsRef, { name: list.name, items: list.items });
+        await addDoc(listsRef, dataToSave);
     }
   };
 
@@ -305,84 +306,134 @@ export default function App() {
     if(selectedList && selectedList.id === listId) setSelectedList(null);
   };
 
+  const handleToggleItemInList = (gearItemId) => {
+    if (!selectedList || 'predefined' in selectedList) return;
+
+    const list = customLists.find(l => l.id === selectedList.id);
+    if (!list) return;
+
+    const items = list.items || [];
+    const isAlreadyInList = items.includes(gearItemId);
+    const newItems = isAlreadyInList
+      ? items.filter(id => id !== gearItemId)
+      : [...items, gearItemId];
+    
+    const updatedList = { ...list, items: newItems };
+    saveCustomList(updatedList);
+    setSelectedList(updatedList);
+  };
+
   // --- Render Logic ---
   if (isLoading) return <LoadingSpinner />;
   if (error) return <ErrorMessage message={error} />;
 
   return (
-    <div className="bg-gray-50 min-h-screen font-sans text-gray-800">
-      <div className="container mx-auto p-4 md:p-6 lg:p-8">
-        <Header />
-        <main className="grid grid-cols-1 lg:grid-cols-5 gap-8 mt-6">
-          <div className="lg:col-span-2">
-            <GearInventoryPanel gear={gear} onAddClick={() => { setEditingGear(null); setIsGearModalOpen(true); }} onEditClick={(g) => { setEditingGear(g); setIsGearModalOpen(true); }} onDeleteClick={deleteGearItem} />
-          </div>
-          <div className="lg:col-span-3">
-            <ActivityPanel 
-              selectedList={selectedList} 
-              onSelectList={setSelectedList}
-              packingData={packingData} 
-              onAddPredefinedItem={addPredefinedGearItem} 
-              customLists={customLists} 
-              onNewListClick={() => { setEditingList(null); setIsListModalOpen(true); }} 
-              onEditListClick={(l) => { setEditingList(l); setIsListModalOpen(true); }} 
-              onDeleteListClick={deleteCustomList}
-            />
-          </div>
-        </main>
-        <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={editingGear ? updateGearItem : addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} />
-        <CustomListModal isOpen={isListModalOpen} onClose={() => setIsListModalOpen(false)} onSave={saveCustomList} existingList={editingList} allGear={gear} />
+    <div className="bg-slate-200 min-h-screen font-sans text-gray-800 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=2070&auto=format&fit=crop')"}}>
+      <div className="bg-white/70 backdrop-blur-sm min-h-screen">
+        <div className="container mx-auto p-4 md:p-6 lg:p-8">
+          <Header />
+          <main className="grid grid-cols-1 lg:grid-cols-5 gap-8 mt-6">
+            <div className="lg:col-span-2">
+              <GearInventoryPanel gear={gear} onAddClick={() => { setEditingGear(null); setIsGearModalOpen(true); }} onEditClick={(g) => { setEditingGear(g); setIsGearModalOpen(true); }} onDeleteClick={deleteGearItem} selectedList={selectedList} onToggleItemInList={handleToggleItemInList} />
+            </div>
+            <div className="lg:col-span-3">
+              <ActivityPanel 
+                selectedList={selectedList} 
+                onSelectList={setSelectedList}
+                packingData={packingData} 
+                onAddPredefinedItem={addPredefinedGearItem} 
+                customLists={customLists} 
+                onNewListClick={() => { setEditingList(null); setIsListModalOpen(true); }} 
+                onEditListClick={(l) => { setEditingList(l); setIsListModalOpen(true); }} 
+                onDeleteListClick={deleteCustomList}
+              />
+            </div>
+          </main>
+          <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={editingGear ? updateGearItem : addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} onDelete={deleteGearItem} />
+          <CustomListModal isOpen={isListModalOpen} onClose={() => setIsListModalOpen(false)} onSave={saveCustomList} existingList={editingList} allGear={gear} />
+        </div>
       </div>
     </div>
   );
 }
 
 // --- Sub-components ---
-const Header = () => <header className="text-center"><h1 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">Outdoor Gear Hub</h1><p className="mt-2 text-lg text-gray-600">Track your gear, pack for your next adventure.</p></header>;
+const Header = () => <header className="text-center"><h1 className="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight">Outdoor Gear Hub</h1><p className="mt-2 text-lg text-slate-600">Track your gear, pack for your next adventure.</p></header>;
 
-const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick }) => {
+const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, selectedList, onToggleItemInList }) => {
+    const [searchTerm, setSearchTerm] = useState('');
+
+    const filteredGear = useMemo(() => {
+        return gear.filter(item => 
+            item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            (item.model && item.model.toLowerCase().includes(searchTerm.toLowerCase()))
+        );
+    }, [gear, searchTerm]);
+
     const groupedGear = useMemo(() => {
-        const groups = gear.reduce((acc, item) => {
+        const groups = filteredGear.reduce((acc, item) => {
             const category = item.category || 'Uncategorized';
             if (!acc[category]) acc[category] = [];
             acc[category].push(item);
             return acc;
         }, {});
         return Object.keys(groups).sort().reduce((acc, key) => {
-            groups[key].sort((a, b) => a.name.localeCompare(b.name));
-            acc[key] = groups[key];
+            const sortedItems = groups[key].sort((a, b) => {
+                if (a.retired && !b.retired) return 1;
+                if (!a.retired && b.retired) return -1;
+                return a.name.localeCompare(b.name);
+            });
+            acc[key] = sortedItems;
             return acc;
         }, {});
-    }, [gear]);
+    }, [filteredGear]);
 
     return (
-        <div className="bg-white p-6 rounded-2xl shadow-lg"><div className="flex justify-between items-center mb-4"><h2 className="text-2xl font-bold text-gray-900">My Gear Inventory</h2><button onClick={onAddClick} className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"><Plus size={18} /><span>Add Gear</span></button></div><div className="space-y-2 max-h-[60vh] overflow-y-auto pr-2">{Object.keys(groupedGear).length > 0 ? Object.entries(groupedGear).map(([category, items]) => <GearCategoryGroup key={category} category={category} items={items} onEditClick={onEditClick} onDeleteClick={onDeleteClick} />) : <p className="text-center text-gray-500 py-8">Your inventory is empty!</p>}</div></div>
+        <div className="bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg"><div className="flex justify-between items-center mb-4"><h2 className="text-2xl font-bold text-slate-800">My Gear Inventory</h2><button onClick={onAddClick} className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"><Plus size={18} /><span>Add Gear</span></button></div>
+        <div className="relative mb-4">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
+            <input 
+                type="text"
+                placeholder="Search gear..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
+            />
+        </div>
+        <div className="space-y-2 max-h-[55vh] overflow-y-auto pr-2">{Object.keys(groupedGear).length > 0 ? Object.entries(groupedGear).map(([category, items]) => <GearCategoryGroup key={category} category={category} items={items} onEditClick={onEditClick} onDeleteClick={onDeleteClick} selectedList={selectedList} onToggleItemInList={onToggleItemInList} />) : <p className="text-center text-gray-500 py-8">No gear found.</p>}</div></div>
     );
 };
 
-const GearCategoryGroup = ({ category, items, onEditClick, onDeleteClick }) => {
+const GearCategoryGroup = ({ category, items, onEditClick, onDeleteClick, selectedList, onToggleItemInList }) => {
     const [isOpen, setIsOpen] = useState(true);
-    return (<div className="border border-gray-200 rounded-lg"><button onClick={() => setIsOpen(!isOpen)} className="w-full flex justify-between items-center p-3 bg-gray-100 hover:bg-gray-200 transition-colors rounded-t-lg"><h3 className="font-bold text-gray-800">{category}</h3>{isOpen ? <ChevronDown size={20} /> : <ChevronRight size={20} />}</button>{isOpen && <div className="p-2 space-y-2">{items.map(item => <GearItem key={item.id} item={item} onEdit={() => onEditClick(item)} onDelete={() => onDeleteClick(item.id)} />)}</div>}</div>);
+    return (<div className="border border-slate-200 rounded-lg"><button onClick={() => setIsOpen(!isOpen)} className="w-full flex justify-between items-center p-3 bg-slate-100 hover:bg-slate-200 transition-colors rounded-t-lg"><h3 className="font-bold text-slate-800">{category}</h3>{isOpen ? <ChevronDown size={20} /> : <ChevronRight size={20} />}</button>{isOpen && <div className="p-2 space-y-2">{items.map(item => <GearItem key={item.id} item={item} onEdit={() => onEditClick(item)} onDelete={() => onDeleteClick(item.id)} selectedList={selectedList} onToggleItemInList={onToggleItemInList} />)}</div>}</div>);
 };
 
-const GearItem = ({ item, onEdit, onDelete }) => {
+const GearItem = ({ item, onEdit, onDelete, selectedList, onToggleItemInList }) => {
+    const isCustomListSelected = selectedList && !('predefined' in selectedList);
+    const isInList = isCustomListSelected && selectedList.items.includes(item.id);
+
     return (
-        <div className="bg-gray-50 border border-gray-200 rounded-lg p-3 transition-shadow duration-300 hover:shadow-md">
+        <div className={`bg-white/50 border border-slate-200 rounded-lg p-3 transition-shadow duration-300 hover:shadow-md ${item.retired ? 'opacity-50' : ''}`}>
             <div className="flex items-start justify-between">
                 <div className="flex-1 min-w-0">
-                    <p className="font-semibold text-gray-800 truncate">{item.name}</p>
-                    {item.model && <p className="text-sm text-gray-500 italic truncate">{item.model}</p>}
-                    <div className="flex items-center gap-4 text-xs text-gray-500 mt-1">
+                    <p className="font-semibold text-slate-800 truncate">{item.name}</p>
+                    {item.model && <p className="text-sm text-slate-500 italic truncate">{item.model}</p>}
+                    <div className="flex items-center gap-4 text-xs text-slate-500 mt-1">
                         <span className="flex items-center gap-1"><Weight size={12} /> {item.weight || 0}g</span>
                         <span className="flex items-center gap-1"><Package size={12} /> Qty: {item.quantity || 1}</span>
                     </div>
                 </div>
-                <div className="flex items-center gap-2 ml-2 flex-shrink-0">
+                <div className="flex items-center gap-1 ml-2 flex-shrink-0">
+                    {isCustomListSelected && (
+                        <button onClick={() => onToggleItemInList(item.id)} disabled={item.retired} className="p-1 rounded-full transition-colors disabled:opacity-25 disabled:cursor-not-allowed">
+                            {isInList ? <Trash2 size={16} className="text-red-600" /> : <Plus size={16} className="text-green-600" />}
+                        </button>
+                    )}
                     <button onClick={onEdit} className="p-1 text-blue-600 hover:text-blue-800 transition-colors"><Edit size={16} /></button>
-                    <button onClick={onDelete} className="p-1 text-red-600 hover:text-red-800 transition-colors"><Trash2 size={16} /></button>
                 </div>
             </div>
-            {item.notes && <p className="mt-2 pt-2 border-t text-sm text-gray-600">{item.notes}</p>}
+            {item.notes && <p className="mt-2 pt-2 border-t text-sm text-slate-600">{item.notes}</p>}
         </div>
     );
 };
@@ -397,37 +448,46 @@ const ICONS = {
 };
 
 const ActivityPanel = ({ selectedList, onSelectList, packingData, onAddPredefinedItem, customLists, onNewListClick, onEditListClick, onDeleteListClick }) => {
+  const formatDate = (dateString) => {
+    if (!dateString) return '';
+    const date = new Date(dateString);
+    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+  };
+
   return (
-    <div className="bg-white p-6 rounded-2xl shadow-lg">
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Create a Packing List</h2>
+    <div className="bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg">
+      <h2 className="text-2xl font-bold text-slate-800 mb-4">Create a Packing List</h2>
       
-      <h3 className="text-lg font-semibold text-gray-700 mb-2">Pre-defined Lists</h3>
+      <h3 className="text-lg font-semibold text-slate-700 mb-2">Pre-defined Lists</h3>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-6">
         {Object.keys(PREDEFINED_GEAR_LISTS).map(name => (
-          <button key={name} onClick={() => onSelectList({ name, predefined: true })} className={`flex flex-col items-center justify-center text-center p-2 border-2 rounded-lg transition-all transform hover:scale-105 ${selectedList?.name === name ? 'bg-blue-100 border-blue-500' : 'bg-gray-50 border-gray-200 hover:border-blue-300'}`}>
+          <button key={name} onClick={() => onSelectList({ name, predefined: true })} className={`flex flex-col items-center justify-center text-center p-2 border-2 rounded-lg transition-all transform hover:scale-105 ${selectedList?.name === name ? 'bg-green-100 border-green-500' : 'bg-slate-50 border-slate-200 hover:border-green-300'}`}>
             {React.cloneElement(ICONS[name] || <Package />, { size: 20 })}
             <span className="text-xs font-medium mt-1">{name}</span>
           </button>
         ))}
       </div>
 
-      <div className="flex justify-between items-center mb-2"><h3 className="text-lg font-semibold text-gray-700">My Custom Lists</h3><button onClick={onNewListClick} className="flex items-center gap-2 text-sm px-3 py-1 bg-green-600 text-white rounded-lg shadow-sm hover:bg-green-700 transition-colors"><Plus size={16}/>New List</button></div>
+      <div className="flex justify-between items-center mb-2"><h3 className="text-lg font-semibold text-slate-700">My Custom Lists</h3><button onClick={onNewListClick} className="flex items-center gap-2 text-sm px-3 py-1 bg-orange-500 text-white rounded-lg shadow-sm hover:bg-orange-600 transition-colors"><Plus size={16}/>New List</button></div>
       <div className="space-y-2 mb-6">
-        {customLists.map(list => (
-            <div key={list.id} className={`flex items-center justify-between p-3 border-2 rounded-lg transition-all ${selectedList?.id === list.id ? 'bg-blue-100 border-blue-500' : 'bg-gray-50 border-gray-200'}`}>
-                <button onClick={() => onSelectList(list)} className="flex-grow text-left font-semibold">{list.name}</button>
+        {customLists.sort((a, b) => b.date.localeCompare(a.date)).map(list => (
+            <div key={list.id} className={`flex items-center justify-between p-3 border-2 rounded-lg transition-all ${selectedList?.id === list.id ? 'bg-green-100 border-green-500' : 'bg-slate-50 border-slate-200'}`}>
+                <button onClick={() => onSelectList(list)} className="flex-grow text-left font-semibold">
+                    <span className="text-slate-500 text-sm mr-2">{formatDate(list.date)}</span>
+                    {list.name}
+                </button>
                 <div className="flex gap-2">
                     <button onClick={() => onEditListClick(list)} className="p-1 text-blue-600 hover:text-blue-800"><Edit size={16}/></button>
                     <button onClick={() => onDeleteListClick(list.id)} className="p-1 text-red-600 hover:text-red-800"><Trash2 size={16}/></button>
                 </div>
             </div>
         ))}
-        {customLists.length === 0 && <p className="text-sm text-gray-500 italic text-center py-2">You haven't created any custom lists yet.</p>}
+        {customLists.length === 0 && <p className="text-sm text-slate-500 italic text-center py-2">You haven't created any custom lists yet.</p>}
       </div>
 
       {selectedList && packingData && (
         <div>
-          <div className="flex justify-between items-baseline"><h3 className="text-xl font-bold text-gray-800 mb-3">Packing for {selectedList.name}</h3><span className="font-bold text-gray-600 flex items-center gap-2"><Weight size={18}/> {packingData.totalWeight}g</span></div>
+          <div className="flex justify-between items-baseline"><h3 className="text-xl font-bold text-slate-800 mb-3">Packing for {selectedList.name}</h3></div>
           <div className="space-y-4">
             <RecommendedList 
                 items={packingData.combinedList} 
@@ -436,7 +496,10 @@ const ActivityPanel = ({ selectedList, onSelectList, packingData, onAddPredefine
           </div>
           {packingData.chartData && packingData.chartData.length > 0 && (
             <div className="mt-8">
-                <h4 className="text-lg font-semibold text-gray-700 mb-2">Weight Distribution</h4>
+                <div className="flex justify-between items-baseline">
+                    <h4 className="text-lg font-semibold text-slate-700 mb-2">Weight Distribution</h4>
+                    <span className="font-bold text-slate-600 flex items-center gap-2"><Weight size={18}/> {(packingData.totalWeight / 1000).toFixed(2)}kg</span>
+                </div>
                 <WeightDistributionChart data={packingData.chartData} />
             </div>
           )}
@@ -450,24 +513,27 @@ const RecommendedList = ({ items, onAddItem }) => {
     const totalItems = items.reduce((acc, group) => acc + group.items.length, 0);
     return (
     <div>
-        <h4 className={`text-lg font-semibold text-gray-700 mb-2`}>Packing List ({totalItems})</h4>
+        <h4 className={`text-lg font-semibold text-slate-700 mb-2`}>Packing List ({totalItems})</h4>
         {items.map(group => (
             <div key={group.category} className="mt-2">
-                <h5 className="font-semibold text-gray-600 text-sm uppercase tracking-wider">{group.category}</h5>
+                <h5 className="font-semibold text-slate-600 text-sm uppercase tracking-wider">{group.category}</h5>
                 <ul className="space-y-1 text-sm mt-1">
                     {group.items.map(item => {
                         const hasItem = item.has;
                         const key = item.id;
                         const name = item.name;
                         const model = item.model;
+                        const quantity = item.quantity;
                         
                         return (
-                            <li key={key} className={`flex justify-between items-center p-1 rounded-md ${!hasItem && 'hover:bg-gray-100'}`}>
-                            <div className={`transition-colors ${!hasItem ? 'text-gray-400' : 'text-gray-700'}`}>
+                            <li key={key} className={`flex justify-between items-center p-1 rounded-md ${!hasItem && 'hover:bg-slate-100'}`}>
+                            <div className={`transition-colors ${!hasItem || item.retired ? 'text-gray-400' : 'text-gray-700'}`}>
                                 <span className={`inline-block w-2 h-2 rounded-full mr-3 ${hasItem ? 'bg-green-500' : 'bg-gray-400'}`}></span>
                                 <span>
                                 {name}
-                                {model && <em className="text-gray-500 ml-2">({model})</em>}
+                                {model && <em className="text-slate-500 ml-2">({model})</em>}
+                                {hasItem && quantity > 1 && <span className="text-slate-500 ml-2">x{quantity}</span>}
+                                {hasItem && item.retired && <span className="text-xs text-red-500 ml-2 font-semibold">(Retired)</span>}
                                 </span>
                             </div>
                             {!hasItem && onAddItem && (
@@ -486,16 +552,18 @@ const RecommendedList = ({ items, onAddItem }) => {
 };
 
 
-const GearModal = ({ isOpen, onClose, onSave, existingGear, uniqueCategories, categoryToGearNamesMap }) => {
+const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategories, categoryToGearNamesMap, onDelete }) => {
   const [name, setName] = useState('');
   const [model, setModel] = useState('');
   const [category, setCategory] = useState('');
   const [weight, setWeight] = useState('');
   const [notes, setNotes] = useState('');
   const [quantity, setQuantity] = useState(1);
+  const [retired, setRetired] = useState(false);
   const [error, setError] = useState('');
   const [showNewCategoryInput, setShowNewCategoryInput] = useState(false);
   const [showNewGearNameInput, setShowNewGearNameInput] = useState(false);
+  const [isConfirmingDelete, setIsConfirmingDelete] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
@@ -510,11 +578,13 @@ const GearModal = ({ isOpen, onClose, onSave, existingGear, uniqueCategories, ca
         setWeight(existingGear?.weight || '');
         setNotes(existingGear?.notes || '');
         setQuantity(existingGear?.quantity || 1);
+        setRetired(existingGear?.retired || false);
         
         setShowNewCategoryInput(!!(currentCategory && !isExistingCategory));
         setShowNewGearNameInput(!!(currentName && !isExistingName));
         
         setError('');
+        setIsConfirmingDelete(false);
     }
   }, [existingGear, isOpen, uniqueCategories, categoryToGearNamesMap]);
 
@@ -545,7 +615,17 @@ const GearModal = ({ isOpen, onClose, onSave, existingGear, uniqueCategories, ca
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name.trim()) { setError('Gear name is required.'); return; }
-    onSave({ id: existingGear?.id, name: name.trim(), model: model.trim(), category: category.trim(), weight: parseInt(weight, 10) || 0, notes: notes.trim(), quantity: parseInt(quantity, 10) || 1 });
+    const gearData = { id: existingGear?.id, name: name.trim(), model: model.trim(), category: category.trim(), weight: parseInt(weight, 10) || 0, notes: notes.trim(), quantity: parseInt(quantity, 10) || 1, retired };
+    if (existingGear) {
+        onSave(gearData);
+    } else {
+        onAdd(gearData);
+    }
+    onClose();
+  };
+
+  const handleDelete = () => {
+    onDelete(existingGear.id);
     onClose();
   };
 
@@ -558,65 +638,87 @@ const GearModal = ({ isOpen, onClose, onSave, existingGear, uniqueCategories, ca
           <h2 className="text-2xl font-bold text-gray-900">{existingGear ? 'Edit Gear' : 'Add New Gear'}</h2>
           <button onClick={onClose} className="text-gray-400 hover:text-gray-600"><X size={24} /></button>
         </div>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label htmlFor="category-select" className="block text-sm font-medium text-gray-700 mb-1">Category</label>
-            <select id="category-select" value={showNewCategoryInput ? '_new_' : category} onChange={handleCategorySelectChange} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
-                <option value="">-- Select a Category --</option>
-                {uniqueCategories.map(cat => <option key={cat} value={cat}>{cat}</option>)}
-                <option value="_new_">Add New...</option>
-            </select>
-          </div>
+        {isConfirmingDelete ? (
+            <div className="text-center">
+                <p className="text-lg">Are you sure you want to delete this item?</p>
+                <p className="font-bold mt-2">{name} {model && `(${model})`}</p>
+                <div className="flex justify-center gap-4 mt-6">
+                    <button onClick={() => setIsConfirmingDelete(false)} className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300">Cancel</button>
+                    <button onClick={handleDelete} className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">Yes, Delete</button>
+                </div>
+            </div>
+        ) : (
+            <form onSubmit={handleSubmit} className="space-y-4">
+            <div>
+                <label htmlFor="category-select" className="block text-sm font-medium text-gray-700 mb-1">Category</label>
+                <select id="category-select" value={showNewCategoryInput ? '_new_' : category} onChange={handleCategorySelectChange} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500">
+                    <option value="">-- Select a Category --</option>
+                    {uniqueCategories.map(cat => <option key={cat} value={cat}>{cat}</option>)}
+                    <option value="_new_">Add New...</option>
+                </select>
+            </div>
 
-          {showNewCategoryInput && (
+            {showNewCategoryInput && (
+                <div>
+                <label htmlFor="new-category" className="block text-sm font-medium text-gray-700 mb-1">New Category Name</label>
+                <input type="text" id="new-category" value={category} onChange={e => setCategory(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" placeholder="Enter new category" autoFocus />
+                </div>
+            )}
+            
             <div>
-              <label htmlFor="new-category" className="block text-sm font-medium text-gray-700 mb-1">New Category Name</label>
-              <input type="text" id="new-category" value={category} onChange={e => setCategory(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="Enter new category" autoFocus />
+                <label htmlFor="gear-name" className="block text-sm font-medium text-gray-700 mb-1">Gear Name</label>
+                <select id="gear-name-select" value={showNewGearNameInput ? '_new_' : name} onChange={handleNameSelectChange} disabled={!category} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500 disabled:bg-gray-100">
+                    <option value="">-- Select a Name --</option>
+                    {(categoryToGearNamesMap[category] || []).map(nameOpt => <option key={nameOpt} value={nameOpt}>{nameOpt}</option>)}
+                    <option value="_new_">Add New...</option>
+                </select>
+                {error && <p className="text-red-500 text-xs mt-1">{error}</p>}
             </div>
-          )}
-          
-          <div>
-            <label htmlFor="gear-name" className="block text-sm font-medium text-gray-700 mb-1">Gear Name</label>
-            <select id="gear-name-select" value={showNewGearNameInput ? '_new_' : name} onChange={handleNameSelectChange} disabled={!category} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100">
-                <option value="">-- Select a Name --</option>
-                {(categoryToGearNamesMap[category] || []).map(nameOpt => <option key={nameOpt} value={nameOpt}>{nameOpt}</option>)}
-                <option value="_new_">Add New...</option>
-            </select>
-            {error && <p className="text-red-500 text-xs mt-1">{error}</p>}
-          </div>
-          
-           {showNewGearNameInput && (
-            <div>
-              <label htmlFor="new-gear-name" className="block text-sm font-medium text-gray-700 mb-1">New Gear Name</label>
-              <input type="text" id="new-gear-name" value={name} onChange={e => setName(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="Enter new gear name" autoFocus />
-            </div>
-          )}
+            
+            {showNewGearNameInput && (
+                <div>
+                <label htmlFor="new-gear-name" className="block text-sm font-medium text-gray-700 mb-1">New Gear Name</label>
+                <input type="text" id="new-gear-name" value={name} onChange={e => setName(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" placeholder="Enter new gear name" autoFocus />
+                </div>
+            )}
 
-          <div>
-            <label htmlFor="gear-model" className="block text-sm font-medium text-gray-700 mb-1">Model</label>
-            <input type="text" id="gear-model" value={model} onChange={e => setModel(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="e.g., Osprey Talon 22"/>
-          </div>
-          
-          <div className="grid grid-cols-2 gap-4">
             <div>
-              <label htmlFor="weight" className="block text-sm font-medium text-gray-700 mb-1">Weight (grams)</label>
-              <input type="number" min="0" id="weight" value={weight} onChange={e => setWeight(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="e.g., 250" />
+                <label htmlFor="gear-model" className="block text-sm font-medium text-gray-700 mb-1">Model</label>
+                <input type="text" id="gear-model" value={model} onChange={e => setModel(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" placeholder="e.g., Osprey Talon 22"/>
             </div>
-            <div>
-              <label htmlFor="quantity" className="block text-sm font-medium text-gray-700 mb-1">Quantity</label>
-              <input type="number" min="1" id="quantity" value={quantity} onChange={e => setQuantity(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" />
+            
+            <div className="grid grid-cols-2 gap-4">
+                <div>
+                <label htmlFor="weight" className="block text-sm font-medium text-gray-700 mb-1">Weight (grams)</label>
+                <input type="number" min="0" id="weight" value={weight} onChange={e => setWeight(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" placeholder="e.g., 250" />
+                </div>
+                <div>
+                <label htmlFor="quantity" className="block text-sm font-medium text-gray-700 mb-1">Quantity</label>
+                <input type="number" min="1" id="quantity" value={quantity} onChange={e => setQuantity(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" />
+                </div>
             </div>
-          </div>
 
-          <div>
-            <label htmlFor="notes" className="block text-sm font-medium text-gray-700 mb-1">Notes</label>
-            <textarea id="notes" value={notes} onChange={e => setNotes(e.target.value)} rows="3" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"></textarea>
-          </div>
-          <div className="flex justify-end gap-3 pt-4">
-            <button type="button" onClick={onClose} className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300">Cancel</button>
-            <button type="submit" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">{existingGear ? 'Save Changes' : 'Add Gear'}</button>
-          </div>
-        </form>
+            <div>
+                <label htmlFor="notes" className="block text-sm font-medium text-gray-700 mb-1">Notes</label>
+                <textarea id="notes" value={notes} onChange={e => setNotes(e.target.value)} rows="3" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"></textarea>
+            </div>
+
+            {existingGear && <div className="flex items-center">
+                <input id="retired" type="checkbox" checked={retired} onChange={(e) => setRetired(e.target.checked)} className="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500" />
+                <label htmlFor="retired" className="ml-2 block text-sm text-gray-900">Retire this item</label>
+            </div>}
+
+            <div className="flex justify-between items-center pt-4">
+                <div>
+                    {existingGear && <button type="button" onClick={() => setIsConfirmingDelete(true)} className="px-4 py-2 bg-red-100 text-red-700 rounded-lg hover:bg-red-200 transition-colors">Delete</button>}
+                </div>
+                <div className="flex gap-3">
+                    <button type="button" onClick={onClose} className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300">Cancel</button>
+                    <button type="submit" className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">{existingGear ? 'Save Changes' : 'Add Gear'}</button>
+                </div>
+            </div>
+            </form>
+        )}
       </div>
     </div>
   );
@@ -625,9 +727,10 @@ const GearModal = ({ isOpen, onClose, onSave, existingGear, uniqueCategories, ca
 const CustomListModal = ({ isOpen, onClose, onSave, existingList, allGear }) => {
     const [name, setName] = useState('');
     const [selectedItemIds, setSelectedItemIds] = useState([]);
+    const [date, setDate] = useState('');
     
     const groupedGear = useMemo(() => {
-        const groups = allGear.reduce((acc, item) => {
+        const groups = allGear.filter(item => !item.retired).reduce((acc, item) => {
             const category = item.category || 'Uncategorized';
             if (!acc[category]) {
                 acc[category] = [];
@@ -648,6 +751,7 @@ const CustomListModal = ({ isOpen, onClose, onSave, existingList, allGear }) => 
         if (isOpen) {
             setName(existingList?.name || '');
             setSelectedItemIds(existingList?.items || []);
+            setDate(existingList?.date || new Date().toISOString().split('T')[0]);
         }
     }, [isOpen, existingList]);
 
@@ -658,7 +762,7 @@ const CustomListModal = ({ isOpen, onClose, onSave, existingList, allGear }) => 
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!name.trim()) return;
-        onSave({ id: existingList?.id, name, items: selectedItemIds });
+        onSave({ id: existingList?.id, name, items: selectedItemIds, date });
         onClose();
     };
 
@@ -669,15 +773,24 @@ const CustomListModal = ({ isOpen, onClose, onSave, existingList, allGear }) => 
             <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-lg transform transition-all flex flex-col">
                 <div className="flex justify-between items-center mb-6"><h2 className="text-2xl font-bold text-gray-900">{existingList ? 'Edit' : 'Create'} Custom List</h2><button onClick={onClose} className="text-gray-400 hover:text-gray-600"><X size={24} /></button></div>
                 <form onSubmit={handleSubmit} className="flex-grow flex flex-col">
-                    <div><label htmlFor="list-name" className="block text-sm font-medium text-gray-700 mb-1">List Name</label><input type="text" id="list-name" value={name} onChange={e => setName(e.target.value)} placeholder="e.g., Weekend Backpacking Trip" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" /></div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label htmlFor="list-date" className="block text-sm font-medium text-gray-700 mb-1">Date</label>
+                            <input type="date" id="list-date" value={date} onChange={e => setDate(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" />
+                        </div>
+                        <div>
+                            <label htmlFor="list-name" className="block text-sm font-medium text-gray-700 mb-1">List Name</label>
+                            <input type="text" id="list-name" value={name} onChange={e => setName(e.target.value)} placeholder="e.g., Weekend Backpacking Trip" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" />
+                        </div>
+                    </div>
                     <p className="font-medium text-gray-700 mt-4 mb-2">Select items from your inventory:</p>
                     <div className="flex-grow border rounded-lg p-2 overflow-y-auto max-h-[40vh] space-y-1">
                         {groupedGear.map(group => (
                             <div key={group.category}>
                                 <h5 className="font-semibold text-gray-600 text-sm uppercase tracking-wider mt-2 px-2">{group.category}</h5>
                                 {group.items.map(item => (
-                                    <label key={item.id} className={`flex items-center gap-3 p-2 rounded-md cursor-pointer transition-colors ${selectedItemIds.includes(item.id) ? 'bg-blue-100' : 'hover:bg-gray-100'}`}>
-                                        <input type="checkbox" checked={selectedItemIds.includes(item.id)} onChange={() => handleToggleItem(item.id)} className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
+                                    <label key={item.id} className={`flex items-center gap-3 p-2 rounded-md cursor-pointer transition-colors ${selectedItemIds.includes(item.id) ? 'bg-green-100' : 'hover:bg-slate-100'}`}>
+                                        <input type="checkbox" checked={selectedItemIds.includes(item.id)} onChange={() => handleToggleItem(item.id)} className="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500" />
                                         <span>
                                             {item.name}
                                             {item.model && <em className="text-gray-500 ml-2">({item.model})</em>}
@@ -687,14 +800,14 @@ const CustomListModal = ({ isOpen, onClose, onSave, existingList, allGear }) => 
                             </div>
                         ))}
                     </div>
-                    <div className="flex justify-end gap-3 pt-4 mt-2"><button type="button" onClick={onClose} className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300">Cancel</button><button type="submit" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Save List</button></div>
+                    <div className="flex justify-end gap-3 pt-4 mt-2"><button type="button" onClick={onClose} className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300">Cancel</button><button type="submit" className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Save List</button></div>
                 </form>
             </div>
         </div>
     );
 };
 
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#82ca9d', '#ffc658', '#d0ed57'];
+const COLORS = ['#16a34a', '#0ea5e9', '#f97316', '#f59e0b', '#8b5cf6', '#10b981', '#facc15', '#84cc16'];
 
 const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
@@ -739,5 +852,6 @@ const WeightDistributionChart = ({ data }) => {
 };
 
 
-const LoadingSpinner = () => <div className="flex flex-col justify-center items-center h-screen bg-gray-50"><div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-blue-600"></div><p className="mt-4 text-lg text-gray-600">Loading your gear...</p></div>;
+const LoadingSpinner = () => <div className="flex flex-col justify-center items-center h-screen bg-gray-50"><div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-green-600"></div><p className="mt-4 text-lg text-gray-600">Loading your gear...</p></div>;
 const ErrorMessage = ({ message }) => <div className="flex justify-center items-center h-screen bg-red-50"><div className="text-center p-8 bg-white rounded-lg shadow-md"><h2 className="text-2xl font-bold text-red-600">An Error Occurred</h2><p className="mt-2 text-gray-700">{message}</p></div></div>;
+
