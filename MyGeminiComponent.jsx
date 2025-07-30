@@ -126,6 +126,16 @@ const DEFAULT_GEAR_INVENTORY = [
     { name: 'Sunscreen', model: '', category: 'Consumables', notes: '', weight: 100, quantity: 1, retired: false },
 ].map(item => ({ ...item, id: crypto.randomUUID() }));
 
+const PREDEFINED_LIST_TITLES = [
+    "Weekend Camping Trip",
+    "Road Race Day Kit",
+    "2 Weeks in Japan",
+    "Beach Day Essentials",
+    "Ski Trip to Whistler",
+    "My Go-Bag",
+    "Summer Hiking Gear",
+];
+
 // --- Main App Component ---
 export default function App() {
   const [userId, setUserId] = useState(null);
@@ -168,9 +178,10 @@ export default function App() {
   }, [userId]);
 
   // --- Memoized Calculations ---
-  const { packingData, uniqueCategories, categoryToGearNamesMap } = useMemo(() => {
+  const { packingData, uniqueCategories, categoryToGearNamesMap, gearNameToModelsMap } = useMemo(() => {
     const allCategories = new Set();
     const catToNameMap = {};
+    const nameToModelMap = {};
 
     Object.values(PREDEFINED_GEAR_LISTS).flat().forEach(item => {
         const category = item.category || 'Uncategorized';
@@ -182,10 +193,21 @@ export default function App() {
     });
      gear.forEach(item => {
         if(item.category) allCategories.add(item.category);
+        if (item.name) {
+            if (!nameToModelMap[item.name]) {
+                nameToModelMap[item.name] = new Set();
+            }
+            if (item.model) {
+                nameToModelMap[item.name].add(item.model);
+            }
+        }
      });
 
     for (const category in catToNameMap) {
         catToNameMap[category] = Array.from(catToNameMap[category]).sort();
+    }
+    for (const name in nameToModelMap) {
+        nameToModelMap[name] = Array.from(nameToModelMap[name]).sort();
     }
     
     let packData = null;
@@ -258,7 +280,8 @@ export default function App() {
     return {
         packingData: packData,
         uniqueCategories: Array.from(allCategories).sort(),
-        categoryToGearNamesMap: catToNameMap
+        categoryToGearNamesMap: catToNameMap,
+        gearNameToModelsMap: nameToModelMap
     };
   }, [selectedList, gear]);
 
@@ -292,12 +315,35 @@ export default function App() {
   const saveCustomList = async (list) => {
     if (!userId) return;
     const listsRef = collection(db, "artifacts", appId, "users", userId, "customLists");
-    const dataToSave = { name: list.name, items: list.items, date: list.date };
+    const { id, ...dataToSave } = list;
     if (list.id) {
         await updateDoc(doc(listsRef, list.id), dataToSave);
     } else {
         await addDoc(listsRef, dataToSave);
     }
+  };
+
+  const handleCreateNewList = () => {
+    const today = new Date().toISOString().split('T')[0];
+    const todaysLists = customLists.filter(list => list.date === today);
+    let randomTitle = PREDEFINED_LIST_TITLES[Math.floor(Math.random() * PREDEFINED_LIST_TITLES.length)];
+    
+    let attempts = 0;
+    while(todaysLists.some(list => list.name === randomTitle) && attempts < PREDEFINED_LIST_TITLES.length) {
+        randomTitle = PREDEFINED_LIST_TITLES[Math.floor(Math.random() * PREDEFINED_LIST_TITLES.length)];
+        attempts++;
+    }
+    
+    if (attempts >= PREDEFINED_LIST_TITLES.length) {
+        randomTitle = `New List ${new Date().getTime()}`; // Fallback for safety
+    }
+
+    const newList = {
+        name: randomTitle,
+        date: today,
+        items: [],
+    };
+    saveCustomList(newList);
   };
 
   const deleteCustomList = async (listId) => {
@@ -332,24 +378,20 @@ export default function App() {
       <div className="bg-white/70 backdrop-blur-sm min-h-screen">
         <div className="container mx-auto p-4 md:p-6 lg:p-8">
           <Header />
-          <main className="grid grid-cols-1 lg:grid-cols-5 gap-8 mt-6">
-            <div className="lg:col-span-2">
-              <GearInventoryPanel gear={gear} onAddClick={() => { setEditingGear(null); setIsGearModalOpen(true); }} onEditClick={(g) => { setEditingGear(g); setIsGearModalOpen(true); }} onDeleteClick={deleteGearItem} selectedList={selectedList} onToggleItemInList={handleToggleItemInList} />
-            </div>
-            <div className="lg:col-span-3">
-              <ActivityPanel 
-                selectedList={selectedList} 
-                onSelectList={setSelectedList}
-                packingData={packingData} 
-                onAddPredefinedItem={addPredefinedGearItem} 
-                customLists={customLists} 
-                onNewListClick={() => { setEditingList(null); setIsListModalOpen(true); }} 
-                onEditListClick={(l) => { setEditingList(l); setIsListModalOpen(true); }} 
-                onDeleteListClick={deleteCustomList}
-              />
-            </div>
+          <main className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
+            <GearInventoryPanel gear={gear} onAddClick={() => { setEditingGear(null); setIsGearModalOpen(true); }} onEditClick={(g) => { setEditingGear(g); setIsGearModalOpen(true); }} onDeleteClick={deleteGearItem} selectedList={selectedList} onToggleItemInList={handleToggleItemInList} />
+            <ActivityPanel 
+              selectedList={selectedList} 
+              onSelectList={setSelectedList}
+              packingData={packingData} 
+              onAddPredefinedItem={addPredefinedGearItem} 
+              customLists={customLists} 
+              onNewListClick={handleCreateNewList} 
+              onEditListClick={(l) => { setEditingList(l); setIsListModalOpen(true); }} 
+              onDeleteListClick={deleteCustomList}
+            />
           </main>
-          <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={editingGear ? updateGearItem : addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} onDelete={deleteGearItem} />
+          <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={editingGear ? updateGearItem : addGearItem} onAdd={addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} gearNameToModelsMap={gearNameToModelsMap} onDelete={deleteGearItem} />
           <CustomListModal isOpen={isListModalOpen} onClose={() => setIsListModalOpen(false)} onSave={saveCustomList} existingList={editingList} allGear={gear} onDelete={deleteCustomList} />
         </div>
       </div>
@@ -358,7 +400,7 @@ export default function App() {
 }
 
 // --- Sub-components ---
-const Header = () => <header className="text-center"><h1 className="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight">Packlist.Pro</h1><p className="mt-2 text-lg text-slate-600">Track Your Gear</p></header>;
+const Header = () => <header className="text-center"><h1 className="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight">Packlist.Pro</h1><p className="mt-2 text-lg text-slate-600">Just Organize Your Stuff Already!</p></header>;
 
 const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, selectedList, onToggleItemInList }) => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -389,7 +431,7 @@ const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, sele
     }, [filteredGear]);
 
     return (
-        <div className="bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg h-full flex flex-col"><div className="flex justify-between items-center mb-4"><h2 className="text-2xl font-bold text-slate-800">My Gear Inventory</h2><button onClick={onAddClick} className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"><Plus size={18} /><span>Add Gear</span></button></div>
+        <div className="bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg"><div className="flex justify-between items-center mb-4"><h2 className="text-2xl font-bold text-slate-800">My Gear Inventory</h2><button onClick={onAddClick} className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"><Plus size={18} /><span>Add Gear</span></button></div>
         <div className="relative mb-4">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
             <input 
@@ -400,7 +442,7 @@ const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, sele
                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
             />
         </div>
-        <div className="space-y-2 flex-grow overflow-y-auto pr-2">{Object.keys(groupedGear).length > 0 ? Object.entries(groupedGear).map(([category, items]) => <GearCategoryGroup key={category} category={category} items={items} onEditClick={onEditClick} onDeleteClick={onDeleteClick} selectedList={selectedList} onToggleItemInList={onToggleItemInList} />) : <p className="text-center text-gray-500 py-8">No gear found.</p>}</div></div>
+        <div className="space-y-2 max-h-[55vh] overflow-y-auto pr-2">{Object.keys(groupedGear).length > 0 ? Object.entries(groupedGear).map(([category, items]) => <GearCategoryGroup key={category} category={category} items={items} onEditClick={onEditClick} onDeleteClick={onDeleteClick} selectedList={selectedList} onToggleItemInList={onToggleItemInList} />) : <p className="text-center text-gray-500 py-8">No gear found.</p>}</div></div>
     );
 };
 
@@ -469,19 +511,17 @@ const ActivityPanel = ({ selectedList, onSelectList, packingData, onAddPredefine
       </div>
 
       <div className="flex justify-between items-center mb-2"><h3 className="text-lg font-semibold text-slate-700">My Custom Lists</h3><button onClick={onNewListClick} className="flex items-center gap-2 text-sm px-3 py-1 bg-orange-500 text-white rounded-lg shadow-sm hover:bg-orange-600 transition-colors"><Plus size={16}/>New List</button></div>
-      <div className="space-y-2 mb-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 mb-6">
         {customLists.sort((a, b) => b.date.localeCompare(a.date)).map(list => (
-            <div key={list.id} className={`flex items-center justify-between p-3 border-2 rounded-lg transition-all ${selectedList?.id === list.id ? 'bg-green-100 border-green-500' : 'bg-slate-50 border-slate-200'}`}>
-                <button onClick={() => onSelectList(list)} className="flex-grow text-left font-semibold">
-                    <span className="text-slate-500 text-sm mr-2">{formatDate(list.date)}</span>
+            <div key={list.id} className={`relative p-2 border-2 rounded-lg transition-all ${selectedList?.id === list.id ? 'bg-green-100 border-green-500' : 'bg-slate-50 border-slate-200'}`}>
+                <button onClick={() => onSelectList(list)} className="w-full text-left font-semibold">
+                    <span className="block text-slate-500 text-xs">{formatDate(list.date)}</span>
                     {list.name}
                 </button>
-                <div className="flex gap-2">
-                    <button onClick={() => onEditListClick(list)} className="p-1 text-blue-600 hover:text-blue-800"><Edit size={16}/></button>
-                </div>
+                <button onClick={() => onEditListClick(list)} className="absolute top-1 right-1 p-1 text-blue-600 hover:text-blue-800"><Edit size={14}/></button>
             </div>
         ))}
-        {customLists.length === 0 && <p className="text-sm text-slate-500 italic text-center py-2">You haven't created any custom lists yet.</p>}
+        {customLists.length === 0 && <p className="text-sm text-slate-500 italic text-center py-2 col-span-full">You haven't created any custom lists yet.</p>}
       </div>
 
       {selectedList && packingData && (
@@ -551,7 +591,7 @@ const RecommendedList = ({ items, onAddItem }) => {
 };
 
 
-const GearModal = ({ isOpen, onClose, onSave, existingGear, uniqueCategories, categoryToGearNamesMap, onDelete }) => {
+const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategories, categoryToGearNamesMap, onDelete }) => {
   const [name, setName] = useState('');
   const [model, setModel] = useState('');
   const [category, setCategory] = useState('');
@@ -590,6 +630,7 @@ const GearModal = ({ isOpen, onClose, onSave, existingGear, uniqueCategories, ca
   const handleCategorySelectChange = (e) => {
     const value = e.target.value;
     setName('');
+    setModel('');
     setShowNewGearNameInput(false);
     if (value === '_new_') {
         setShowNewCategoryInput(true);
@@ -602,6 +643,7 @@ const GearModal = ({ isOpen, onClose, onSave, existingGear, uniqueCategories, ca
 
   const handleNameSelectChange = (e) => {
     const value = e.target.value;
+    setModel('');
     if (value === '_new_') {
         setShowNewGearNameInput(true);
         setName('');
@@ -615,7 +657,11 @@ const GearModal = ({ isOpen, onClose, onSave, existingGear, uniqueCategories, ca
     e.preventDefault();
     if (!name.trim()) { setError('Gear name is required.'); return; }
     const gearData = { id: existingGear?.id, name: name.trim(), model: model.trim(), category: category.trim(), weight: parseInt(weight, 10) || 0, notes: notes.trim(), quantity: parseInt(quantity, 10) || 1, retired };
-    onSave(gearData);
+    if (existingGear) {
+        onSave(gearData);
+    } else {
+        onAdd(gearData);
+    }
     onClose();
   };
 
@@ -875,4 +921,3 @@ const WeightDistributionChart = ({ data }) => {
 
 const LoadingSpinner = () => <div className="flex flex-col justify-center items-center h-screen bg-gray-50"><div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-green-600"></div><p className="mt-4 text-lg text-gray-600">Loading your gear...</p></div>;
 const ErrorMessage = ({ message }) => <div className="flex justify-center items-center h-screen bg-red-50"><div className="text-center p-8 bg-white rounded-lg shadow-md"><h2 className="text-2xl font-bold text-red-600">An Error Occurred</h2><p className="mt-2 text-gray-700">{message}</p></div></div>;
-
