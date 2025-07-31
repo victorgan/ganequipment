@@ -18,34 +18,34 @@ const auth = getAuth(app);
 const PREDEFINED_GEAR_LISTS = {
   "Trail Running": [
     { name: 'Trail Running Shoes', model: 'e.g., Hoka Speedgoat', category: 'Footwear', weight: 620 },
-    { name: 'Running Shorts', category: 'Clothing', weight: 120 },
-    { name: 'Technical T-Shirt', category: 'Clothing', weight: 150 },
-    { name: 'Running Socks', category: 'Clothing', weight: 50 },
+    { name: 'Running Shorts', category: 'Clothing (Bottoms)', weight: 120 },
+    { name: 'Technical T-Shirt', category: 'Clothing (Tops)', weight: 150 },
+    { name: 'Running Socks', category: 'Socks', weight: 50 },
     { name: 'Hydration Vest', model: 'e.g., Salomon ADV Skin 12', category: 'Packs', weight: 300 },
     { name: 'Water Bottles/Bladder', category: 'Hydration', weight: 150 },
     { name: 'Energy Gels/Snacks', category: 'Consumables', weight: 30 },
     { name: 'GPS Watch', model: 'e.g., Garmin Forerunner', category: 'Electronics', weight: 50 },
     { name: 'Headlamp', model: 'e.g., Petzl Actik Core', category: 'Electronics', weight: 90 },
-    { name: 'Light Rain Jacket', category: 'Clothing', weight: 250 },
+    { name: 'Light Rain Jacket', category: 'Clothing (Outerwear)', weight: 250 },
     { name: 'Emergency Whistle', category: 'Safety', weight: 10 },
     { name: 'Small First-Aid Kit', category: 'Safety', weight: 100 },
   ],
   "Road Running": [
     { name: 'Road Running Shoes', category: 'Footwear', weight: 500 },
-    { name: 'Running Shorts/Tights', category: 'Clothing', weight: 150 },
-    { name: 'Technical T-Shirt/Singlet', category: 'Clothing', weight: 130 },
-    { name: 'Running Socks', category: 'Clothing', weight: 50 },
+    { name: 'Running Shorts/Tights', category: 'Clothing (Bottoms)', weight: 150 },
+    { name: 'Technical T-Shirt/Singlet', category: 'Clothing (Tops)', weight: 130 },
+    { name: 'Running Socks', category: 'Socks', weight: 50 },
     { name: 'GPS Watch', category: 'Electronics', weight: 50 },
     { name: 'Sunscreen', category: 'Consumables', weight: 100 },
-    { name: 'Hat/Visor', category: 'Clothing', weight: 60 },
+    { name: 'Hat/Visor', category: 'Headwear', weight: 60 },
     { name: 'Water Bottle', category: 'Hydration', weight: 80 },
     { name: 'Energy Gels', category: 'Consumables', weight: 30 },
   ],
   "Road Cycling": [
     { name: 'Road Bike', category: 'Cycling', weight: 8000 },
     { name: 'Helmet', category: 'Safety', weight: 250 },
-    { name: 'Cycling Jersey', category: 'Clothing', weight: 180 },
-    { name: 'Bib Shorts', category: 'Clothing', weight: 200 },
+    { name: 'Cycling Jersey', category: 'Clothing (Tops)', weight: 180 },
+    { name: 'Bib Shorts', category: 'Clothing (Bottoms)', weight: 200 },
     { name: 'Cycling Shoes', category: 'Footwear', weight: 500 },
     { name: 'Clipless Pedals', category: 'Cycling', weight: 300 },
     { name: 'Water Bottles', category: 'Hydration', weight: 160 },
@@ -59,8 +59,8 @@ const PREDEFINED_GEAR_LISTS = {
   "Hotel Road Cycle Touring": [
     { name: 'Road Bike', category: 'Cycling', weight: 8000 },
     { name: 'Helmet', category: 'Safety', weight: 250 },
-    { name: 'Cycling Jerseys', category: 'Clothing', weight: 360 },
-    { name: 'Bib Shorts', category: 'Clothing', weight: 400 },
+    { name: 'Cycling Jerseys', category: 'Clothing (Tops)', weight: 360 },
+    { name: 'Bib Shorts', category: 'Clothing (Bottoms)', weight: 400 },
     { name: 'Cycling Shoes', category: 'Footwear', weight: 500 },
     { name: 'Casual Shoes', category: 'Footwear', weight: 700 },
     { name: 'On-bike Frame Bag/Saddlebag', category: 'Packs', weight: 400 },
@@ -74,30 +74,30 @@ const PREDEFINED_GEAR_LISTS = {
   ],
   "Hiking": [
     { name: 'Hiking Boots/Shoes', category: 'Footwear', weight: 1200 },
-    { name: 'Backpack (20-30L)', category: 'Packs', weight: 900 },
+    { name: 'Daypack', category: 'Packs', weight: 900 },
     { name: 'Water Bottles/Reservoir', category: 'Hydration', weight: 150 },
     { name: 'Water Filter/Purifier', category: 'Hydration', weight: 80 },
     { name: 'Map and Compass/GPS', category: 'Navigation', weight: 100 },
     { name: 'Trekking Poles', category: 'Tools', weight: 500 },
-    { name: 'Rain Jacket', category: 'Clothing', weight: 250 },
-    { name: 'Fleece/Insulated Jacket', category: 'Clothing', weight: 400 },
-    { name: 'Hiking Pants/Shorts', category: 'Clothing', weight: 300 },
-    { name: 'Wool Socks', category: 'Clothing', weight: 80 },
+    { name: 'Rain Jacket', category: 'Clothing (Outerwear)', weight: 250 },
+    { name: 'Fleece/Insulated Jacket', category: 'Clothing (Outerwear)', weight: 400 },
+    { name: 'Hiking Pants/Shorts', category: 'Clothing (Bottoms)', weight: 300 },
+    { name: 'Wool Socks', category: 'Socks', weight: 80 },
     { name: 'First-Aid Kit', category: 'Safety', weight: 150 },
     { name: 'Headlamp', category: 'Electronics', weight: 90 },
     { name: 'Sunscreen', category: 'Consumables', weight: 100 },
-    { name: 'Hat', category: 'Clothing', weight: 70 },
+    { name: 'Hat', category: 'Headwear', weight: 70 },
     { name: 'Snacks/Lunch', category: 'Consumables', weight: 500 },
   ],
   "Onebagging": [
-    { name: 'Backpack (30-45L)', category: 'Packs', weight: 1000 },
+    { name: 'Travel Backpack', category: 'Packs', weight: 1000 },
     { name: 'Packing Cubes', category: 'Organization', weight: 200 },
-    { name: 'Merino Wool T-Shirts', category: 'Clothing', weight: 450 },
-    { name: 'Travel Pants', category: 'Clothing', weight: 400 },
-    { name: 'Shorts', category: 'Clothing', weight: 200 },
+    { name: 'Merino Wool T-Shirts', category: 'Clothing (Tops)', weight: 450 },
+    { name: 'Travel Pants', category: 'Clothing (Bottoms)', weight: 400 },
+    { name: 'Shorts', category: 'Clothing (Bottoms)', weight: 200 },
     { name: 'Underwear', category: 'Clothing', weight: 200 },
-    { name: 'Socks', category: 'Clothing', weight: 200 },
-    { name: 'Packable Rain Jacket', category: 'Clothing', weight: 250 },
+    { name: 'Socks', category: 'Socks', weight: 200 },
+    { name: 'Packable Rain Jacket', category: 'Clothing (Outerwear)', weight: 250 },
     { name: 'Versatile Shoes', category: 'Footwear', weight: 800 },
     { name: 'Toiletry Kit (Solid)', category: 'Hygiene', weight: 250 },
     { name: 'Universal Power Adapter', category: 'Electronics', weight: 150 },
@@ -109,12 +109,13 @@ const PREDEFINED_GEAR_LISTS = {
 };
 
 const DEFAULT_GEAR_INVENTORY = [
-    { name: 'Backpack (30-45L)', model: 'Osprey Farpoint 40', category: 'Packs', notes: '', weight: 1000, quantity: 1, retired: false },
+    { name: 'Travel Backpack', model: 'Osprey Farpoint 40', category: 'Packs', notes: '', weight: 1000, quantity: 1, retired: false },
+    { name: 'Daypack', model: 'REI Flash 22', category: 'Packs', notes: '', weight: 400, quantity: 1, retired: false },
     { name: 'Hydration Vest', model: 'Salomon ADV Skin 12', category: 'Packs', notes: '', weight: 300, quantity: 1, retired: false },
-    { name: 'Technical T-Shirt', model: '', category: 'Clothing', notes: '', weight: 150, quantity: 3, retired: false },
-    { name: 'Running Shorts', model: '', category: 'Clothing', notes: '', weight: 120, quantity: 2, retired: false },
-    { name: 'Rain Jacket', model: 'Patagonia Torrentshell 3L', category: 'Clothing', notes: 'Lightweight and packable', weight: 250, quantity: 1, retired: false },
-    { name: 'Fleece/Insulated Jacket', model: 'Arc\'teryx Atom LT', category: 'Clothing', notes: '', weight: 400, quantity: 1, retired: false },
+    { name: 'Technical T-Shirt', model: '', category: 'Clothing (Tops)', notes: '', weight: 150, quantity: 3, retired: false },
+    { name: 'Running Shorts', model: '', category: 'Clothing (Bottoms)', notes: '', weight: 120, quantity: 2, retired: false },
+    { name: 'Rain Jacket', model: 'Patagonia Torrentshell 3L', category: 'Clothing (Outerwear)', notes: 'Lightweight and packable', weight: 250, quantity: 1, retired: false },
+    { name: 'Fleece/Insulated Jacket', model: 'Arc\'teryx Atom LT', category: 'Clothing (Outerwear)', notes: '', weight: 400, quantity: 1, retired: false },
     { name: 'Hiking Boots/Shoes', model: 'Merrell Moab 3', category: 'Footwear', notes: '', weight: 1200, quantity: 1, retired: false },
     { name: 'Trail Running Shoes', model: 'Saucony Xodus Ultra 4', category: 'Footwear', notes: '', weight: 600, quantity: 1, retired: false },
     { name: 'Headlamp', model: 'Petzl Actik Core', category: 'Electronics', notes: 'With extra batteries', weight: 90, quantity: 1, retired: false },
@@ -124,6 +125,11 @@ const DEFAULT_GEAR_INVENTORY = [
     { name: 'Water Filter/Purifier', model: 'Sawyer Squeeze', category: 'Hydration', notes: '', weight: 80, quantity: 1, retired: false },
     { name: 'Energy Gels/Snacks', model: 'GU Energy Gels', category: 'Consumables', notes: '', weight: 30, quantity: 5, retired: false },
     { name: 'Sunscreen', model: '', category: 'Consumables', notes: '', weight: 100, quantity: 1, retired: false },
+    { name: 'Tent', model: 'Big Agnes Copper Spur HV UL2', category: 'Shelter', notes: '', weight: 1400, quantity: 1, retired: false },
+    { name: 'Sleeping Bag', model: 'REI Magma 15', category: 'Sleep System', notes: '', weight: 800, quantity: 1, retired: false },
+    { name: 'Sleeping Pad', model: 'Therm-a-Rest NeoAir XLite', category: 'Sleep System', notes: '', weight: 350, quantity: 1, retired: false },
+    { name: 'Stove', model: 'MSR PocketRocket 2', category: 'Cooking', notes: '', weight: 73, quantity: 1, retired: false },
+    { name: 'Cook Pot', model: 'TOAKS Titanium 750ml Pot', category: 'Cooking', notes: '', weight: 103, quantity: 1, retired: false },
 ].map(item => ({ ...item, id: crypto.randomUUID() }));
 
 const PREDEFINED_LIST_TITLES = [
@@ -391,7 +397,7 @@ export default function App() {
               onDeleteListClick={deleteCustomList}
             />
           </main>
-          <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={editingGear ? updateGearItem : addGearItem} onAdd={addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} gearNameToModelsMap={gearNameToModelsMap} onDelete={deleteGearItem} />
+          <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={editingGear ? updateGearItem : addGearItem} onAdd={addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} gearNameToModelsMap={gearNameToModelsMap} onDelete={deleteGearItem} customLists={customLists} onSelectList={setSelectedList} />
           <CustomListModal isOpen={isListModalOpen} onClose={() => setIsListModalOpen(false)} onSave={saveCustomList} existingList={editingList} allGear={gear} onDelete={deleteCustomList} />
         </div>
       </div>
@@ -591,7 +597,7 @@ const RecommendedList = ({ items, onAddItem }) => {
 };
 
 
-const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategories, categoryToGearNamesMap, onDelete }) => {
+const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategories, categoryToGearNamesMap, onDelete, customLists, onSelectList }) => {
   const [name, setName] = useState('');
   const [model, setModel] = useState('');
   const [category, setCategory] = useState('');
@@ -670,6 +676,16 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
     onClose();
   };
 
+  const handleSelectList = (list) => {
+    onSelectList(list);
+    onClose();
+  };
+
+  const listsThisItemIsIn = useMemo(() => {
+    if (!existingGear) return [];
+    return customLists.filter(list => list.items && list.items.includes(existingGear.id));
+  }, [customLists, existingGear]);
+
   if (!isOpen) return null;
 
   return (
@@ -690,39 +706,38 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
             </div>
         ) : (
             <form onSubmit={handleSubmit} className="space-y-4">
-            <div>
-                <label htmlFor="category-select" className="block text-sm font-medium text-gray-700 mb-1">Category</label>
-                <select id="category-select" value={showNewCategoryInput ? '_new_' : category} onChange={handleCategorySelectChange} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500">
-                    <option value="">-- Select a Category --</option>
-                    {uniqueCategories.map(cat => <option key={cat} value={cat}>{cat}</option>)}
-                    <option value="_new_">Add New...</option>
-                </select>
+            <div className="grid grid-cols-2 gap-4">
+                <div>
+                    <label htmlFor="category-select" className="block text-sm font-medium text-gray-700 mb-1">Category</label>
+                    <select id="category-select" value={showNewCategoryInput ? '_new_' : category} onChange={handleCategorySelectChange} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500">
+                        <option value="">-- Select --</option>
+                        {uniqueCategories.map(cat => <option key={cat} value={cat}>{cat}</option>)}
+                        <option value="_new_">Add New...</option>
+                    </select>
+                </div>
+                <div>
+                    <label htmlFor="gear-name" className="block text-sm font-medium text-gray-700 mb-1">Gear Name</label>
+                    <select id="gear-name-select" value={showNewGearNameInput ? '_new_' : name} onChange={handleNameSelectChange} disabled={!category} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500 disabled:bg-gray-100">
+                        <option value="">-- Select --</option>
+                        {(categoryToGearNamesMap[category] || []).map(nameOpt => <option key={nameOpt} value={nameOpt}>{nameOpt}</option>)}
+                        <option value="_new_">Add New...</option>
+                    </select>
+                </div>
             </div>
-
             {showNewCategoryInput && (
                 <div>
                 <label htmlFor="new-category" className="block text-sm font-medium text-gray-700 mb-1">New Category Name</label>
                 <input type="text" id="new-category" value={category} onChange={e => setCategory(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" placeholder="Enter new category" autoFocus />
                 </div>
             )}
-            
-            <div>
-                <label htmlFor="gear-name" className="block text-sm font-medium text-gray-700 mb-1">Gear Name</label>
-                <select id="gear-name-select" value={showNewGearNameInput ? '_new_' : name} onChange={handleNameSelectChange} disabled={!category} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500 disabled:bg-gray-100">
-                    <option value="">-- Select a Name --</option>
-                    {(categoryToGearNamesMap[category] || []).map(nameOpt => <option key={nameOpt} value={nameOpt}>{nameOpt}</option>)}
-                    <option value="_new_">Add New...</option>
-                </select>
-                {error && <p className="text-red-500 text-xs mt-1">{error}</p>}
-            </div>
-            
             {showNewGearNameInput && (
                 <div>
                 <label htmlFor="new-gear-name" className="block text-sm font-medium text-gray-700 mb-1">New Gear Name</label>
                 <input type="text" id="new-gear-name" value={name} onChange={e => setName(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" placeholder="Enter new gear name" autoFocus />
                 </div>
             )}
-
+            {error && <p className="text-red-500 text-xs mt-1">{error}</p>}
+            
             <div>
                 <label htmlFor="gear-model" className="block text-sm font-medium text-gray-700 mb-1">Model</label>
                 <input type="text" id="gear-model" value={model} onChange={e => setModel(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" placeholder="e.g., Osprey Talon 22"/>
@@ -748,6 +763,17 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
                 <input id="retired" type="checkbox" checked={retired} onChange={(e) => setRetired(e.target.checked)} className="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500" />
                 <label htmlFor="retired" className="ml-2 block text-sm text-gray-900">Retire this item</label>
             </div>}
+
+            {existingGear && listsThisItemIsIn.length > 0 && (
+                <div>
+                    <h3 className="text-sm font-medium text-gray-700 mb-2">Part of these lists:</h3>
+                    <div className="flex flex-wrap gap-2">
+                        {listsThisItemIsIn.map(list => (
+                            <button key={list.id} type="button" onClick={() => handleSelectList(list)} className="px-2 py-1 bg-gray-200 text-gray-800 text-xs rounded-md hover:bg-gray-300">{list.name}</button>
+                        ))}
+                    </div>
+                </div>
+            )}
 
             <div className="flex justify-between items-center pt-4">
                 <div>
