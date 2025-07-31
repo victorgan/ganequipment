@@ -384,18 +384,22 @@ export default function App() {
       <div className="bg-white/70 backdrop-blur-sm min-h-screen">
         <div className="container mx-auto p-4 md:p-6 lg:p-8">
           <Header />
-          <main className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
-            <GearInventoryPanel gear={gear} onAddClick={() => { setEditingGear(null); setIsGearModalOpen(true); }} onEditClick={(g) => { setEditingGear(g); setIsGearModalOpen(true); }} onDeleteClick={deleteGearItem} selectedList={selectedList} onToggleItemInList={handleToggleItemInList} />
-            <ActivityPanel 
-              selectedList={selectedList} 
-              onSelectList={setSelectedList}
-              packingData={packingData} 
-              onAddPredefinedItem={addPredefinedGearItem} 
-              customLists={customLists} 
-              onNewListClick={handleCreateNewList} 
-              onEditListClick={(l) => { setEditingList(l); setIsListModalOpen(true); }} 
-              onDeleteListClick={deleteCustomList}
-            />
+          <main className="grid grid-cols-1 lg:grid-cols-3 gap-0 mt-6 bg-white/80 backdrop-blur-md rounded-2xl shadow-lg overflow-hidden">
+            <div className="lg:col-span-2">
+              <ActivityPanel 
+                selectedList={selectedList} 
+                onSelectList={setSelectedList}
+                packingData={packingData} 
+                onAddPredefinedItem={addPredefinedGearItem} 
+                customLists={customLists} 
+                onNewListClick={handleCreateNewList} 
+                onEditListClick={(l) => { setEditingList(l); setIsListModalOpen(true); }} 
+                onDeleteListClick={deleteCustomList}
+              />
+            </div>
+            <div className="lg:col-span-1 lg:border-l lg:border-slate-300/50">
+              <GearInventoryPanel gear={gear} onAddClick={() => { setEditingGear(null); setIsGearModalOpen(true); }} onEditClick={(g) => { setEditingGear(g); setIsGearModalOpen(true); }} onDeleteClick={deleteGearItem} selectedList={selectedList} onToggleItemInList={handleToggleItemInList} />
+            </div>
           </main>
           <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={editingGear ? updateGearItem : addGearItem} onAdd={addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} gearNameToModelsMap={gearNameToModelsMap} onDelete={deleteGearItem} customLists={customLists} onSelectList={setSelectedList} />
           <CustomListModal isOpen={isListModalOpen} onClose={() => setIsListModalOpen(false)} onSave={saveCustomList} existingList={editingList} allGear={gear} onDelete={deleteCustomList} />
@@ -437,7 +441,7 @@ const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, sele
     }, [filteredGear]);
 
     return (
-        <div className="bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg"><div className="flex justify-between items-center mb-4"><h2 className="text-2xl font-bold text-slate-800">My Gear Inventory</h2><button onClick={onAddClick} className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"><Plus size={18} /><span>Add Gear</span></button></div>
+        <div className="p-6 h-full flex flex-col"><div className="flex justify-between items-center mb-4"><h2 className="text-2xl font-bold text-slate-800">My Gear Inventory</h2><button onClick={onAddClick} className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"><Plus size={18} /><span>Add Gear</span></button></div>
         <div className="relative mb-4">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
             <input 
@@ -448,7 +452,7 @@ const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, sele
                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
             />
         </div>
-        <div className="space-y-2 max-h-[55vh] overflow-y-auto pr-2">{Object.keys(groupedGear).length > 0 ? Object.entries(groupedGear).map(([category, items]) => <GearCategoryGroup key={category} category={category} items={items} onEditClick={onEditClick} onDeleteClick={onDeleteClick} selectedList={selectedList} onToggleItemInList={onToggleItemInList} />) : <p className="text-center text-gray-500 py-8">No gear found.</p>}</div></div>
+        <div className="space-y-2 flex-grow overflow-y-auto pr-2">{Object.keys(groupedGear).length > 0 ? Object.entries(groupedGear).map(([category, items]) => <GearCategoryGroup key={category} category={category} items={items} onEditClick={onEditClick} onDeleteClick={onDeleteClick} selectedList={selectedList} onToggleItemInList={onToggleItemInList} />) : <p className="text-center text-gray-500 py-8">No gear found.</p>}</div></div>
     );
 };
 
@@ -503,7 +507,7 @@ const ActivityPanel = ({ selectedList, onSelectList, packingData, onAddPredefine
   };
 
   return (
-    <div className="bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg">
+    <div className="p-6">
       <h2 className="text-2xl font-bold text-slate-800 mb-4">Create a Packing List</h2>
       
       <h3 className="text-lg font-semibold text-slate-700 mb-2">Pre-defined Lists</h3>
@@ -597,7 +601,7 @@ const RecommendedList = ({ items, onAddItem }) => {
 };
 
 
-const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategories, categoryToGearNamesMap, onDelete, customLists, onSelectList }) => {
+const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategories, categoryToGearNamesMap, gearNameToModelsMap, onDelete, customLists, onSelectList }) => {
   const [name, setName] = useState('');
   const [model, setModel] = useState('');
   const [category, setCategory] = useState('');
@@ -608,6 +612,7 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
   const [error, setError] = useState('');
   const [showNewCategoryInput, setShowNewCategoryInput] = useState(false);
   const [showNewGearNameInput, setShowNewGearNameInput] = useState(false);
+  const [showNewModelInput, setShowNewModelInput] = useState(false);
   const [isConfirmingDelete, setIsConfirmingDelete] = useState(false);
 
   useEffect(() => {
@@ -616,10 +621,12 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
         const isExistingCategory = uniqueCategories.includes(currentCategory);
         const currentName = existingGear?.name || '';
         const isExistingName = categoryToGearNamesMap[currentCategory]?.includes(currentName);
+        const currentModel = existingGear?.model || '';
+        const isExistingModel = gearNameToModelsMap[currentName]?.includes(currentModel);
 
         setCategory(currentCategory);
         setName(currentName);
-        setModel(existingGear?.model || '');
+        setModel(currentModel);
         setWeight(existingGear?.weight || '');
         setNotes(existingGear?.notes || '');
         setQuantity(existingGear?.quantity || 1);
@@ -627,17 +634,19 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
         
         setShowNewCategoryInput(!!(currentCategory && !isExistingCategory));
         setShowNewGearNameInput(!!(currentName && !isExistingName));
+        setShowNewModelInput(!!(currentModel && !isExistingModel));
         
         setError('');
         setIsConfirmingDelete(false);
     }
-  }, [existingGear, isOpen, uniqueCategories, categoryToGearNamesMap]);
+  }, [existingGear, isOpen, uniqueCategories, categoryToGearNamesMap, gearNameToModelsMap]);
 
   const handleCategorySelectChange = (e) => {
     const value = e.target.value;
     setName('');
     setModel('');
     setShowNewGearNameInput(false);
+    setShowNewModelInput(false);
     if (value === '_new_') {
         setShowNewCategoryInput(true);
         setCategory('');
@@ -650,12 +659,24 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
   const handleNameSelectChange = (e) => {
     const value = e.target.value;
     setModel('');
+    setShowNewModelInput(false);
     if (value === '_new_') {
         setShowNewGearNameInput(true);
         setName('');
     } else {
         setShowNewGearNameInput(false);
         setName(value);
+    }
+  };
+
+  const handleModelSelectChange = (e) => {
+    const value = e.target.value;
+    if (value === '_new_') {
+        setShowNewModelInput(true);
+        setModel('');
+    } else {
+        setShowNewModelInput(false);
+        setModel(value);
     }
   };
 
@@ -690,7 +711,7 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 p-4">
-      <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md transform transition-all">
+      <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-lg transform transition-all">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-bold text-gray-900">{existingGear ? 'Edit Gear' : 'Add New Gear'}</h2>
           <button onClick={onClose} className="text-gray-400 hover:text-gray-600"><X size={24} /></button>
@@ -706,30 +727,30 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
             </div>
         ) : (
             <form onSubmit={handleSubmit} className="space-y-4">
-            <div className="grid grid-cols-2 gap-4">
-                <div>
+            <div className="flex gap-4">
+                <div className="w-1/2">
                     <label htmlFor="category-select" className="block text-sm font-medium text-gray-700 mb-1">Category</label>
-                    <select id="category-select" value={showNewCategoryInput ? '_new_' : category} onChange={handleCategorySelectChange} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500">
-                        <option value="">-- Select --</option>
-                        {uniqueCategories.map(cat => <option key={cat} value={cat}>{cat}</option>)}
-                        <option value="_new_">Add New...</option>
-                    </select>
+                    <div className="border rounded-lg h-48 overflow-y-auto">
+                        {uniqueCategories.map(cat => <button type="button" key={cat} onClick={() => handleCategorySelectChange({target: {value: cat}})} className={`w-full text-left p-2 text-sm ${category === cat ? 'bg-green-500 text-white' : 'hover:bg-gray-100'}`}>{cat}</button>)}
+                        <button type="button" onClick={() => handleCategorySelectChange({target: {value: '_new_'}})} className={`w-full text-left p-2 text-sm ${showNewCategoryInput ? 'bg-green-500 text-white' : 'hover:bg-gray-100'}`}>Add New...</button>
+                    </div>
                 </div>
-                <div>
+                <div className="w-1/2">
                     <label htmlFor="gear-name" className="block text-sm font-medium text-gray-700 mb-1">Gear Name</label>
-                    <select id="gear-name-select" value={showNewGearNameInput ? '_new_' : name} onChange={handleNameSelectChange} disabled={!category} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500 disabled:bg-gray-100">
-                        <option value="">-- Select --</option>
-                        {(categoryToGearNamesMap[category] || []).map(nameOpt => <option key={nameOpt} value={nameOpt}>{nameOpt}</option>)}
-                        <option value="_new_">Add New...</option>
-                    </select>
+                    <div className={`border rounded-lg h-48 overflow-y-auto ${!category && 'bg-gray-50'}`}>
+                        {category && !showNewCategoryInput && (categoryToGearNamesMap[category] || []).map(nameOpt => <button type="button" key={nameOpt} onClick={() => handleNameSelectChange({target: {value: nameOpt}})} className={`w-full text-left p-2 text-sm ${name === nameOpt ? 'bg-green-500 text-white' : 'hover:bg-gray-100'}`}>{nameOpt}</button>)}
+                        {category && !showNewCategoryInput && <button type="button" onClick={() => handleNameSelectChange({target: {value: '_new_'}})} className={`w-full text-left p-2 text-sm ${showNewGearNameInput ? 'bg-green-500 text-white' : 'hover:bg-gray-100'}`}>Add New...</button>}
+                    </div>
                 </div>
             </div>
+            
             {showNewCategoryInput && (
                 <div>
                 <label htmlFor="new-category" className="block text-sm font-medium text-gray-700 mb-1">New Category Name</label>
                 <input type="text" id="new-category" value={category} onChange={e => setCategory(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" placeholder="Enter new category" autoFocus />
                 </div>
             )}
+            
             {showNewGearNameInput && (
                 <div>
                 <label htmlFor="new-gear-name" className="block text-sm font-medium text-gray-700 mb-1">New Gear Name</label>
@@ -737,7 +758,7 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
                 </div>
             )}
             {error && <p className="text-red-500 text-xs mt-1">{error}</p>}
-            
+
             <div>
                 <label htmlFor="gear-model" className="block text-sm font-medium text-gray-700 mb-1">Model</label>
                 <input type="text" id="gear-model" value={model} onChange={e => setModel(e.target.value)} className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" placeholder="e.g., Osprey Talon 22"/>
