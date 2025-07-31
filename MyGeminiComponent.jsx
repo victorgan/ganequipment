@@ -184,10 +184,9 @@ export default function App() {
   }, [userId]);
 
   // --- Memoized Calculations ---
-  const { packingData, uniqueCategories, categoryToGearNamesMap, gearNameToModelsMap } = useMemo(() => {
+  const { packingData, uniqueCategories, categoryToGearNamesMap } = useMemo(() => {
     const allCategories = new Set();
     const catToNameMap = {};
-    const nameToModelMap = {};
 
     Object.values(PREDEFINED_GEAR_LISTS).flat().forEach(item => {
         const category = item.category || 'Uncategorized';
@@ -199,21 +198,10 @@ export default function App() {
     });
      gear.forEach(item => {
         if(item.category) allCategories.add(item.category);
-        if (item.name) {
-            if (!nameToModelMap[item.name]) {
-                nameToModelMap[item.name] = new Set();
-            }
-            if (item.model) {
-                nameToModelMap[item.name].add(item.model);
-            }
-        }
      });
 
     for (const category in catToNameMap) {
         catToNameMap[category] = Array.from(catToNameMap[category]).sort();
-    }
-    for (const name in nameToModelMap) {
-        nameToModelMap[name] = Array.from(nameToModelMap[name]).sort();
     }
     
     let packData = null;
@@ -286,8 +274,7 @@ export default function App() {
     return {
         packingData: packData,
         uniqueCategories: Array.from(allCategories).sort(),
-        categoryToGearNamesMap: catToNameMap,
-        gearNameToModelsMap: nameToModelMap
+        categoryToGearNamesMap: catToNameMap
     };
   }, [selectedList, gear]);
 
@@ -401,7 +388,7 @@ export default function App() {
               <GearInventoryPanel gear={gear} onAddClick={() => { setEditingGear(null); setIsGearModalOpen(true); }} onEditClick={(g) => { setEditingGear(g); setIsGearModalOpen(true); }} onDeleteClick={deleteGearItem} selectedList={selectedList} onToggleItemInList={handleToggleItemInList} />
             </div>
           </main>
-          <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={editingGear ? updateGearItem : addGearItem} onAdd={addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} gearNameToModelsMap={gearNameToModelsMap} onDelete={deleteGearItem} customLists={customLists} onSelectList={setSelectedList} />
+          <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={editingGear ? updateGearItem : addGearItem} onAdd={addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} onDelete={deleteGearItem} customLists={customLists} onSelectList={setSelectedList} />
           <CustomListModal isOpen={isListModalOpen} onClose={() => setIsListModalOpen(false)} onSave={saveCustomList} existingList={editingList} allGear={gear} onDelete={deleteCustomList} />
         </div>
       </div>
@@ -601,7 +588,7 @@ const RecommendedList = ({ items, onAddItem }) => {
 };
 
 
-const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategories, categoryToGearNamesMap, gearNameToModelsMap, onDelete, customLists, onSelectList }) => {
+const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategories, categoryToGearNamesMap, onDelete, customLists, onSelectList }) => {
   const [name, setName] = useState('');
   const [model, setModel] = useState('');
   const [category, setCategory] = useState('');
@@ -612,7 +599,6 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
   const [error, setError] = useState('');
   const [showNewCategoryInput, setShowNewCategoryInput] = useState(false);
   const [showNewGearNameInput, setShowNewGearNameInput] = useState(false);
-  const [showNewModelInput, setShowNewModelInput] = useState(false);
   const [isConfirmingDelete, setIsConfirmingDelete] = useState(false);
 
   useEffect(() => {
@@ -621,12 +607,10 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
         const isExistingCategory = uniqueCategories.includes(currentCategory);
         const currentName = existingGear?.name || '';
         const isExistingName = categoryToGearNamesMap[currentCategory]?.includes(currentName);
-        const currentModel = existingGear?.model || '';
-        const isExistingModel = gearNameToModelsMap[currentName]?.includes(currentModel);
 
         setCategory(currentCategory);
         setName(currentName);
-        setModel(currentModel);
+        setModel(existingGear?.model || '');
         setWeight(existingGear?.weight || '');
         setNotes(existingGear?.notes || '');
         setQuantity(existingGear?.quantity || 1);
@@ -634,19 +618,17 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
         
         setShowNewCategoryInput(!!(currentCategory && !isExistingCategory));
         setShowNewGearNameInput(!!(currentName && !isExistingName));
-        setShowNewModelInput(!!(currentModel && !isExistingModel));
         
         setError('');
         setIsConfirmingDelete(false);
     }
-  }, [existingGear, isOpen, uniqueCategories, categoryToGearNamesMap, gearNameToModelsMap]);
+  }, [existingGear, isOpen, uniqueCategories, categoryToGearNamesMap]);
 
   const handleCategorySelectChange = (e) => {
     const value = e.target.value;
     setName('');
     setModel('');
     setShowNewGearNameInput(false);
-    setShowNewModelInput(false);
     if (value === '_new_') {
         setShowNewCategoryInput(true);
         setCategory('');
@@ -659,24 +641,12 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
   const handleNameSelectChange = (e) => {
     const value = e.target.value;
     setModel('');
-    setShowNewModelInput(false);
     if (value === '_new_') {
         setShowNewGearNameInput(true);
         setName('');
     } else {
         setShowNewGearNameInput(false);
         setName(value);
-    }
-  };
-
-  const handleModelSelectChange = (e) => {
-    const value = e.target.value;
-    if (value === '_new_') {
-        setShowNewModelInput(true);
-        setModel('');
-    } else {
-        setShowNewModelInput(false);
-        setModel(value);
     }
   };
 
@@ -968,3 +938,4 @@ const WeightDistributionChart = ({ data }) => {
 
 const LoadingSpinner = () => <div className="flex flex-col justify-center items-center h-screen bg-gray-50"><div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-green-600"></div><p className="mt-4 text-lg text-gray-600">Loading your gear...</p></div>;
 const ErrorMessage = ({ message }) => <div className="flex justify-center items-center h-screen bg-red-50"><div className="text-center p-8 bg-white rounded-lg shadow-md"><h2 className="text-2xl font-bold text-red-600">An Error Occurred</h2><p className="mt-2 text-gray-700">{message}</p></div></div>;
+
