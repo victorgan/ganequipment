@@ -4,6 +4,7 @@ import { getFirestore, doc, setDoc, getDoc, onSnapshot, collection, addDoc, dele
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
 import { ArrowDown, ArrowUp, Plus, Trash2, Edit, X, Wind, Mountain, Briefcase, Bike, ChevronDown, ChevronRight, Weight, Package, Backpack, Tent, Map as MapIcon, Fish, Sailboat, Snowflake, Camera, Plane, Car, Flame, Bed, Star, Search } from 'lucide-react';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
 // --- Firebase Configuration ---
 const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
@@ -109,9 +110,9 @@ const PREDEFINED_GEAR_LISTS = {
 };
 
 const DEFAULT_GEAR_INVENTORY = [
-    { name: 'Travel Backpack', model: 'Osprey Farpoint 40', category: 'Packs', notes: '', weight: 1000, quantity: 1, retired: false },
-    { name: 'Daypack', model: 'REI Flash 22', category: 'Packs', notes: '', weight: 400, quantity: 1, retired: false },
-    { name: 'Hydration Vest', model: 'Salomon ADV Skin 12', category: 'Packs', notes: '', weight: 300, quantity: 1, retired: false },
+    { name: 'Travel Backpack', model: 'Osprey Farpoint 40', category: 'Packs', notes: '', weight: 1000, quantity: 1, retired: false, isContainer: true },
+    { name: 'Daypack', model: 'REI Flash 22', category: 'Packs', notes: '', weight: 400, quantity: 1, retired: false, isContainer: true },
+    { name: 'Hydration Vest', model: 'Salomon ADV Skin 12', category: 'Packs', notes: '', weight: 300, quantity: 1, retired: false, isContainer: true },
     { name: 'Technical T-Shirt', model: '', category: 'Clothing (Tops)', notes: '', weight: 150, quantity: 3, retired: false },
     { name: 'Running Shorts', model: '', category: 'Clothing (Bottoms)', notes: '', weight: 120, quantity: 2, retired: false },
     { name: 'Rain Jacket', model: 'Patagonia Torrentshell 3L', category: 'Clothing (Outerwear)', notes: 'Lightweight and packable', weight: 250, quantity: 1, retired: false },
@@ -121,7 +122,7 @@ const DEFAULT_GEAR_INVENTORY = [
     { name: 'Headlamp', model: 'Petzl Actik Core', category: 'Electronics', notes: 'With extra batteries', weight: 90, quantity: 1, retired: false },
     { name: 'GPS Watch', model: 'Garmin Fenix 7', category: 'Electronics', notes: '', weight: 60, quantity: 1, retired: false },
     { name: 'GPS Watch', model: 'Garmin Forerunner 255s', category: 'Electronics', notes: '', weight: 49, quantity: 1, retired: false },
-    { name: 'First-Aid Kit', model: 'Adventure Medical Kits', category: 'Safety', notes: 'Check supplies regularly', weight: 150, quantity: 1, retired: false },
+    { name: 'First-Aid Kit', model: 'Adventure Medical Kits', category: 'Safety', notes: 'Check supplies regularly', weight: 150, quantity: 1, retired: false, isContainer: true },
     { name: 'Water Filter/Purifier', model: 'Sawyer Squeeze', category: 'Hydration', notes: '', weight: 80, quantity: 1, retired: false },
     { name: 'Energy Gels/Snacks', model: 'GU Energy Gels', category: 'Consumables', notes: '', weight: 30, quantity: 5, retired: false },
     { name: 'Sunscreen', model: '', category: 'Consumables', notes: '', weight: 100, quantity: 1, retired: false },
@@ -154,6 +155,8 @@ export default function App() {
   const [editingList, setEditingList] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [weightUnit, setWeightUnit] = useState('metric');
+  const [viewMode, setViewMode] = useState('category');
 
   // --- Auth & Data Loading Effects ---
   useEffect(() => {
@@ -184,9 +187,10 @@ export default function App() {
   }, [userId]);
 
   // --- Memoized Calculations ---
-  const { packingData, uniqueCategories, categoryToGearNamesMap } = useMemo(() => {
+  const { packingData, uniqueCategories, categoryToGearNamesMap, gearNameToModelsMap } = useMemo(() => {
     const allCategories = new Set();
     const catToNameMap = {};
+    const nameToModelMap = {};
 
     Object.values(PREDEFINED_GEAR_LISTS).flat().forEach(item => {
         const category = item.category || 'Uncategorized';
@@ -198,10 +202,21 @@ export default function App() {
     });
      gear.forEach(item => {
         if(item.category) allCategories.add(item.category);
+        if (item.name) {
+            if (!nameToModelMap[item.name]) {
+                nameToModelMap[item.name] = new Set();
+            }
+            if (item.model) {
+                nameToModelMap[item.name].add(item.model);
+            }
+        }
      });
 
     for (const category in catToNameMap) {
         catToNameMap[category] = Array.from(catToNameMap[category]).sort();
+    }
+    for (const name in nameToModelMap) {
+        nameToModelMap[name] = Array.from(nameToModelMap[name]).sort();
     }
     
     let packData = null;
@@ -274,7 +289,8 @@ export default function App() {
     return {
         packingData: packData,
         uniqueCategories: Array.from(allCategories).sort(),
-        categoryToGearNamesMap: catToNameMap
+        categoryToGearNamesMap: catToNameMap,
+        gearNameToModelsMap: nameToModelMap
     };
   }, [selectedList, gear]);
 
@@ -382,13 +398,17 @@ export default function App() {
                 onNewListClick={handleCreateNewList} 
                 onEditListClick={(l) => { setEditingList(l); setIsListModalOpen(true); }} 
                 onDeleteListClick={deleteCustomList}
+                weightUnit={weightUnit}
+                setWeightUnit={setWeightUnit}
+                viewMode={viewMode}
+                setViewMode={setViewMode}
               />
             </div>
             <div className="lg:col-span-1 lg:border-l lg:border-slate-300/50">
-              <GearInventoryPanel gear={gear} onAddClick={() => { setEditingGear(null); setIsGearModalOpen(true); }} onEditClick={(g) => { setEditingGear(g); setIsGearModalOpen(true); }} onDeleteClick={deleteGearItem} selectedList={selectedList} onToggleItemInList={handleToggleItemInList} />
+              <GearInventoryPanel gear={gear} onAddClick={() => { setEditingGear(null); setIsGearModalOpen(true); }} onEditClick={(g) => { setEditingGear(g); setIsGearModalOpen(true); }} onDeleteClick={deleteGearItem} selectedList={selectedList} onToggleItemInList={handleToggleItemInList} weightUnit={weightUnit} />
             </div>
           </main>
-          <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={editingGear ? updateGearItem : addGearItem} onAdd={addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} onDelete={deleteGearItem} customLists={customLists} onSelectList={setSelectedList} />
+          <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={updateGearItem} onAdd={addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} onDelete={deleteGearItem} customLists={customLists} onSelectList={setSelectedList} />
           <CustomListModal isOpen={isListModalOpen} onClose={() => setIsListModalOpen(false)} onSave={saveCustomList} existingList={editingList} allGear={gear} onDelete={deleteCustomList} />
         </div>
       </div>
@@ -399,7 +419,7 @@ export default function App() {
 // --- Sub-components ---
 const Header = () => <header className="text-center"><h1 className="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight">Packlist.Pro</h1><p className="mt-2 text-lg text-slate-600">Just Organize Your Stuff Already!</p></header>;
 
-const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, selectedList, onToggleItemInList }) => {
+const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, selectedList, onToggleItemInList, weightUnit }) => {
     const [searchTerm, setSearchTerm] = useState('');
 
     const filteredGear = useMemo(() => {
@@ -439,18 +459,26 @@ const GearInventoryPanel = ({ gear, onAddClick, onEditClick, onDeleteClick, sele
                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
             />
         </div>
-        <div className="space-y-2 flex-grow overflow-y-auto pr-2">{Object.keys(groupedGear).length > 0 ? Object.entries(groupedGear).map(([category, items]) => <GearCategoryGroup key={category} category={category} items={items} onEditClick={onEditClick} onDeleteClick={onDeleteClick} selectedList={selectedList} onToggleItemInList={onToggleItemInList} />) : <p className="text-center text-gray-500 py-8">No gear found.</p>}</div></div>
+        <div className="space-y-2 flex-grow overflow-y-auto pr-2">{Object.keys(groupedGear).length > 0 ? Object.entries(groupedGear).map(([category, items]) => <GearCategoryGroup key={category} category={category} items={items} onEditClick={onEditClick} onDeleteClick={onDeleteClick} selectedList={selectedList} onToggleItemInList={onToggleItemInList} weightUnit={weightUnit} />) : <p className="text-center text-gray-500 py-8">No gear found.</p>}</div></div>
     );
 };
 
-const GearCategoryGroup = ({ category, items, onEditClick, onDeleteClick, selectedList, onToggleItemInList }) => {
+const GearCategoryGroup = ({ category, items, onEditClick, onDeleteClick, selectedList, onToggleItemInList, weightUnit }) => {
     const [isOpen, setIsOpen] = useState(true);
-    return (<div className="border border-slate-200 rounded-lg"><button onClick={() => setIsOpen(!isOpen)} className="w-full flex justify-between items-center p-3 bg-slate-100 hover:bg-slate-200 transition-colors rounded-t-lg"><h3 className="font-bold text-slate-800">{category}</h3>{isOpen ? <ChevronDown size={20} /> : <ChevronRight size={20} />}</button>{isOpen && <div className="p-2 space-y-2">{items.map(item => <GearItem key={item.id} item={item} onEdit={() => onEditClick(item)} onDelete={() => onDeleteClick(item.id)} selectedList={selectedList} onToggleItemInList={onToggleItemInList} />)}</div>}</div>);
+    return (<div className="border border-slate-200 rounded-lg"><button onClick={() => setIsOpen(!isOpen)} className="w-full flex justify-between items-center p-3 bg-slate-100 hover:bg-slate-200 transition-colors rounded-t-lg"><h3 className="font-bold text-slate-800">{category}</h3>{isOpen ? <ChevronDown size={20} /> : <ChevronRight size={20} />}</button>{isOpen && <div className="p-2 space-y-2">{items.map(item => <GearItem key={item.id} item={item} onEdit={() => onEditClick(item)} onDelete={() => onDeleteClick(item.id)} selectedList={selectedList} onToggleItemInList={onToggleItemInList} weightUnit={weightUnit} />)}</div>}</div>);
 };
 
-const GearItem = ({ item, onEdit, onDelete, selectedList, onToggleItemInList }) => {
+const GearItem = ({ item, onEdit, onDelete, selectedList, onToggleItemInList, weightUnit }) => {
     const isCustomListSelected = selectedList && !('predefined' in selectedList);
     const isInList = isCustomListSelected && selectedList.items.includes(item.id);
+
+    const formatWeight = (grams, unit) => {
+        if (unit === 'imperial') {
+            const ounces = (grams * 0.035274).toFixed(1);
+            return `${ounces} oz`;
+        }
+        return `${grams || 0}g`;
+    };
 
     return (
         <div className={`bg-white/50 border border-slate-200 rounded-lg p-3 transition-shadow duration-300 hover:shadow-md ${item.retired ? 'opacity-50' : ''}`}>
@@ -459,7 +487,7 @@ const GearItem = ({ item, onEdit, onDelete, selectedList, onToggleItemInList }) 
                     <p className="font-semibold text-slate-800 truncate">{item.name}</p>
                     {item.model && <p className="text-sm text-slate-500 italic truncate">{item.model}</p>}
                     <div className="flex items-center gap-4 text-xs text-slate-500 mt-1">
-                        <span className="flex items-center gap-1"><Weight size={12} /> {item.weight || 0}g</span>
+                        <span className="flex items-center gap-1"><Weight size={12} /> {formatWeight(item.weight, weightUnit)}</span>
                         <span className="flex items-center gap-1"><Package size={12} /> Qty: {item.quantity || 1}</span>
                     </div>
                 </div>
@@ -486,11 +514,21 @@ const ICONS = {
     "Onebagging": <Briefcase className="text-indigo-500" />,
 };
 
-const ActivityPanel = ({ selectedList, onSelectList, packingData, onAddPredefinedItem, customLists, onNewListClick, onEditListClick, onDeleteListClick }) => {
+const ActivityPanel = ({ selectedList, onSelectList, packingData, onAddPredefinedItem, customLists, onNewListClick, onEditListClick, onDeleteListClick, weightUnit, setWeightUnit, viewMode, setViewMode }) => {
   const formatDate = (dateString) => {
     if (!dateString) return '';
     const date = new Date(dateString);
     return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+  };
+
+  const formatTotalWeight = (grams, unit) => {
+    if (unit === 'imperial') {
+        const totalOunces = grams * 0.035274;
+        const lbs = Math.floor(totalOunces / 16);
+        const oz = (totalOunces % 16).toFixed(1);
+        return `${lbs} lbs ${oz} oz`;
+    }
+    return `${(grams / 1000).toFixed(2)}kg`;
   };
 
   return (
@@ -524,6 +562,10 @@ const ActivityPanel = ({ selectedList, onSelectList, packingData, onAddPredefine
       {selectedList && packingData && (
         <div>
           <div className="flex justify-between items-baseline"><h3 className="text-xl font-bold text-slate-800 mb-3">Packing for {selectedList.name}</h3></div>
+          <div className="flex rounded-lg bg-slate-200 p-0.5 w-min mb-4">
+              <button onClick={() => setViewMode('category')} className={`px-2 py-0.5 text-sm rounded-md ${viewMode === 'category' ? 'bg-white shadow-sm' : ''}`}>Category</button>
+              <button onClick={() => setViewMode('container')} className={`px-2 py-0.5 text-sm rounded-md ${viewMode === 'container' ? 'bg-white shadow-sm' : ''}`}>Container</button>
+          </div>
           <div className="space-y-4">
             <RecommendedList 
                 items={packingData.combinedList} 
@@ -534,9 +576,15 @@ const ActivityPanel = ({ selectedList, onSelectList, packingData, onAddPredefine
             <div className="mt-8">
                 <div className="flex justify-between items-baseline">
                     <h4 className="text-lg font-semibold text-slate-700 mb-2">Weight Distribution</h4>
-                    <span className="font-bold text-slate-600 flex items-center gap-2"><Weight size={18}/> {(packingData.totalWeight / 1000).toFixed(2)}kg</span>
+                    <div className="flex items-center gap-4">
+                        <span className="font-bold text-slate-600 flex items-center gap-2"><Weight size={18}/> {formatTotalWeight(packingData.totalWeight, weightUnit)}</span>
+                        <div className="flex rounded-lg bg-slate-200 p-0.5">
+                            <button onClick={() => setWeightUnit('metric')} className={`px-2 py-0.5 text-sm rounded-md ${weightUnit === 'metric' ? 'bg-white shadow-sm' : ''}`}>kg</button>
+                            <button onClick={() => setWeightUnit('imperial')} className={`px-2 py-0.5 text-sm rounded-md ${weightUnit === 'imperial' ? 'bg-white shadow-sm' : ''}`}>lbs</button>
+                        </div>
+                    </div>
                 </div>
-                <WeightDistributionChart data={packingData.chartData} />
+                <WeightDistributionChart data={packingData.chartData} unit={weightUnit} />
             </div>
           )}
         </div>
@@ -600,6 +648,7 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
   const [showNewCategoryInput, setShowNewCategoryInput] = useState(false);
   const [showNewGearNameInput, setShowNewGearNameInput] = useState(false);
   const [isConfirmingDelete, setIsConfirmingDelete] = useState(false);
+  const [isContainer, setIsContainer] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
@@ -615,6 +664,7 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
         setNotes(existingGear?.notes || '');
         setQuantity(existingGear?.quantity || 1);
         setRetired(existingGear?.retired || false);
+        setIsContainer(existingGear?.isContainer || false);
         
         setShowNewCategoryInput(!!(currentCategory && !isExistingCategory));
         setShowNewGearNameInput(!!(currentName && !isExistingName));
@@ -653,7 +703,7 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name.trim()) { setError('Gear name is required.'); return; }
-    const gearData = { id: existingGear?.id, name: name.trim(), model: model.trim(), category: category.trim(), weight: parseInt(weight, 10) || 0, notes: notes.trim(), quantity: parseInt(quantity, 10) || 1, retired };
+    const gearData = { id: existingGear?.id, name: name.trim(), model: model.trim(), category: category.trim(), weight: parseInt(weight, 10) || 0, notes: notes.trim(), quantity: parseInt(quantity, 10) || 1, retired, isContainer };
     if (existingGear) {
         onSave(gearData);
     } else {
@@ -748,6 +798,11 @@ const GearModal = ({ isOpen, onClose, onSave, onAdd, existingGear, uniqueCategor
             <div>
                 <label htmlFor="notes" className="block text-sm font-medium text-gray-700 mb-1">Notes</label>
                 <textarea id="notes" value={notes} onChange={e => setNotes(e.target.value)} rows="3" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"></textarea>
+            </div>
+
+            <div className="flex items-center">
+                <input id="isContainer" type="checkbox" checked={isContainer} onChange={(e) => setIsContainer(e.target.checked)} className="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500" />
+                <label htmlFor="isContainer" className="ml-2 block text-sm text-gray-900">This item is a container</label>
             </div>
 
             {existingGear && <div className="flex items-center">
@@ -893,21 +948,25 @@ const CustomListModal = ({ isOpen, onClose, onSave, existingList, allGear, onDel
 
 const COLORS = ['#16a34a', '#0ea5e9', '#f97316', '#f59e0b', '#8b5cf6', '#10b981', '#facc15', '#84cc16'];
 
-const CustomTooltip = ({ active, payload }) => {
+const CustomTooltip = ({ active, payload, unit }) => {
     if (active && payload && payload.length) {
         const data = payload[0];
-        const percent = typeof data.percent === 'number' ? (data.percent * 100).toFixed(1) : '0.0';
+        const value = data.value;
+        const displayWeight = unit === 'imperial' 
+            ? `${(value * 0.035274).toFixed(1)} oz` 
+            : `${value}g`;
+        const percent = typeof data.payload.percent === 'number' ? (data.payload.percent * 100).toFixed(1) : '0.0';
         return (
             <div className="bg-white p-2 border border-gray-300 rounded-lg shadow-sm">
                 <p className="font-bold">{data.name}</p>
-                <p className="text-sm text-gray-700">{`Weight: ${data.value}g (${percent}%)`}</p>
+                <p className="text-sm text-gray-700">{`Weight: ${displayWeight} (${percent}%)`}</p>
             </div>
         );
     }
     return null;
 };
 
-const WeightDistributionChart = ({ data }) => {
+const WeightDistributionChart = ({ data, unit }) => {
     return (
         <div style={{ width: '100%', height: 300 }}>
             <ResponsiveContainer>
@@ -927,7 +986,7 @@ const WeightDistributionChart = ({ data }) => {
                             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                         ))}
                     </Pie>
-                    <Tooltip content={<CustomTooltip />} />
+                    <Tooltip content={<CustomTooltip unit={unit} />} />
                     <Legend />
                 </PieChart>
             </ResponsiveContainer>
