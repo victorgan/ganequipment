@@ -62,6 +62,7 @@ backpack.
 
 ### On Body
 
+- Outerwear: Chore coat or raincoat
 - Pants: [Outlier New Dungarees](#outlier-new-dungarees-pants)
 - Underwear: Saxx Synthetic Boxers
 - Shirt: Wool and Prince Henley
@@ -70,19 +71,15 @@ backpack.
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
 - Phone: iPhone 16 Pro with Magsafe Wallet
 
-### Packs
-
-- Backpack: [CTactical CT15](#ctactical-ct15-backpack)
-- Pouches x6: [Black Diamond Skin Maintenance Kit Pouch](#black-diamond-skin-maintenance-kit-pouch)
-
 ### In the Ctactical CT15
 
+- Backpack: [CTactical CT15](#ctactical-ct15-backpack)
 - A hygiene pouch with a toothbrush, razor, toothpaste, shave cream, moisturizer, toner, sunscreen, floss, tweezers, nail cutter, cleanser, eye cream.
 - A tech pouch with a Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, a Garmin Watch cable, wired earbuds and 0.5/3 ft USB-C cables, SD card reader, Crucial X10 Pro 4TB SSD.
-- Clothes. Either:
-    - A packing zip bag for clothes: x1 extra underwear, x1 extra socks, gym clothes, sleep clothes
-    - A pencil case with a wool t shirt and a synthetic running shirt, and a pencil case with running shorts and an extra pair of underwear
-- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
+- Clothes
+    - gym/sleep shorts, gym shirt, lounge shirt, extra underwear
+    - nice t-shirt and pants
+    - Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
 - A pencil case for health: face mask, salt sticks, hand sanitizer, spork, vitamins and OTC medications (Advil, Claritin, Imodium, Peptol Bismol, Dramamine)
 - A pencil case for snacks
 - A passport case: passport, visas, home keys, debit card, magsafe card holder, work badge
@@ -238,6 +235,9 @@ I use this for maps when cycling (on my handlebar) or trail running.
 
 ## Clothes
 
+Clothes go in the large packing cube, zip small bag or multiple
+pencile cases, depending on the amount and convenience needed.
+
 ### Loungewear
 
 #### Costco Cotton Sweatpants
@@ -265,16 +265,19 @@ Also just a t-shirt.
 
 #### Maroon Cotton T-Shirt
 
-### Sweaters
+Another just a t-shirt.
+
+### Casual Sweaters
 
 #### Gap Sweater
 
 Comfy
 
-### Casual Pants
+#### Banana Republic Red Knit Hoodie
 
-I store them in the large packing cube, zip small bag or multiple
-pencile cases, depending on the amount.
+Looks kinda cool.
+
+### Casual Pants
 
 #### Outlier New Dungarees Pants
 
