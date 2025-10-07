@@ -1,7 +1,7 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="robots" content="noindex, nofollow">
 
-Updated July 2025
+Updated October 2025
 
 # Contents
 
@@ -99,6 +99,7 @@ Pre-ride checklist:
 
 - Downlad the route to the 6X
 - Charge the Fenix 6X, 255s, and Varia
+- Check Epic Ride Weather App
 - Pump tires
 - Fill water bottles
 - Stock food
@@ -134,6 +135,10 @@ Pre-ride checklist:
 - Extra food
 
 ## Trail Running
+
+### Prep
+
+- Check Epic Ride Weather App
 
 ### On Person
 
@@ -233,16 +238,61 @@ I use this for maps when cycling (on my handlebar) or trail running.
 
 ## Clothes
 
+### Loungewear
+
+#### Costco Cotton Sweatpants
+
+I like that it's cotton for breathability. Could be comfier. Also it's black,
+which is a little jarring. Grey might have more staying power.
+
+#### Manduka Pro Yoga Shorts
+
+Built-in liner.
+
+#### Yosemite T-Shirt
+
+Gift from Yuri and Edwin
+
+### Casual T Shirts
+
+#### Uniqlo White T-Shirt
+
+Idk just a t-shirt with cool fabric.
+
+#### North Face Sunriser T-Shirt
+
+Also just a t-shirt.
+
+#### Maroon Cotton T-Shirt
+
+### Sweaters
+
+#### Gap Sweater
+
+Comfy
+
+### Casual Pants
+
 I store them in the large packing cube, zip small bag or multiple
 pencile cases, depending on the amount.
 
-### Outlier New Dungarees Pants
+#### Outlier New Dungarees Pants
 
 This pants have a more modern cut that the cult classic New Dungarees. The
 material is textured a bit more than other techwear pants, which makes it more
 casual.
 
-### Patagonia Airshed Pro Pullover
+#### Vuori Black Slacks
+
+Kinda cool
+
+#### Vuori Green Pants
+
+Zipper broke; not that durable.
+
+### Technical
+
+#### Patagonia Airshed Pro Pullover
 
 **Best in Slot**. This acts as a sun hoodie, running shirt and windshirt
 combined. In high exertion hot weather, the elastic on the sleeves let you bunch
@@ -259,7 +309,7 @@ need until around 5C, both running and stationary.
 
 The downside is the color (Wispy Green) is a little see through.
 
-### Patagonia Nano Air Ultralight Pullover
+#### Patagonia Nano Air Ultralight Pullover
 
 **Best in Slot**. This is an 'active insulation' pullover that is kind of
 ridiculous, because there's almost no insulation in it. I sized up to a medium
@@ -268,7 +318,7 @@ because it's a slim fit, and now it looks baggy in a trendy way.
 I quite like that it's a pullover, since it reduces bulk in the hood area. It's
 comfy and light enough to wear casually.
 
-### Patagonia Strider Pro Shorts
+#### Patagonia Strider Pro Shorts
 
 Likes: it's light and has a built-in liner.
 
