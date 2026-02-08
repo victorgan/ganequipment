@@ -1,7 +1,7 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="robots" content="noindex, nofollow">
 
-Updated July 2025
+Updated October 2025
 
 # Contents
 
@@ -62,6 +62,7 @@ backpack.
 
 ### On Body
 
+- Outerwear: Chore coat or raincoat
 - Pants: [Outlier New Dungarees](#outlier-new-dungarees-pants)
 - Underwear: Saxx Synthetic Boxers
 - Shirt: Wool and Prince Henley
@@ -70,19 +71,15 @@ backpack.
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
 - Phone: iPhone 16 Pro with Magsafe Wallet
 
-### Packs
-
-- Backpack: [CTactical CT15](#ctactical-ct15-backpack)
-- Pouches x6: [Black Diamond Skin Maintenance Kit Pouch](#black-diamond-skin-maintenance-kit-pouch)
-
 ### In the Ctactical CT15
 
+- Backpack: [CTactical CT15](#ctactical-ct15-backpack)
 - A hygiene pouch with a toothbrush, razor, toothpaste, shave cream, moisturizer, toner, sunscreen, floss, tweezers, nail cutter, cleanser, eye cream.
 - A tech pouch with a Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, a Garmin Watch cable, wired earbuds and 0.5/3 ft USB-C cables, SD card reader, Crucial X10 Pro 4TB SSD.
-- Clothes. Either:
-    - A packing zip bag for clothes: x1 extra underwear, x1 extra socks, gym clothes, sleep clothes
-    - A pencil case with a wool t shirt and a synthetic running shirt, and a pencil case with running shorts and an extra pair of underwear
-- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
+- Clothes
+    - gym/sleep shorts, gym shirt, lounge shirt, extra underwear
+    - nice t-shirt and pants
+    - Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
 - A pencil case for health: face mask, salt sticks, hand sanitizer, spork, vitamins and OTC medications (Advil, Claritin, Imodium, Peptol Bismol, Dramamine)
 - A pencil case for snacks
 - A passport case: passport, visas, home keys, debit card, magsafe card holder, work badge
@@ -99,6 +96,7 @@ Pre-ride checklist:
 
 - Downlad the route to the 6X
 - Charge the Fenix 6X, 255s, and Varia
+- Check Epic Ride Weather App
 - Pump tires
 - Fill water bottles
 - Stock food
@@ -134,6 +132,10 @@ Pre-ride checklist:
 - Extra food
 
 ## Trail Running
+
+### Prep
+
+- Check Epic Ride Weather App
 
 ### On Person
 
@@ -233,16 +235,67 @@ I use this for maps when cycling (on my handlebar) or trail running.
 
 ## Clothes
 
-I store them in the large packing cube, zip small bag or multiple
-pencile cases, depending on the amount.
+Clothes go in the large packing cube, zip small bag or multiple
+pencile cases, depending on the amount and convenience needed.
 
-### Outlier New Dungarees Pants
+### Loungewear
+
+#### Costco Cotton Sweatpants
+
+I like that it's cotton for breathability. Could be comfier. Also it's black,
+which is a little jarring. Grey might have more staying power.
+
+#### Manduka Pro Yoga Shorts
+
+Built-in liner.
+
+#### Yosemite T-Shirt
+
+Gift from Yuri and Edwin
+
+### Casual T Shirts
+
+#### Uniqlo White T-Shirt
+
+Idk just a t-shirt with cool fabric.
+
+#### North Face Sunriser T-Shirt
+
+Also just a t-shirt.
+
+#### Maroon Cotton T-Shirt
+
+Another just a t-shirt.
+
+### Casual Sweaters
+
+#### Gap Sweater
+
+Comfy
+
+#### Banana Republic Red Knit Hoodie
+
+Looks kinda cool.
+
+### Casual Pants
+
+#### Outlier New Dungarees Pants
 
 This pants have a more modern cut that the cult classic New Dungarees. The
 material is textured a bit more than other techwear pants, which makes it more
 casual.
 
-### Patagonia Airshed Pro Pullover
+#### Vuori Black Slacks
+
+Kinda cool
+
+#### Vuori Green Pants
+
+Zipper broke; not that durable.
+
+### Technical
+
+#### Patagonia Airshed Pro Pullover
 
 **Best in Slot**. This acts as a sun hoodie, running shirt and windshirt
 combined. In high exertion hot weather, the elastic on the sleeves let you bunch
@@ -259,7 +312,7 @@ need until around 5C, both running and stationary.
 
 The downside is the color (Wispy Green) is a little see through.
 
-### Patagonia Nano Air Ultralight Pullover
+#### Patagonia Nano Air Ultralight Pullover
 
 **Best in Slot**. This is an 'active insulation' pullover that is kind of
 ridiculous, because there's almost no insulation in it. I sized up to a medium
@@ -268,7 +321,7 @@ because it's a slim fit, and now it looks baggy in a trendy way.
 I quite like that it's a pullover, since it reduces bulk in the hood area. It's
 comfy and light enough to wear casually.
 
-### Patagonia Strider Pro Shorts
+#### Patagonia Strider Pro Shorts
 
 Likes: it's light and has a built-in liner.
 
