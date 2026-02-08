@@ -408,7 +408,7 @@ export default function App() {
               <GearInventoryPanel gear={gear} onAddClick={() => { setEditingGear(null); setIsGearModalOpen(true); }} onEditClick={(g) => { setEditingGear(g); setIsGearModalOpen(true); }} onDeleteClick={deleteGearItem} selectedList={selectedList} onToggleItemInList={handleToggleItemInList} weightUnit={weightUnit} />
             </div>
           </main>
-          <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={updateGearItem} onAdd={addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} onDelete={deleteGearItem} customLists={customLists} onSelectList={setSelectedList} />
+          <GearModal isOpen={isGearModalOpen} onClose={() => setIsGearModalOpen(false)} onSave={updateGearItem} onAdd={addGearItem} existingGear={editingGear} uniqueCategories={uniqueCategories} categoryToGearNamesMap={categoryToGearNamesMap} gearNameToModelsMap={gearNameToModelsMap} onDelete={deleteGearItem} customLists={customLists} onSelectList={setSelectedList} />
           <CustomListModal isOpen={isListModalOpen} onClose={() => setIsListModalOpen(false)} onSave={saveCustomList} existingList={editingList} allGear={gear} onDelete={deleteCustomList} />
         </div>
       </div>
@@ -997,4 +997,3 @@ const WeightDistributionChart = ({ data, unit }) => {
 
 const LoadingSpinner = () => <div className="flex flex-col justify-center items-center h-screen bg-gray-50"><div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-green-600"></div><p className="mt-4 text-lg text-gray-600">Loading your gear...</p></div>;
 const ErrorMessage = ({ message }) => <div className="flex justify-center items-center h-screen bg-red-50"><div className="text-center p-8 bg-white rounded-lg shadow-md"><h2 className="text-2xl font-bold text-red-600">An Error Occurred</h2><p className="mt-2 text-gray-700">{message}</p></div></div>;
-
