@@ -17,6 +17,7 @@ Updated March 2026
 - [Clothes](#clothes-kit)
 - [Hygiene](#hygiene-kit)
 - [Health](#health-kit)
+- [Cycling](#cycling-kit)
 
 ## [Items](#specific-items)
 
@@ -142,6 +143,7 @@ Updated March 2026
 
 ### Prep
 
+- Pull [Cycling Kit](#cycling-kit) from [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l)
 - Download the route to the [Fenix 6X](#garmin-fenix-6x-watch)
 - Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Fenix 6X](#garmin-fenix-6x-watch), [Forerunner 255s](#garmin-forerunner-255s-watch), Varia, headlamp
 - Check Epic Ride Weather App
@@ -153,7 +155,8 @@ Updated March 2026
 
 - Clean and empty water bottles
 - Clear out food wrappers and garbage
-- Hang kit to dry
+- Hang [Cycling Kit](#cycling-kit) to dry
+- Return [Cycling Kit](#cycling-kit) to [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l) when dry
 - Drink protein
 - Shower
 
@@ -408,6 +411,33 @@ Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch).
 - Salt sticks — high exertion or heat
 - Spork — eating on the go
 - Ear plugs — flights, hostels
+
+## Cycling Kit
+
+Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l).
+
+### Core
+
+- Helmet
+- Jersey
+- Bibs
+- Cycling socks
+- Cycling shoes
+- Gloves
+- [Garmin Fenix 6X](#garmin-fenix-6x-watch)
+- Garmin Varia rear light
+- Water bottles (×2)
+- Headlamp: Black Diamond Sprinter 500
+- Tools: patch kit, hand pump, disc brake pad spacer, multitool
+
+### Consumables
+
+- Sunscreen
+- Food: gummies
+
+### Conditional
+
+- Extra food — longer rides
 
 # Specific Items
 
