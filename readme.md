@@ -12,6 +12,12 @@ Updated March 2026
 
 ## [Kits](#specific-kits)
 
+- [Hygiene](#hygiene-kit)
+- [Tech](#tech-kit)
+- [Clothes](#clothes-kit)
+- [Auth](#auth-kit)
+- [Health](#health-kit)
+
 ## [Items](#specific-items)
 
 - [Bags](#bags)
