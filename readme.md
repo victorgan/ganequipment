@@ -406,6 +406,38 @@ Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch).
 
 ## Bags
 
+### Black Diamond Skin Maintenance Kit Pouch
+
+6 of them. Pencil case shaped, holds structure when partially empty, nylon with a single zipper. Durable without unnecessary details.
+
+### Aer Slim Pouch
+
+Flat zippered organizer pouch. Houses the [100W GaN Charger](#100w-gan-charger) in the [Tech Kit](#tech-kit).
+
+### Aer Zip Small Bag
+
+For 3-4 pieces of clothing, or sun gloves/sun hat/running cap.
+
+### Aer Zip Large Bag
+
+For shoes.
+
+### Aer Packing Cube Small
+
+For a modest clothing kit: pants, underwear, shirt, lounge wear.
+
+### Aer Packing Cube Large
+
+For a full clothing kit including insulation.
+
+### WaterField Shinjuku Laptop Brief Small
+
+14.5" × 3" × 10.5" (368 × 76 × 267 mm). 1.5 lbs / 681g. 7.5L. Made in San Francisco from ballistic nylon with leather trim, magnetic closures, and a water-resistant YKK zipper. Two padded compartments for a laptop and tablet. Slim enough to not look like a hiking bag in an office.
+
+### Porter International New Heat Shoulder Bag
+
+26.5 × 5 × 19.5 cm (10.4" × 2" × 7.7"). Basket weave nylon. By Yoshida & Co., the Japanese bag maker behind the Porter line. Front zippered pocket, dual press-button pockets, internal zippered pocket, and a back open compartment. Comes with a Maglite flashlight and leather keychain. Narrow profile — more of a document and essentials bag than a full carry.
+
 ### CTactical CT15 Backpack
 
 A custom version of CTactical's CT15 V3.0 from a Facebook group buy, nicknamed Kevin/Obsidian. Ended the bag search.
@@ -417,40 +449,9 @@ A custom version of CTactical's CT15 V3.0 from a Facebook group buy, nicknamed K
 - There's a top quick access pocket and two side water bottle holders that zip away when not in use. These are great to access things while on the go. I had a previous version of the bag without these, and they make a world of a difference.
 - The laptop area is padded and has a side zip for dedicated laptop access. This saves weight over a dedicated laptop compartment. Sometimes I forget to close the side zips and the laptop falls out.
 
-### Aer Packing Cube Small
-
-For a modest clothing kit: pants, underwear, shirt, lounge wear.
-
-### Aer Packing Cube Large
-
-For a full clothing kit including insulation.
-
-### Aer Zip Large Bag
-
-For shoes.
-
-### Aer Zip Small Bag
-
-For 3-4 pieces of clothing, or sun gloves/sun hat/running cap.
-
-### Aer Slim Pouch
-
-Flat zippered organizer pouch. Houses the [100W GaN Charger](#100w-gan-charger) in the [Tech Kit](#tech-kit).
-
-### Black Diamond Skin Maintenance Kit Pouch
-6 of them. Pencil case shaped, holds structure when partially empty, nylon with a single zipper. Durable without unnecessary details.
-
-### WaterField Shinjuku Laptop Brief Small
-
-14.5" × 3" × 10.5" (368 × 76 × 267 mm). 1.5 lbs / 681g. 7.5L. Made in San Francisco from ballistic nylon with leather trim, magnetic closures, and a water-resistant YKK zipper. Two padded compartments for a laptop and tablet. Slim enough to not look like a hiking bag in an office.
-
 ### Carl Friedrik Hybrid Carry-on
 
 22.3" × 14.8" × 9.3" (56.6 × 37.7 × 23.7 cm). 9.5 lbs / 4.3 kg. 40L. Polycarbonate shell with aluminium TSA lock frame and vegetable-tanned leather detailing. Hinomoto 360° spinner wheels, any-stop trolley, lifetime warranty. Fits up to 5 days.
-
-### Porter International New Heat Shoulder Bag
-
-26.5 × 5 × 19.5 cm (10.4" × 2" × 7.7"). Basket weave nylon. By Yoshida & Co., the Japanese bag maker behind the Porter line. Front zippered pocket, dual press-button pockets, internal zippered pocket, and a back open compartment. Comes with a Maglite flashlight and leather keychain. Narrow profile — more of a document and essentials bag than a full carry.
 
 ## Tech
 ### Iphone 16 Pro Phone
