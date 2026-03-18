@@ -71,7 +71,7 @@ Updated March 2026
 
 **+ [WaterField Shinjuku Laptop Brief Small](#waterfield-shinjuku-laptop-brief-small):**
 
-- [Tech Kit](#tech-kit): Aer Slim Pouch
+- [Tech Kit](#tech-kit): [Aer Slim Pouch](#aer-slim-pouch)
 - Personal Laptop: 13" Macbook Air M2
 - Work Laptop: 13" Macbook Air M3
 - [Clothes Kit](#clothes-kit): [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) — gym days
@@ -300,14 +300,14 @@ None.
 
 ## Tech Kit
 
-Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (minimal) or Aer Slim Pouch (full).
+Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (minimal) or [Aer Slim Pouch](#aer-slim-pouch) (full).
 
 ### Core
 
 - USB-C cables (0.5 ft, 3 ft)
 - Garmin USB-C cable
 - Wired earbuds
-- 100W GaN charger
+- [45W Charger](#45w-charger)
 
 ### Consumables
 
@@ -315,7 +315,7 @@ None.
 
 ### Conditional
 
-- 45W charger — lighter substitute when traveling with single laptop
+- [Aer Slim Pouch](#aer-slim-pouch) with [100W GaN Charger](#100w-gan-charger) — multiple devices or high-wattage charging
 - [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank) — longer days, in accessible pocket not in pouch
 - [Apple AirPods Pro 3](#apple-airpods-pro-3) — in accessible pocket not in pouch
 - Crucial X10 Pro 4TB SSD — if working remotely
@@ -412,9 +412,13 @@ For a lot of clothing.
 
 For shoes.
 
-### Aer Zip Small Bag 
+### Aer Zip Small Bag
 
 For 3-4 pieces of clothing, or sun gloves/sun hat/running cap.
+
+### Aer Slim Pouch
+
+Flat zippered organizer pouch. Houses the [100W GaN Charger](#100w-gan-charger) in the [Tech Kit](#tech-kit).
 
 ### Black Diamond Skin Maintenance Kit Pouch
 6 of them. Pencil case shaped, holds structure when partially empty, nylon with a single zipper. Durable without unnecessary details.
@@ -452,6 +456,14 @@ For travel. Noise cancellation on flights, transparency mode in cities.
 ### Anker 10k mAh Magnetic Power Bank
 
 Wireless charging for iPhone via MagSafe. Slim enough to pocket. Charged via USB-C.
+
+### 45W Charger
+
+Compact single-port USB-C. Core charger in the [Tech Kit](#tech-kit) for everyday and single-laptop use.
+
+### 100W GaN Charger
+
+Dual USB-C ports. Lives in the [Aer Slim Pouch](#aer-slim-pouch), added to the [Tech Kit](#tech-kit) when charging multiple devices or laptops.
 
 ## Clothes
 
@@ -594,3 +606,4 @@ Random ones from REI.
 - 2026-03-18: Added Prep and Reset sections to all lists.
 - 2026-03-18: Merged Wheeled Carryon and Onebag Travel into Air Travel. Bag options are CT15 or Carl Friedrik Hybrid Carry-on, always with the WaterField Shinjuku Brief. Added Carl Friedrik Hybrid Carry-on to Bags section.
 - 2026-03-18: Deep linked all item references throughout lists, kits, and item descriptions. Split Air Travel into Onebag and Wheeled subsections.
+- 2026-03-18: Tech Kit core charger swapped to 45W Charger. 100W GaN Charger moved to Aer Slim Pouch as conditional addition. Added 45W Charger, 100W GaN Charger, and Aer Slim Pouch to Items.
