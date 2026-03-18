@@ -306,8 +306,8 @@ Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (min
 
 - USB-C cables (0.5 ft, 3 ft)
 - Garmin USB-C cable
-- Wired earbuds
 - [45W Charger](#45w-charger)
+- [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank)
 
 ### Consumables
 
@@ -316,7 +316,7 @@ None.
 ### Conditional
 
 - [Aer Slim Pouch](#aer-slim-pouch) with [100W GaN Charger](#100w-gan-charger) — multiple devices or high-wattage charging
-- [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank) — longer days, in accessible pocket not in pouch
+- Wired earbuds — in-seat entertainment systems on flights
 - [Apple AirPods Pro 3](#apple-airpods-pro-3) — in accessible pocket not in pouch
 - Crucial X10 Pro 4TB SSD — if working remotely
 - SD card reader — if shooting
@@ -324,7 +324,7 @@ None.
 
 ## Clothes Kit
 
-Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (minimal), [Aer Zip Small Bag](#aer-zip-small-bag) (accessible), or packing cube (standard). Scale container to the amount of clothing.
+Container: Scale to trip length.
 
 ### Core
 
@@ -332,15 +332,29 @@ None. All items rotate through laundry.
 
 ### Consumables
 
+**[Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch):**
+
 - Gym/sleep shorts
-- Gym/sleep shirt
-- Extra underwear
+- Gym/sleep t-shirt
+
+**+ [Aer Zip Small Bag](#aer-zip-small-bag):**
+
+- Pants
+- Underwear
+- Shirt
+
+**+ [Aer Packing Cube Small](#aer-packing-cube-small):**
+
+- Lounge shirt
+- Lounge pants
+
+**+ [Aer Packing Cube Large](#aer-packing-cube-large):**
+
+- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
 
 ### Conditional
 
-- Lounge shirt — longer trips
 - Nice t-shirt and pants — social occasions
-- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover) — cold weather
 - Travel clothesline — uncertain laundry access
 
 ## Hygiene Kit
@@ -404,9 +418,13 @@ A custom version of CTactical's CT15 V3.0 from a Facebook group buy, nicknamed K
 - There's a top quick access pocket and two side water bottle holders that zip away when not in use. These are great to access things while on the go. I had a previous version of the bag without these, and they make a world of a difference.
 - The laptop area is padded and has a side zip for dedicated laptop access. This saves weight over a dedicated laptop compartment. Sometimes I forget to close the side zips and the laptop falls out.
 
-### Aer Large Packing Cube
+### Aer Packing Cube Small
 
-For a lot of clothing.
+For a modest clothing kit: pants, underwear, shirt, lounge wear.
+
+### Aer Packing Cube Large
+
+For a full clothing kit including insulation.
 
 ### Aer Zip Large Bag
 
@@ -607,3 +625,5 @@ Random ones from REI.
 - 2026-03-18: Merged Wheeled Carryon and Onebag Travel into Air Travel. Bag options are CT15 or Carl Friedrik Hybrid Carry-on, always with the WaterField Shinjuku Brief. Added Carl Friedrik Hybrid Carry-on to Bags section.
 - 2026-03-18: Deep linked all item references throughout lists, kits, and item descriptions. Split Air Travel into Onebag and Wheeled subsections.
 - 2026-03-18: Tech Kit core charger swapped to 45W Charger. 100W GaN Charger moved to Aer Slim Pouch as conditional addition. Added 45W Charger, 100W GaN Charger, and Aer Slim Pouch to Items.
+- 2026-03-18: Clothes Kit restructured by container tier: Black Diamond Pouch (gym), Aer Zip Small (pants/underwear/shirt), Aer Packing Cube Small (+lounge wear), Aer Packing Cube Large (+insulation). Added Aer Packing Cube Small and Large to Items.
+- 2026-03-18: Tech Kit: Anker 10k moved to core. Wired earbuds moved to conditional (in-seat entertainment on flights).
