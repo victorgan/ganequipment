@@ -43,7 +43,7 @@ Updated March 2026
 ### Prep
 
 - Add conditionals for the day: [Clothes Kit](#clothes-kit) (gym), bike lock (biking)
-- Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Forerunner 255s](#garmin-foreunner-255s-watch), [AirPods Pro 3](#apple-airpods-pro-3), [Anker 10k](#anker-10k-mah-magnetic-power-bank), laptops
+- Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Forerunner 255s](#garmin-forerunner-255s-watch), [AirPods Pro 3](#apple-airpods-pro-3), [Anker 10k](#anker-10k-mah-magnetic-power-bank), laptops
 
 ### Reset
 
@@ -59,13 +59,13 @@ Updated March 2026
 
 **No bag:**
 
-- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
+- Watch: [Garmin Forerunner 255s](#garmin-forerunner-255s-watch)
 
 **+ [Porter International New Heat](#porter-international-new-heat-shoulder-bag):**
 
 - Sunscreen
 - Earbuds: [Apple AirPods Pro 3](#apple-airpods-pro-3)
-- Glasses: [Lindberg Frameless](#lindberg-frameless-eyeglasses) in a [Linrong Capsule Eyelass Case](#linrong-capsule-eyelass-case)
+- Glasses: [Lindberg Frameless](#lindberg-frameless-eyeglasses) in a [Linrong Capsule Eyeglass Case](#linrong-capsule-eyelass-case)
 - Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
 - [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank)
 
@@ -85,14 +85,13 @@ Updated March 2026
 ### Prep
 
 - Pack kits
-- Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Forerunner 255s](#garmin-foreunner-255s-watch), [AirPods Pro 3](#apple-airpods-pro-3), [Anker 10k](#anker-10k-mah-magnetic-power-bank), laptops
+- Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Forerunner 255s](#garmin-forerunner-255s-watch), [AirPods Pro 3](#apple-airpods-pro-3), [Anker 10k](#anker-10k-mah-magnetic-power-bank), laptops
 - Download offline maps
 
 ### Reset
 
 - Launder clothes kit
 - Restock kit consumables
-- Charge devices
 
 ### On Body
 
@@ -102,7 +101,7 @@ Updated March 2026
 - Shirt: Wool and Prince Henley
 - Socks: [Darn Tough Socks](#darn-tough-quarter-cushioned-ultra-lightweight-running-socks)
 - Shoes: [Nike Pegasus 41](#nike-pegasus-41-shoes)
-- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
+- Watch: [Garmin Forerunner 255s](#garmin-forerunner-255s-watch)
 - Phone: [iPhone 16 Pro](#iphone-16-pro-phone) with Magsafe Wallet
 
 ### Onebag — [CTactical CT15](#ctactical-ct15-backpack)
@@ -112,7 +111,7 @@ Updated March 2026
 - [Clothes Kit](#clothes-kit)
 - [Hygiene Kit](#hygiene-kit)
 - [Health Kit](#health-kit)
-- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses), [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses), Soundcore Aerofit Pro earbuds
+- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses), [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses)
 
 ### Wheeled — [Carl Friedrik Hybrid Carry-on](#carl-friedrik-hybrid-carry-on) + [WaterField Shinjuku Brief](#waterfield-shinjuku-laptop-brief-small)
 
@@ -134,8 +133,7 @@ Updated March 2026
 
 ### Optional
 
-- DSLR
-- Camera
+- Camera (mirrorless or DSLR)
 - Tote bag
 - Snack pencil case
 - A pair of binoculars
@@ -145,7 +143,7 @@ Updated March 2026
 ### Prep
 
 - Download the route to the [Fenix 6X](#garmin-fenix-6x-watch)
-- Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Fenix 6X](#garmin-fenix-6x-watch), [Forerunner 255s](#garmin-foreunner-255s-watch), Varia, headlamp
+- Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Fenix 6X](#garmin-fenix-6x-watch), [Forerunner 255s](#garmin-forerunner-255s-watch), Varia, headlamp
 - Check Epic Ride Weather App
 - Pump tires
 - Fill water bottles
@@ -155,7 +153,6 @@ Updated March 2026
 
 - Refill water bottles
 - Restock food
-- Charge [Fenix 6X](#garmin-fenix-6x-watch), [255s](#garmin-foreunner-255s-watch), and Varia
 - Hang kit to dry
 - Drink protein
 - Shower
@@ -168,7 +165,7 @@ Updated March 2026
 - Bibs
 - Socks
 - Cycling Shoes
-- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
+- Watch: [Garmin Forerunner 255s](#garmin-forerunner-255s-watch)
 - Gloves
 - In jersey pockets
     - Sunscreen
@@ -195,7 +192,7 @@ Vest: Salomon Sense Pro 6
 
 ### Prep
 
-- Check Epic Ride Weather App
+- Check Epic Ride Weather App — designed for cycling, works well for trail running
 - Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Fenix 6X](#garmin-fenix-6x-watch), [Anker 10k](#anker-10k-mah-magnetic-power-bank), headlamp
 
 ### On Person
@@ -231,7 +228,6 @@ Vest: Salomon Sense Pro 6
 ### Reset
 
 - Restock food and electrolytes
-- Charge [Fenix 6X](#garmin-fenix-6x-watch) and headlamp
 - Refill water flask
 - Drink protein
 
@@ -258,6 +254,8 @@ Bag: 40L pack or red duffle
 ### Reset
 
 - Dry tent and sleeping bag before storing
+
+### Gear
 
 - Tent
 - Sleeping Bag
@@ -300,15 +298,20 @@ None.
 
 ## Tech Kit
 
-Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (minimal) or [Aer Slim Pouch](#aer-slim-pouch) (full).
+Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch), or none.
+
+### No container
+
+Carried directly in bag or pocket:
+
+- [Apple AirPods Pro 3](#apple-airpods-pro-3)
+- [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank)
 
 ### Core
 
 - USB-C cables (0.5 ft, 3 ft)
 - Garmin USB-C cable
 - [45W Charger](#45w-charger)
-- [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank)
-- [Apple AirPods Pro 3](#apple-airpods-pro-3)
 
 ### Consumables
 
@@ -316,7 +319,7 @@ None.
 
 ### Conditional
 
-- [Aer Slim Pouch](#aer-slim-pouch) with [100W GaN Charger](#100w-gan-charger) — multiple devices or high-wattage charging
+- [100W GaN Charger](#100w-gan-charger) — in [Aer Slim Pouch](#aer-slim-pouch); add when charging multiple devices
 - Wired earbuds — in-seat entertainment systems on flights
 - Crucial X10 Pro 4TB SSD — if working remotely
 - SD card reader — if shooting
@@ -350,15 +353,15 @@ None. All items rotate through laundry.
 **+ [Aer Packing Cube Large](#aer-packing-cube-large):**
 
 - Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
+- Nice t-shirt and pants — social occasions
 
 ### Conditional
 
-- Nice t-shirt and pants — social occasions
 - Travel clothesline — uncertain laundry access
 
 ## Hygiene Kit
 
-Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (minimal) or Aer Travel Kit 2 (full).
+Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (minimal) or [Aer Travel Kit 2](#aer-travel-kit-2) (full).
 
 ### Core
 
@@ -380,7 +383,7 @@ Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (min
 
 - Eye cream — longer trips
 - Toner — longer trips
-- Additional face products — Aer Travel Kit 2 replaces BD Pouch when these are needed
+- Additional face products — [Aer Travel Kit 2](#aer-travel-kit-2) replaces BD Pouch when these are needed
 
 ## Health Kit
 
@@ -430,6 +433,10 @@ For a modest clothing kit: pants, underwear, shirt, lounge wear.
 
 For a full clothing kit including insulation.
 
+### Aer Travel Kit 2
+
+9" × 6.5" × 3" (23 × 16.5 × 7.5 cm). 8 oz / 227g. 2.5L. X-Pac version uses VX-42 sailcloth exterior with high-visibility orange interior. Hanging hook, multiple pockets, YKK zippers. Replaces the [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) in the [Hygiene Kit](#hygiene-kit) when additional face products are needed.
+
 ### WaterField Shinjuku Laptop Brief Small
 
 14.5" × 3" × 10.5" (368 × 76 × 267 mm). 1.5 lbs / 681g. 7.5L. Made in San Francisco from ballistic nylon with leather trim, magnetic closures, and a water-resistant YKK zipper. Two padded compartments for a laptop and tablet. Slim enough to not look like a hiking bag in an office.
@@ -454,10 +461,10 @@ A custom version of CTactical's CT15 V3.0 from a Facebook group buy, nicknamed K
 22.3" × 14.8" × 9.3" (56.6 × 37.7 × 23.7 cm). 9.5 lbs / 4.3 kg. 40L. Polycarbonate shell with aluminium TSA lock frame and vegetable-tanned leather detailing. Hinomoto 360° spinner wheels, any-stop trolley, lifetime warranty. Fits up to 5 days.
 
 ## Tech
-### Iphone 16 Pro Phone
+### iPhone 16 Pro Phone
 Switched from Android (Google Pixels and Nexuses) after 2012. A bit bigger than ideal.
 
-### Garmin Foreunner 255s Watch
+### Garmin Forerunner 255s Watch
 
 A 41mm smartwatch, Garmin's smallest and lightest. It's the last one with an e-ink style display, that saves battery life and is visible in the sun. Garmin's Forerunner 9XX and Fenix watches have the ability to display maps, but none of them are as small as the 255s, and the 255s' breadcrumb feature is good enough for most hikes and trail runs to keep you on course for downloaded trails. 
 
@@ -601,7 +608,7 @@ I like the shield-like coverage of one piece cycling sunglasses and photochromat
 
 There's holes in it, but used for everything.
 
-### Linrong Capsule Eyelass Case
+### Linrong Capsule Eyeglass Case
 
 Hardshell case without being bulky or heavy. They open up on the short end with a click.
 
@@ -627,3 +634,4 @@ Random ones from REI.
 - 2026-03-18: Tech Kit core charger swapped to 45W Charger. 100W GaN Charger moved to Aer Slim Pouch as conditional addition. Added 45W Charger, 100W GaN Charger, and Aer Slim Pouch to Items.
 - 2026-03-18: Clothes Kit restructured by container tier: Black Diamond Pouch (gym), Aer Zip Small (pants/underwear/shirt), Aer Packing Cube Small (+lounge wear), Aer Packing Cube Large (+insulation). Added Aer Packing Cube Small and Large to Items.
 - 2026-03-18: Tech Kit: Anker 10k moved to core. Wired earbuds moved to conditional (in-seat entertainment on flights).
+- 2026-03-18: Tech Kit restructured with explicit "No container" section for AirPods and Anker 10k. 100W GaN Charger conditional simplified. Fixed typos: Forerunner, Eyeglass, iPhone. Removed stale Soundcore reference. Added Camping Gear section header. Charging removed from all Reset sections. Consolidated Camera/DSLR in Air Travel Optional. Nice t-shirt moved to Packing Cube Large tier. Added Aer Travel Kit 2 to Items.
