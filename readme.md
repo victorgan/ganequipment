@@ -51,7 +51,7 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 
 ### Prep
 
-- Add conditionals for the day: [Clothes Kit](#clothes-kit) (gym), bike lock (biking), headlamp (low light)
+- Add conditionals for the day: [Clothes Kit](#clothes-kit) (gym), bike lock (biking)
 
 ### Reset
 
@@ -62,15 +62,15 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
 - [Auth Kit](#auth-kit): Car fob keyring, apartment fob, 3-card MagSafe card holder, work badge.
 
-### Consumables
-
-- Sunscreen
-
 ### Conditional
 
-**[Porter International New Heat](#porter-international-new-heat-shoulder-bag):**
+**No bag:**
 
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
+
+**+ [Porter International New Heat](#porter-international-new-heat-shoulder-bag):**
+
+- Sunscreen
 - Earbuds: Soundcore Aerofit Pro
 - Glasses: [Lindberg Frameless](#lindberg-frameless-eyeglasses) in a [Linrong Capsule Eyelass Case](#linrong-capsule-eyelass-case)
 - Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
@@ -85,7 +85,6 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 
 - [Clothes Kit](#clothes-kit): [Aer Zip Bag Small](#aer-zip-small-bag) — gym days
 - Bike Lock: Kryptonite Evolution U-Lock — biking
-- Black Diamond Sprinter 500 Headlamp — low light
 
 ## Air Travel
 
