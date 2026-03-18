@@ -56,6 +56,7 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 ### Reset
 
 - Restock sunscreen when low
+- Launder clothes
 
 ### Core
 
