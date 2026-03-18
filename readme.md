@@ -341,7 +341,6 @@ None. All items rotate through laundry.
 
 - Pants
 - Underwear
-- Shirt
 
 **+ [Aer Packing Cube Small](#aer-packing-cube-small):**
 
