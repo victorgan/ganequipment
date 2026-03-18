@@ -463,8 +463,8 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l) — vest 
 **+ Salomon Sense Pro 6 vest:**
 
 - [Ciele Running Cap](#ciele-running-cap)
-- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
-- Gloves: [Outdoor Research Sun Gloves](#outdoor-research-sun-gloves)
+- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) — shared with [Cycling Kit](#cycling-kit)
+- Gloves: [Outdoor Research Sun Gloves](#outdoor-research-sun-gloves) — shared with [Cycling Kit](#cycling-kit)
 - [Garmin Fenix 6X](#garmin-fenix-6x-watch) — shared with [Cycling Kit](#cycling-kit)
 - Black Diamond Carbon Z Trekking Poles with Salomon Custom Quiver
 - Salomon Soft Flask XA Filter
@@ -473,6 +473,7 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l) — vest 
 - Ziploc bags
 - Toilet paper
 - [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover) — cold weather
+- Winter gloves — cold weather, replaces sun gloves
 - [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank) — longer runs
 
 # Specific Items
