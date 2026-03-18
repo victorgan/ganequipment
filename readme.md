@@ -71,7 +71,7 @@ Updated March 2026
 
 **+ [WaterField Shinjuku Laptop Brief Small](#waterfield-shinjuku-laptop-brief-small):**
 
-- [Tech Kit](#tech-kit): [Aer Slim Pouch](#aer-slim-pouch)
+- [Tech Kit](#tech-kit): [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) with [45W Charger](#45w-charger) and 1 USB-C cable
 - Personal Laptop: 13" Macbook Air M2
 - Work Laptop: 13" Macbook Air M3
 - [Clothes Kit](#clothes-kit): [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) — gym days
