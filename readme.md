@@ -19,6 +19,7 @@ Updated March 2026
 - [Health](#health-kit)
 - [Cycling](#cycling-kit)
 - [Trail Running](#trail-running-kit)
+- [Camping](#camping-kit)
 
 ## [Items](#specific-items)
 
@@ -253,13 +254,15 @@ Bag: 40L pack or red duffle
 
 ### Prep
 
+- Pull [Camping Kit](#camping-kit) from storage
 - Check weather
-- Verify tent and sleeping bag
+- Verify tent and sleeping bag condition
 - Charge headlamp
 
 ### Reset
 
-- Dry tent and sleeping bag before storing
+- Dry tent and sleeping bag
+- Return [Camping Kit](#camping-kit) to storage when dry
 
 ### Gear
 
@@ -278,6 +281,8 @@ Each kit has three layers:
 - **Conditional**: Added for specific contexts. Everything else stays out.
 
 Restock consumables immediately after use, not before the next trip.
+
+Items marked **No container** travel directly in a pocket or accessible compartment, not inside the kit pouch — pull them without opening the kit.
 
 ## Auth Kit
 
@@ -343,7 +348,7 @@ Container: Scale to trip length.
 
 None. All items rotate through laundry.
 
-### Consumables
+### Clothing
 
 **[Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch):**
 
@@ -426,10 +431,10 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Water bo
 - Bibs
 - Cycling socks
 - Cycling shoes
-- Gloves
-- [Garmin Fenix 6X](#garmin-fenix-6x-watch)
+- Gloves: [Outdoor Research Sun Gloves](#outdoor-research-sun-gloves) — shared with [Trail Running Kit](#trail-running-kit)
+- [Garmin Fenix 6X](#garmin-fenix-6x-watch) — shared with [Trail Running Kit](#trail-running-kit)
 - Garmin Varia rear light
-- Headlamp: Black Diamond Sprinter 500
+- Headlamp: Black Diamond Sprinter 500 — shared with [Trail Running Kit](#trail-running-kit) and [Camping Kit](#camping-kit)
 - Tools: patch kit, disc brake pad spacer, multitool
 
 ### Consumables
@@ -476,6 +481,26 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l) — vest 
 - Winter gloves — cold weather, replaces sun gloves
 - [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank) — longer runs
 
+## Camping Kit
+
+Container: 40L pack or red duffle.
+
+### Core
+
+- Tent
+- Sleeping bag
+- Sleeping pad
+- Pillow
+- Headlamp: Black Diamond Sprinter 500 — shared with [Cycling Kit](#cycling-kit) and [Trail Running Kit](#trail-running-kit)
+
+### Consumables
+
+None.
+
+### Conditional
+
+None.
+
 # Specific Items
 
 ## Bags
@@ -505,7 +530,7 @@ For a full clothing kit including insulation.
 
 ### REI Trailgate Gear Cube 25L
 
-18" × 11" × 7" (46 × 28 × 18 cm). 25L. 300-denier recycled polyester with TPU coating and DWR finish. Mesh top panel for visibility and ventilation. Structured and collapsible. For organizing camp gear in a truck bed or at a campsite.
+18" × 11" × 7" (46 × 28 × 18 cm). 25L. 300-denier recycled polyester with TPU coating and DWR finish. Mesh top panel for visibility and ventilation. Structured and collapsible. Two in use — one for the [Cycling Kit](#cycling-kit), one for the [Trail Running Kit](#trail-running-kit) — stored at home, stays packed between sessions.
 
 ### Aer Travel Kit 2
 
@@ -567,6 +592,16 @@ Compact single-port USB-C. Core charger in the [Tech Kit](#tech-kit) for everyda
 Dual USB-C ports. Lives in the [Aer Slim Pouch](#aer-slim-pouch), added to the [Tech Kit](#tech-kit) when charging multiple devices or laptops.
 
 ## Clothes
+
+### Base Layers
+
+#### Saxx Synthetic Boxers
+
+Synthetic fabric, anti-chafe waistband. Travel underwear for Air Travel.
+
+#### Wool & Prince Henley
+
+Merino wool. Worn as the travel shirt in Air Travel on-body — warm enough to layer, presentable enough to arrive in.
 
 ### Technical
 
@@ -690,6 +725,30 @@ Hardshell case without being bulky or heavy. They open up on the short end with 
 
 ## Sport Gear
 
+### Salomon Sense Pro 6 Vest
+
+6L trail running vest. Container for the [Trail Running Kit](#trail-running-kit) during runs.
+
+### Black Diamond Sprinter 500 Headlamp
+
+500 lumens. Shared across [Cycling Kit](#cycling-kit), [Trail Running Kit](#trail-running-kit), and [Camping Kit](#camping-kit).
+
+### Garmin Varia Rear Light
+
+Rear radar and light for cycling. Pairs with the [Garmin Fenix 6X](#garmin-fenix-6x-watch) to show approaching vehicles on the map.
+
+### Black Diamond Carbon Z Trekking Poles
+
+Collapsible carbon poles with Salomon Custom Quiver mount for vest storage.
+
+### Salomon Soft Flask XA Filter
+
+Filtered soft flask for trail running. Filters on the fly — no separate filter carry needed.
+
+### Kryptonite Evolution U-Lock
+
+Carried in the [CTactical CT15](#ctactical-ct15-backpack) on biking days.
+
 ### Swimming Goggles and Cap
 
 Random ones from REI.
@@ -711,3 +770,4 @@ Random ones from REI.
 - 2026-03-18: Clothes Kit restructured by container tier: Black Diamond Pouch (gym), Aer Zip Small (pants/underwear/shirt), Aer Packing Cube Small (+lounge wear), Aer Packing Cube Large (+insulation). Added Aer Packing Cube Small and Large to Items.
 - 2026-03-18: Tech Kit: Anker 10k moved to core. Wired earbuds moved to conditional (in-seat entertainment on flights).
 - 2026-03-18: Tech Kit restructured with explicit "No container" section for AirPods and Anker 10k. 100W GaN Charger conditional simplified. Fixed typos: Forerunner, Eyeglass, iPhone. Removed stale Soundcore reference. Added Camping Gear section header. Charging removed from all Reset sections. Consolidated Camera/DSLR in Air Travel Optional. Nice t-shirt moved to Packing Cube Large tier. Added Aer Travel Kit 2 to Items.
+- 2026-03-18: Added Camping Kit. Added Camping to Kits TOC. Expanded Camping Prep/Reset. Added no-container note to Kits preamble. Noted shared headlamp/gloves across Cycling and Trail Running Kits. Renamed Clothes Kit Consumables to Clothing. Updated REI Trailgate Gear Cube description. Added missing items: Saxx Boxers, Wool & Prince Henley, Salomon Sense Pro 6, BD Sprinter 500, Garmin Varia, BD Carbon Z Poles, Salomon Soft Flask XA Filter, Kryptonite U-Lock.
