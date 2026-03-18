@@ -36,7 +36,7 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 
 - **Minimal daily** (no bag): phone, watch, [Auth Kit](#auth-kit)
 - **Full daily** (backpack): + [Tech Kit](#tech-kit), both laptops, earbuds, glasses
-- **Air travel**: all kits; CT15 (onebag) or Carl Friedrik carry-on + Shinjuku brief
+- **Air travel**: all kits; [CT15](#ctactical-ct15-backpack) (onebag) or [Carl Friedrik carry-on](#carl-friedrik-hybrid-carry-on) + [Shinjuku brief](#waterfield-shinjuku-laptop-brief-small)
 
 # Equipment Lists
 
@@ -61,7 +61,7 @@ Bag: [CTactical CT15](#ctactical-ct15-backpack)
 - Personal Laptop: 13" Macbook Air M2
 - Work Laptop: 13" Macbook Air M3
 - Earbuds: Soundcore Aerofit Pro
-- Glasses: Lindberg Frameless in a [Linrong Capsule Eyelass Case](#linrong-capsule-eyelass-case)
+- Glasses: [Lindberg Frameless](#lindberg-frameless-eyeglasses) in a [Linrong Capsule Eyelass Case](#linrong-capsule-eyelass-case)
 - Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
 
 ### Consumables
@@ -70,13 +70,11 @@ Bag: [CTactical CT15](#ctactical-ct15-backpack)
 
 ### Conditional
 
-- [Clothes Kit](#clothes-kit): Aer Zip Bag Small — gym days
+- [Clothes Kit](#clothes-kit): [Aer Zip Bag Small](#aer-zip-small-bag) — gym days
 - Bike Lock: Kryptonite Evolution U-Lock — biking
 - Black Diamond Sprinter 500 Headlamp — low light
 
 ## Air Travel
-
-Bags: [CTactical CT15](#ctactical-ct15-backpack) or [Carl Friedrik Hybrid Carry-on](#carl-friedrik-hybrid-carry-on); [WaterField Shinjuku Laptop Brief Small](#waterfield-shinjuku-laptop-brief-small)
 
 ### Prep
 
@@ -96,18 +94,12 @@ Bags: [CTactical CT15](#ctactical-ct15-backpack) or [Carl Friedrik Hybrid Carry-
 - Pants: [Outlier New Dungarees](#outlier-new-dungarees-pants)
 - Underwear: Saxx Synthetic Boxers
 - Shirt: Wool and Prince Henley
-- Socks: [Darn Tough Socks](#darn-tough-socks)
+- Socks: [Darn Tough Socks](#darn-tough-quarter-cushioned-ultra-lightweight-running-socks)
 - Shoes: [Nike Pegasus 41](#nike-pegasus-41-shoes)
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
-- Phone: iPhone 16 Pro with Magsafe Wallet
+- Phone: [iPhone 16 Pro](#iphone-16-pro-phone) with Magsafe Wallet
 
-### Shinjuku Brief
-
-- Eyeglasses
-- Work Laptop
-- Personal Laptop
-
-### CT15 or Carry-on
+### Onebag — [CTactical CT15](#ctactical-ct15-backpack)
 
 - [Hygiene Kit](#hygiene-kit)
 - [Tech Kit](#tech-kit)
@@ -115,21 +107,42 @@ Bags: [CTactical CT15](#ctactical-ct15-backpack) or [Carl Friedrik Hybrid Carry-
 - [Health Kit](#health-kit)
 - [Auth Kit](#auth-kit): passport, visas, home keys, debit card
 - Snack pencil case
-- Sunglasses, glasses, Soundcore Aerofit Pro earbuds
+- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses), [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses), Soundcore Aerofit Pro earbuds
 - A pair of binoculars
 
 Optional:
 
 - DSLR
 - Tote bag
+
+### Wheeled — [Carl Friedrik Hybrid Carry-on](#carl-friedrik-hybrid-carry-on) + [WaterField Shinjuku Brief](#waterfield-shinjuku-laptop-brief-small)
+
+[WaterField Shinjuku Brief](#waterfield-shinjuku-laptop-brief-small):
+
+- [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses)
+- Work Laptop
+- Personal Laptop
+
+[Carl Friedrik Hybrid Carry-on](#carl-friedrik-hybrid-carry-on):
+
+- [Hygiene Kit](#hygiene-kit)
+- [Tech Kit](#tech-kit)
+- [Clothes Kit](#clothes-kit)
+- [Health Kit](#health-kit) (optional)
+- [Auth Kit](#auth-kit): passport, visas, home keys, debit card
+- Snack pencil case
+- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses), [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses), Soundcore Aerofit Pro earbuds
+
+Optional:
+
 - Camera
 
 ## Cycling
 
 ### Prep
 
-- Download the route to the 6X
-- Charge the Fenix 6X, 255s, and Varia
+- Download the route to the [Fenix 6X](#garmin-fenix-6x-watch)
+- Charge the [Fenix 6X](#garmin-fenix-6x-watch), [255s](#garmin-foreunner-255s-watch), and Varia
 - Check Epic Ride Weather App
 - Pump tires
 - Fill water bottles
@@ -139,7 +152,7 @@ Optional:
 
 - Refill water bottles
 - Restock food
-- Charge Fenix 6X, 255s, and Varia
+- Charge [Fenix 6X](#garmin-fenix-6x-watch), [255s](#garmin-foreunner-255s-watch), and Varia
 - Hang kit to dry
 - Drink protein
 - Shower
@@ -147,7 +160,7 @@ Optional:
 ### On Person
 
 - Helmet
-- Sunglasses
+- Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
 - Jersey
 - Bibs
 - Socks
@@ -163,7 +176,7 @@ Optional:
 
 ### On Bike
 
-- Garmin Fenix 6X
+- [Garmin Fenix 6X](#garmin-fenix-6x-watch)
 - Garmin Varia rear light
 - Two water bottles
 - Tools:
@@ -196,11 +209,11 @@ Vest: Salomon Sense Pro 6
 
 - Poles: Black Diamond Carbon Z Trekking Poles with Salmon Custom Quiver
 - Water Filter: Salomon Soft Flask XA Filter
-- Phone: iPhone 16 Pro
+- Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
 - Sunscreen: Stick Sunscreen
 - Headlamp: Black Diamond Sprinter 500 Headlamp
 - USB-C battery: Anker 10k Slim
-- Insulation: Patagonia Nano Air Ultralight Pullover
+- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
 - Toilet Paper
 - First Aid
 - Ziploc Bags
@@ -214,7 +227,7 @@ Vest: Salomon Sense Pro 6
 ### Reset
 
 - Restock food and electrolytes
-- Charge watch and headlamp
+- Charge [Fenix 6X](#garmin-fenix-6x-watch) and headlamp
 - Refill water flask
 - Drink protein
 
@@ -259,7 +272,7 @@ Restock consumables immediately after use, not before the next trip.
 
 ## Hygiene Kit
 
-Container: Black Diamond Pouch (minimal) or Aer Travel Kit 2 (full).
+Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (minimal) or Aer Travel Kit 2 (full).
 
 ### Core
 
@@ -285,7 +298,7 @@ Container: Black Diamond Pouch (minimal) or Aer Travel Kit 2 (full).
 
 ## Tech Kit
 
-Container: Black Diamond Pouch (minimal) or Aer Slim Pouch (full).
+Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (minimal) or Aer Slim Pouch (full).
 
 ### Core
 
@@ -309,7 +322,7 @@ None.
 
 ## Clothes Kit
 
-Container: Black Diamond Pouch (minimal), Aer Zip Small Bag (accessible), or packing cube (standard). Scale container to the amount of clothing.
+Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (minimal), [Aer Zip Small Bag](#aer-zip-small-bag) (accessible), or packing cube (standard). Scale container to the amount of clothing.
 
 ### Core
 
@@ -353,7 +366,7 @@ None.
 
 ## Health Kit
 
-Container: Black Diamond Pouch.
+Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch).
 
 ### Core
 
@@ -471,11 +484,11 @@ Zipper broke; not that durable.
 
 **Best in Slot**. This acts as a sun hoodie, running shirt and windshirt combined. In high exertion hot weather, the elastic on the sleeves let you bunch them up securely and the zipper goes down very deep. It's extremely breathable; often more breathable than polyester T-shirts. I can usually run in this until 5C, since it blocks enough wind to keep me warm when moving.
 
-In theory, this combined with the Patagonia Nano Air Ultralight can be all you need until around 5C, both running and stationary.
+In theory, this combined with the [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover) can be all you need until around 5C, both running and stationary.
 
 - Wear the Airshed by itself while active or stationary.
-- Put on the Nano Air Ultralight when it gets colder.
-- Put the Airshed over the Nano Air Ultralight when it gets even colder for more wind resistance.
+- Put on the [Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover) when it gets colder.
+- Put the Airshed over the [Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover) when it gets even colder for more wind resistance.
 
 The downside is the color (Wispy Green) is a little see through.
 
@@ -493,7 +506,7 @@ Dislikes: no pocket that fully fits my phone.
 
 ## Shoes
 
-If space is at a premium, take the Nike Pegasus as the only pair. Otherwise, pack one in the the [Aer Zip Large Bag](#aer-zip-large-bag).
+If space is at a premium, take the [Nike Pegasus 41](#nike-pegasus-41-shoes) as the only pair. Otherwise, pack one in the the [Aer Zip Large Bag](#aer-zip-large-bag).
 
 ### Darn Tough Quarter Cushioned Ultra-Lightweight Running Socks 
 
@@ -569,3 +582,4 @@ Random ones from REI.
 - 2026-03-18: Added System Overview escalation model. Moved 100W charger to Tech Kit core. Expanded cycling post-ride checklist. Collapsed casual clothes entries. Renamed Headwear section to include Eyewear. Added shelter-only note to Camping.
 - 2026-03-18: Added Prep and Reset sections to all lists.
 - 2026-03-18: Merged Wheeled Carryon and Onebag Travel into Air Travel. Bag options are CT15 or Carl Friedrik Hybrid Carry-on, always with the WaterField Shinjuku Brief. Added Carl Friedrik Hybrid Carry-on to Bags section.
+- 2026-03-18: Deep linked all item references throughout lists, kits, and item descriptions. Split Air Travel into Onebag and Wheeled subsections.
