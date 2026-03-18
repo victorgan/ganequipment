@@ -33,32 +33,28 @@ Updated March 2026
 
 ## Everyday Carry
 
-Phone and Auth normally.
-
-I'll bring my u lock, which generally means I'm bringing my backpack.
-
-### On Body
+### Core
 
 - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
 - [Auth Kit](#auth-kit): Car fob keyring, apartment fob, 3-card MagSafe card holder, work badge.
-
-### Packed
-
 - Backpack: [CTactical CT15](#ctactical-ct15-backpack)
 - [Tech Kit](#tech-kit): Aer Slim Pouch
-- [Clothes Kit](#clothes-kit): Aer Zip Bag Small
 - Personal Laptop: 13" Macbook Air M2
 - Work Laptop: 13" Macbook Air M3
-- Bike Lock: Kryptonite Evolution U-Lock
 - Earbuds: Soundcore Aerofit Pro
 - Glasses: Lindberg Frameless in a [Linrong Capsule Eyelass Case](#linrong-capsule-eyelass-case)
 - Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
+
+### Consumables
+
 - Sunscreen
 
-### Situational
+### Conditional
 
-- Black Diamond Sprinter 500 Headlamp
+- [Clothes Kit](#clothes-kit): Aer Zip Bag Small — gym days
+- Bike Lock: Kryptonite Evolution U-Lock — biking
+- Black Diamond Sprinter 500 Headlamp — low light
 
 ## Wheeled Carryon Travel
 
