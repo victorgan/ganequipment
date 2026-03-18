@@ -27,6 +27,7 @@ Updated March 2026
 - [Clothes](#clothes)
 - [Headwear, Eyewear, and Gloves](#headwear-eyewear-and-gloves)
 - [Shoes](#shoes)
+- [Sport Gear](#sport-gear)
 
 [Change Log](#change-log)
 
@@ -587,7 +588,7 @@ There's holes in it, but used for everything.
 
 Hardshell case without being bulky or heavy. They open up on the short end with a click.
 
-## Accessories
+## Sport Gear
 
 ### Swimming Goggles and Cap
 
