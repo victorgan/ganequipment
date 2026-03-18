@@ -133,6 +133,9 @@ Optional:
 [WaterField Shinjuku Brief](#waterfield-shinjuku-laptop-brief-small):
 
 - [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses)
+- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
+- [Apple AirPods Pro 3](#apple-airpods-pro-3)
+- [Auth Kit](#auth-kit): passport, visas, home keys, debit card
 - Work Laptop
 - Personal Laptop
 
@@ -142,9 +145,7 @@ Optional:
 - [Tech Kit](#tech-kit)
 - [Clothes Kit](#clothes-kit)
 - [Health Kit](#health-kit) (optional)
-- [Auth Kit](#auth-kit): passport, visas, home keys, debit card
 - Snack pencil case
-- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses), [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses), Soundcore Aerofit Pro earbuds
 
 Optional:
 
@@ -328,7 +329,7 @@ None.
 
 - 45W charger — lighter substitute when traveling with single laptop
 - 10k Power Bank — longer days, in accessible pocket not in pouch
-- Airpods Pro 3 — in accessible pocket not in pouch
+- [Apple AirPods Pro 3](#apple-airpods-pro-3) — in accessible pocket not in pouch
 - Crucial X10 Pro 4TB SSD — if working remotely
 - SD card reader — if shooting
 - 10 ft USB-C cable — hotel/hostel outlet reach
@@ -451,7 +452,11 @@ I've been trying mechanical watches for daily wear, but it's hard to beat the co
 
 ### Garmin Fenix 6X Watch
 
-I use this for maps when cycling (on my handlebar) or trail running. 
+I use this for maps when cycling (on my handlebar) or trail running.
+
+### Apple AirPods Pro 3
+
+For travel. Noise cancellation on flights, transparency mode in cities.
 
 ## Clothes
 
