@@ -12,10 +12,10 @@ Updated March 2026
 
 ## [Kits](#specific-kits)
 
-- [Hygiene](#hygiene-kit)
+- [Auth](#auth-kit)
 - [Tech](#tech-kit)
 - [Clothes](#clothes-kit)
-- [Auth](#auth-kit)
+- [Hygiene](#hygiene-kit)
 - [Health](#health-kit)
 
 ## [Items](#specific-items)
@@ -107,29 +107,29 @@ Updated March 2026
 
 ### Onebag — [CTactical CT15](#ctactical-ct15-backpack)
 
-- [Hygiene Kit](#hygiene-kit)
+- [Auth Kit](#auth-kit): passport, visas, home keys, debit card
 - [Tech Kit](#tech-kit)
 - [Clothes Kit](#clothes-kit)
+- [Hygiene Kit](#hygiene-kit)
 - [Health Kit](#health-kit)
-- [Auth Kit](#auth-kit): passport, visas, home keys, debit card
 - [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses), [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses), Soundcore Aerofit Pro earbuds
 
 ### Wheeled — [Carl Friedrik Hybrid Carry-on](#carl-friedrik-hybrid-carry-on) + [WaterField Shinjuku Brief](#waterfield-shinjuku-laptop-brief-small)
 
 [WaterField Shinjuku Brief](#waterfield-shinjuku-laptop-brief-small):
 
+- [Auth Kit](#auth-kit): passport, visas, home keys, debit card
 - [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses)
 - [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
 - [Apple AirPods Pro 3](#apple-airpods-pro-3)
-- [Auth Kit](#auth-kit): passport, visas, home keys, debit card
 - Work Laptop
 - Personal Laptop
 
 [Carl Friedrik Hybrid Carry-on](#carl-friedrik-hybrid-carry-on):
 
-- [Hygiene Kit](#hygiene-kit)
 - [Tech Kit](#tech-kit)
 - [Clothes Kit](#clothes-kit)
+- [Hygiene Kit](#hygiene-kit)
 - [Health Kit](#health-kit)
 
 ### Optional
@@ -275,31 +275,28 @@ Each kit has three layers:
 
 Restock consumables immediately after use, not before the next trip.
 
-## Hygiene Kit
+## Auth Kit
 
-Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (minimal) or Aer Travel Kit 2 (full).
+No dedicated container. Items live on person or in bag pockets.
 
 ### Core
 
-- Toothbrush
-- Floss
-- Razor
-- Nail cutter
-- Tweezers
+- Apartment fob
+- 3-card MagSafe card holder: driver's license, credit card
 
 ### Consumables
 
-- Toothpaste
-- Shave cream
-- Moisturizer
-- Sunscreen
-- Cleanser
+None.
 
 ### Conditional
 
-- Eye cream — longer trips
-- Toner — longer trips
-- Additional face products — Aer Travel Kit 2 replaces BD Pouch when these are needed
+- Bus pass — added to card holder for transit-heavy days
+- Car fob keyring with bike lock key, YubiKey, AirTag — driving days
+- Work badge on fob — work days, carried separately since badge readers are sensitive to other cards
+- Passport and passport case — international travel
+- Debit card — international ATMs
+- Home keys — traveling without car fob keyring
+- Visas — as needed
 
 ## Tech Kit
 
@@ -346,28 +343,31 @@ None. All items rotate through laundry.
 - Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover) — cold weather
 - Travel clothesline — uncertain laundry access
 
-## Auth Kit
+## Hygiene Kit
 
-No dedicated container. Items live on person or in bag pockets.
+Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (minimal) or Aer Travel Kit 2 (full).
 
 ### Core
 
-- Apartment fob
-- 3-card MagSafe card holder: driver's license, credit card
+- Toothbrush
+- Floss
+- Razor
+- Nail cutter
+- Tweezers
 
 ### Consumables
 
-None.
+- Toothpaste
+- Shave cream
+- Moisturizer
+- Sunscreen
+- Cleanser
 
 ### Conditional
 
-- Bus pass — added to card holder for transit-heavy days
-- Car fob keyring with bike lock key, YubiKey, AirTag — driving days
-- Work badge on fob — work days, carried separately since badge readers are sensitive to other cards
-- Passport and passport case — international travel
-- Debit card — international ATMs
-- Home keys — traveling without car fob keyring
-- Visas — as needed
+- Eye cream — longer trips
+- Toner — longer trips
+- Additional face products — Aer Travel Kit 2 replaces BD Pouch when these are needed
 
 ## Health Kit
 
