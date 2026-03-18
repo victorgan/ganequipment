@@ -116,17 +116,16 @@ Updated March 2026
 - [Hygiene Kit](#hygiene-kit)
 - [Health Kit](#health-kit)
 - Personal Laptop: 13" MacBook Air M2, Work Laptop: 13" MacBook Air M3
-- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses), [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses)
+- [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses), [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
 
 ### Wheeled — [Carl Friedrik Hybrid Carry-on](#carl-friedrik-hybrid-carry-on) + [WaterField Shinjuku Brief](#waterfield-shinjuku-laptop-brief-small)
 
 [WaterField Shinjuku Brief](#waterfield-shinjuku-laptop-brief-small):
 
 - [Auth Kit](#auth-kit): passport, visas, home keys, debit card
-- [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses), [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
+- Personal Laptop: 13" MacBook Air M2, Work Laptop: 13" MacBook Air M3
 - [Apple AirPods Pro 3](#apple-airpods-pro-3), [Anker 10k](#anker-10k-mah-magnetic-power-bank)
-- Work Laptop
-- Personal Laptop
+- [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses), [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
 
 [Carl Friedrik Hybrid Carry-on](#carl-friedrik-hybrid-carry-on):
 
