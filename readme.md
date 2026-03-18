@@ -177,7 +177,7 @@ Updated March 2026
     - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
     - [Auth Kit](#auth-kit): apartment fob, card holder
     - Gummies
-    - Headlamp: Black Diamond Sprinter 500 Headlamp
+    - Headlamp: [Black Diamond Sprinter 500](#black-diamond-sprinter-500-headlamp)
 
 ### On Bike
 
@@ -251,7 +251,7 @@ Bag: 40L pack or red duffle
 - Sleeping Bag
 - Sleeping pad
 - Pillow
-- Headlamp: Black Diamond Sprinter 500 Headlamp
+- Headlamp: [Black Diamond Sprinter 500](#black-diamond-sprinter-500-headlamp)
 
 # Specific Kits
 
@@ -415,7 +415,7 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Water bo
 - Gloves: [Outdoor Research Sun Gloves](#outdoor-research-sun-gloves) — shared with [Trail Running Kit](#trail-running-kit)
 - [Garmin Fenix 6X](#garmin-fenix-6x-watch) — shared with [Trail Running Kit](#trail-running-kit)
 - Garmin Varia rear light
-- Headlamp: Black Diamond Sprinter 500 — shared with [Trail Running Kit](#trail-running-kit) and [Camping Kit](#camping-kit)
+- Headlamp: [Black Diamond Sprinter 500](#black-diamond-sprinter-500-headlamp) — shared with [Trail Running Kit](#trail-running-kit) and [Camping Kit](#camping-kit)
 - Tools: patch kit, disc brake pad spacer, multitool
 
 ### Consumables
@@ -457,7 +457,7 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Core clo
 - [Garmin Fenix 6X](#garmin-fenix-6x-watch) — shared with [Cycling Kit](#cycling-kit)
 - Black Diamond Carbon Z Trekking Poles with Salomon Custom Quiver
 - Salomon Soft Flask XA Filter
-- Headlamp: Black Diamond Sprinter 500
+- Headlamp: [Black Diamond Sprinter 500](#black-diamond-sprinter-500-headlamp) — shared with [Cycling Kit](#cycling-kit)
 - First aid kit
 - Ziploc bags
 - Toilet paper
@@ -475,7 +475,7 @@ Container: 40L pack or red duffle.
 - Sleeping bag
 - Sleeping pad
 - Pillow
-- Headlamp: Black Diamond Sprinter 500 — shared with [Cycling Kit](#cycling-kit) and [Trail Running Kit](#trail-running-kit)
+- Headlamp: [Black Diamond Sprinter 500](#black-diamond-sprinter-500-headlamp) — shared with [Cycling Kit](#cycling-kit) and [Trail Running Kit](#trail-running-kit)
 
 ### Consumables
 
@@ -713,7 +713,7 @@ Hardshell case without being bulky or heavy. They open up on the short end with 
 
 6L trail running vest. Container for the [Trail Running Kit](#trail-running-kit) during runs.
 
-### Black Diamond Sprinter 500 Headlamp
+### [Black Diamond Sprinter 500](#black-diamond-sprinter-500-headlamp)
 
 500 lumens. Shared across [Cycling Kit](#cycling-kit), [Trail Running Kit](#trail-running-kit), and [Camping Kit](#camping-kit).
 
