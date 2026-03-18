@@ -43,6 +43,8 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 
 ## Everyday Carry
 
+Bag: [CTactical CT15](#ctactical-ct15-backpack)
+
 ### Prep
 
 - Add conditionals for the day: [Clothes Kit](#clothes-kit) (gym), bike lock (biking), headlamp (low light)
@@ -56,7 +58,6 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
 - [Auth Kit](#auth-kit): Car fob keyring, apartment fob, 3-card MagSafe card holder, work badge.
-- Backpack: [CTactical CT15](#ctactical-ct15-backpack)
 - [Tech Kit](#tech-kit): Aer Slim Pouch
 - Personal Laptop: 13" Macbook Air M2
 - Work Laptop: 13" Macbook Air M3
@@ -75,6 +76,8 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 - Black Diamond Sprinter 500 Headlamp — low light
 
 ## Wheeled Carryon Travel
+
+Bags: Briefcase + wheeled carryon
 
 ### Prep
 
@@ -118,6 +121,8 @@ Optional:
 
 ## Onebag Travel
 
+Bag: [CTactical CT15](#ctactical-ct15-backpack)
+
 ### Prep
 
 - Pack kits
@@ -141,9 +146,8 @@ Optional:
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
 - Phone: iPhone 16 Pro with Magsafe Wallet
 
-### In the Ctactical CT15
+### In the CT15
 
-- Backpack: [CTactical CT15](#ctactical-ct15-backpack)
 - [Hygiene Kit](#hygiene-kit)
 - [Tech Kit](#tech-kit)
 - [Clothes Kit](#clothes-kit)
@@ -211,6 +215,8 @@ Optional:
 
 ## Trail Running
 
+Vest: Salomon Sense Pro 6
+
 ### Prep
 
 - Check Epic Ride Weather App
@@ -228,7 +234,6 @@ Optional:
 
 ### In Vest
 
-- Running Vest: Salomon Sense Pro 6
 - Poles: Black Diamond Carbon Z Trekking Poles with Salmon Custom Quiver
 - Water Filter: Salomon Soft Flask XA Filter
 - Phone: iPhone 16 Pro
@@ -265,7 +270,7 @@ Optional:
 
 *Shelter only — clothing, food, cooking, and water treatment not listed.*
 
-Carried in a 40L pack or the red duffle.
+Bag: 40L pack or red duffle
 
 ### Prep
 
