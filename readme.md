@@ -36,9 +36,9 @@ Updated March 2026
 **Bag:**
 
 - No bag — phone and auth only; everything fits in pockets
-- [Porter International New Heat](#porter-international-new-heat-shoulder-bag) — more than pockets but no laptop; a camera, book, or light extras
-- [WaterField Shinjuku Laptop Brief Small](#waterfield-shinjuku-laptop-brief-small) — laptop needed; clean enough for an office
-- [CTactical CT15](#ctactical-ct15-backpack) — extended carry; gym kit, bike lock, or a long day away from a desk
+- [Porter International New Heat](#porter-international-new-heat-shoulder-bag) — more than pockets, no laptop
+- [WaterField Shinjuku Laptop Brief Small](#waterfield-shinjuku-laptop-brief-small) — laptop needed
+- [CTactical CT15](#ctactical-ct15-backpack) — high volume or extended carry
 
 ### Prep
 
