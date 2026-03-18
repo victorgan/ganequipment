@@ -464,22 +464,24 @@ A custom version of CTactical's CT15 V3.0 from a Facebook group buy, nicknamed K
 22.3" × 14.8" × 9.3" (56.6 × 37.7 × 23.7 cm). 9.5 lbs / 4.3 kg. 40L. Polycarbonate shell with aluminium TSA lock frame and vegetable-tanned leather detailing. Hinomoto 360° spinner wheels, any-stop trolley, lifetime warranty. Fits up to 5 days.
 
 ## Tech
+
 ### iPhone 16 Pro Phone
+
 Switched from Android (Google Pixels and Nexuses) after 2012. A bit bigger than ideal.
+
+### Apple AirPods Pro 3
+
+For travel. Noise cancellation on flights, transparency mode in cities.
 
 ### Garmin Forerunner 255s Watch
 
-A 41mm smartwatch, Garmin's smallest and lightest. It's the last one with an e-ink style display, that saves battery life and is visible in the sun. Garmin's Forerunner 9XX and Fenix watches have the ability to display maps, but none of them are as small as the 255s, and the 255s' breadcrumb feature is good enough for most hikes and trail runs to keep you on course for downloaded trails. 
+A 41mm smartwatch, Garmin's smallest and lightest. It's the last one with an e-ink style display, that saves battery life and is visible in the sun. Garmin's Forerunner 9XX and Fenix watches have the ability to display maps, but none of them are as small as the 255s, and the 255s' breadcrumb feature is good enough for most hikes and trail runs to keep you on course for downloaded trails.
 
 I've been trying mechanical watches for daily wear, but it's hard to beat the convenience of not having to set the time every day. I also considered the new Pebble time, but the Garmin is just too integrated with running features.
 
 ### Garmin Fenix 6X Watch
 
 I use this for maps when cycling (on my handlebar) or trail running.
-
-### Apple AirPods Pro 3
-
-For travel. Noise cancellation on flights, transparency mode in cities.
 
 ### Anker 10k mAh Magnetic Power Bank
 
@@ -494,42 +496,6 @@ Compact single-port USB-C. Core charger in the [Tech Kit](#tech-kit) for everyda
 Dual USB-C ports. Lives in the [Aer Slim Pouch](#aer-slim-pouch), added to the [Tech Kit](#tech-kit) when charging multiple devices or laptops.
 
 ## Clothes
-
-### Loungewear
-
-#### Costco Cotton Sweatpants
-
-I like that it's cotton for breathability. Could be comfier. Also it's black, which is a little jarring. Grey might have more staying power.
-
-#### Manduka Pro Yoga Shorts
-
-Built-in liner.
-
-#### Yosemite T-Shirt
-
-Gift from Yuri and Edwin
-
-### Casual T-Shirts
-
-Rotation: Uniqlo white, North Face Sunriser, maroon cotton.
-
-### Casual Sweaters
-
-Rotation: Gap sweater, Banana Republic red knit hoodie.
-
-### Casual Pants
-
-#### Outlier New Dungarees Pants
-
-This pants have a more modern cut that the cult classic New Dungarees. The material is textured a bit more than other techwear pants, which makes it more casual.
-
-#### Vuori Black Slacks
-
-Kinda cool
-
-#### Vuori Green Pants
-
-Zipper broke; not that durable.
 
 ### Technical
 
@@ -554,6 +520,42 @@ Active insulation pullover with almost no insulation — runs slim, so sized up 
 Likes: it's light and has a built-in liner.
 
 Dislikes: no pocket that fully fits my phone.
+
+### Casual Pants
+
+#### Outlier New Dungarees Pants
+
+This pants have a more modern cut that the cult classic New Dungarees. The material is textured a bit more than other techwear pants, which makes it more casual.
+
+#### Vuori Black Slacks
+
+Kinda cool
+
+#### Vuori Green Pants
+
+Zipper broke; not that durable.
+
+### Casual T-Shirts
+
+Rotation: Uniqlo white, North Face Sunriser, maroon cotton.
+
+### Casual Sweaters
+
+Rotation: Gap sweater, Banana Republic red knit hoodie.
+
+### Loungewear
+
+#### Costco Cotton Sweatpants
+
+I like that it's cotton for breathability. Could be comfier. Also it's black, which is a little jarring. Grey might have more staying power.
+
+#### Manduka Pro Yoga Shorts
+
+Built-in liner.
+
+#### Yosemite T-Shirt
+
+Gift from Yuri and Edwin
 
 ## Shoes
 
