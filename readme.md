@@ -80,10 +80,10 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 - [Tech Kit](#tech-kit): Aer Slim Pouch
 - Personal Laptop: 13" Macbook Air M2
 - Work Laptop: 13" Macbook Air M3
+- [Clothes Kit](#clothes-kit): [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) — gym days
 
 **+ [CTactical CT15](#ctactical-ct15-backpack):**
 
-- [Clothes Kit](#clothes-kit): [Aer Zip Bag Small](#aer-zip-small-bag) — gym days
 - Bike Lock: Kryptonite Evolution U-Lock — biking
 
 ## Air Travel
