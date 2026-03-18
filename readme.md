@@ -65,11 +65,12 @@ Updated March 2026
 - Watch: [Garmin Forerunner 255s](#garmin-forerunner-255s-watch)
 - [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank)
 - Earbuds: [Apple AirPods Pro 3](#apple-airpods-pro-3)
+- Glasses: [Lindberg Frameless](#lindberg-frameless-eyeglasses)
 
 **+ [Porter International New Heat](#porter-international-new-heat-shoulder-bag):**
 
 - Sunscreen
-- Glasses: [Lindberg Frameless](#lindberg-frameless-eyeglasses) in a [Linrong Capsule Eyeglass Case](#linrong-capsule-eyeglass-case)
+- [Linrong Capsule Eyeglass Case](#linrong-capsule-eyeglass-case)
 - Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
 
 **+ [WaterField Shinjuku Laptop Brief Small](#waterfield-shinjuku-laptop-brief-small):**
