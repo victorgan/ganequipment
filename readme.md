@@ -1,6 +1,4 @@
-<meta name="robots" content="noindex, nofollow">
-
-Updated October 2025
+Updated March 2026
 
 # Contents
 
@@ -13,7 +11,6 @@ Updated October 2025
 - [Camping](#camping)
 
 ## [Kits](#specific-kits)
-
 
 ## [Items](#specific-items)
 
@@ -32,8 +29,7 @@ Updated October 2025
 
 Phone and Auth normally.
 
-I'll bring my u lock, which generally means I'm bringing my
-backpack.
+I'll bring my u lock, which generally means I'm bringing my backpack.
 
 ### On Body
 
@@ -69,10 +65,10 @@ backpack.
 - Underwear: Saxx Synthetic Boxers
 - Shirt
 - Socks
-- Shoes 
-- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
-- Phone: iPhone 16 Pro 
+- Shoes
 
+- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
+- Phone: iPhone 16 Pro  
 
 ### Briefcase
 
@@ -120,7 +116,8 @@ Optional:
 - sunglasses, glasses, travel clothesline, ear plugs and Soundcore Aerofit Pro earbuds
 - Personal laptop: 13" Macbook Air M2
 - Work laptop: 13" Macbook Air M3
-- A pair of binoculars 
+- A pair of binoculars
+
 - DSLR
 - Tote bag
 
@@ -133,8 +130,7 @@ Pre-ride checklist:
 - Check Epic Ride Weather App
 - Pump tires
 - Fill water bottles
-- Stock food
-
+- Stock food 
 
 Post-ride checklist:
 
@@ -180,7 +176,7 @@ Post-ride checklist:
 
 ### On Person
 
-- Hat: [Ciele Running Cap](#ciele-running-cap) 
+- Hat: [Ciele Running Cap](#ciele-running-cap)
 - Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
 - Shirt: [Patagonia Airshed Pro Pullover](#patagonia-airshed-pro-pullover)
 - Pants: [Patagonia Strider Pro Shorts](#patagonia-strider-pro-shorts)
@@ -229,71 +225,126 @@ Carried in a 40L pack or the red duffle.
 
 # Specific Kits
 
+Each kit has three layers:
+
+- **Core**: Lives permanently in the kit. Never leaves.
+- **Consumables**: Gets used up or needs washing. This is what replenishment means.
+- **Conditional**: Added for specific contexts. Everything else stays out.
+
+Restock consumables immediately after use, not before the next trip.
+
 ## Hygiene Kit
 
-### Minimal Hygiene Kit
+Container: Black Diamond Pouch (minimal) or Aer Travel Kit 2 (full).
 
-In a Black Diamond Pouch.
+### Core
 
 - Toothbrush
 - Floss
 - Razor
 - Nail cutter
-- Consumables
-    - Toothpaste
-    - Shave Cream
-    - Moisturizer
-    - Sunscreen
-    - Cleanser
+- Tweezers
 
-### Full Hygiene Kit
+### Consumables
 
-In the Aer Travel Kit 2.
+- Toothpaste
+- Shave cream
+- Moisturizer
+- Sunscreen
+- Cleanser
 
-Everything in minimal plus more face stuff.
+### Conditional
+
+- Eye cream — longer trips
+- Toner — longer trips
+- Additional face products — Aer Travel Kit 2 replaces BD Pouch when these are needed
 
 ## Tech Kit
 
-### Minimal Tech Kit
+Container: Black Diamond Pouch (minimal) or Aer Slim Pouch (full).
 
-BD Pouch: 45W charger, two usb-c cables. Garmin usb-c cable, wired earbuds.
+### Core
 
-In Accessible pockets: 10k Power Bank, airpods pro 3.
+- USB-C cables (0.5 ft, 3 ft)
+- Garmin USB-C cable
+- Wired earbuds
 
-### Full Tech Kit
+### Consumables
 
-Aero Slim Pouch: 100W GaN charger
+None.
+
+### Conditional
+
+- 45W charger — default for single laptop
+- 100W GaN charger — replaces 45W when bringing two laptops
+- 10k Power Bank — longer days, in accessible pocket not in pouch
+- Airpods Pro 3 — in accessible pocket not in pouch
+- Crucial X10 Pro 4TB SSD — if working remotely
+- SD card reader — if shooting
+- 10 ft USB-C cable — hotel/hostel outlet reach
 
 ## Clothes Kit
 
-Add travel clothesline if necessary.
+Container: Black Diamond Pouch (minimal), Aer Zip Small Bag (accessible), or packing cube (standard). Scale container to the amount of clothing.
 
-### Minimal Clothes Kit
+### Core
 
-Shirts and shorts in a black diamond pouch.
+None. All items rotate through laundry.
 
-### Accessible Clothes Kit
+### Consumables
 
-Shirts and long pants in an Aer Zip Small Bag.
+- Gym/sleep shorts
+- Gym/sleep shirt
+- Extra underwear
 
-### Standard Clothes Kit
+### Conditional
 
-Packing cube: Gym clothes, sleep clothes, nice clothes.
+- Lounge shirt — longer trips
+- Nice t-shirt and pants — social occasions
+- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover) — cold weather
+- Travel clothesline — uncertain laundry access
 
 ## Auth Kit
 
-Plus Passport for air/international travel.
+No dedicated container. Items live on person or in bag pockets.
 
-### Minimal Auth Kit
+### Core
 
 - Apartment fob
-- 3-card magsafe card holder with driver’s license, credit card.
+- 3-card MagSafe card holder: driver's license, credit card
 
-### Regular Auth Kit
+### Consumables
 
-- Keyring with car fob, bike lock key, apartment fob, yubi key, and airtag.
-- 3-card magsafe card holder with driver’s license, bus pass, and credit card.
-- Work badge on fob
+None.
+
+### Conditional
+
+- Bus pass — added to card holder for transit-heavy days
+- Car fob keyring with bike lock key, YubiKey, AirTag — driving days
+- Work badge on fob — work days, carried separately since badge readers are sensitive to other cards
+- Passport and passport case — international travel
+- Debit card — international ATMs
+- Home keys — traveling without car fob keyring
+- Visas — as needed
+
+## Health Kit
+
+Container: Black Diamond Pouch.
+
+### Core
+
+- Hand sanitizer
+- Face mask
+
+### Consumables
+
+- Vitamins
+- OTC medications: Advil, Claritin, Imodium, Pepto-Bismol, Dramamine
+
+### Conditional
+
+- Salt sticks — high exertion or heat
+- Spork — eating on the go
 
 # Specific Items
 
@@ -323,9 +374,7 @@ For shoes.
 For 3-4 pieces of clothing, or sun gloves/sun hat/running cap.
 
 ### Black Diamond Skin Maintenance Kit Pouch
-**Personal Favorite**. 6 of them. The pencil case shaped bags hold their
-structure, and is made of nylon with a single zipper, which makes it feel very
-durable without it having any unnecessary details to weigh it down.
+**Personal Favorite**. 6 of them. The pencil case shaped bags hold their structure, and is made of nylon with a single zipper, which makes it feel very durable without it having any unnecessary details to weigh it down.
 
 ## Tech
 ### Iphone 16 Pro Phone
@@ -339,20 +388,17 @@ I've been trying mechanical watches for daily wear, but it's hard to beat the co
 
 ### Garmin Fenix 6X Watch
 
-I use this for maps when cycling (on my handlebar) or trail running.
-
+I use this for maps when cycling (on my handlebar) or trail running. 
 
 ## Clothes
 
-Clothes go in the large packing cube, zip small bag or multiple
-pencile cases, depending on the amount and convenience needed.
+Clothes go in the large packing cube, zip small bag or multiple pencile cases, depending on the amount and convenience needed.
 
 ### Loungewear
 
 #### Costco Cotton Sweatpants
 
-I like that it's cotton for breathability. Could be comfier. Also it's black,
-which is a little jarring. Grey might have more staying power.
+I like that it's cotton for breathability. Could be comfier. Also it's black, which is a little jarring. Grey might have more staying power.
 
 #### Manduka Pro Yoga Shorts
 
@@ -390,9 +436,7 @@ Looks kinda cool.
 
 #### Outlier New Dungarees Pants
 
-This pants have a more modern cut that the cult classic New Dungarees. The
-material is textured a bit more than other techwear pants, which makes it more
-casual.
+This pants have a more modern cut that the cult classic New Dungarees. The material is textured a bit more than other techwear pants, which makes it more casual.
 
 #### Vuori Black Slacks
 
@@ -406,14 +450,9 @@ Zipper broke; not that durable.
 
 #### Patagonia Airshed Pro Pullover
 
-**Best in Slot**. This acts as a sun hoodie, running shirt and windshirt
-combined. In high exertion hot weather, the elastic on the sleeves let you bunch
-them up securely and the zipper goes down very deep. It's extremely breathable;
-often more breathable than polyester T-shirts. I can usually run in this until
-5C, since it blocks enough wind to keep me warm when moving.
+**Best in Slot**. This acts as a sun hoodie, running shirt and windshirt combined. In high exertion hot weather, the elastic on the sleeves let you bunch them up securely and the zipper goes down very deep. It's extremely breathable; often more breathable than polyester T-shirts. I can usually run in this until 5C, since it blocks enough wind to keep me warm when moving.
 
-In theory, this combined with the Patagonia Nano Air Ultralight can be all you
-need until around 5C, both running and stationary.
+In theory, this combined with the Patagonia Nano Air Ultralight can be all you need until around 5C, both running and stationary.
 
 - Wear the Airshed by itself while active or stationary.
 - Put on the Nano Air Ultralight when it gets colder.
@@ -423,12 +462,9 @@ The downside is the color (Wispy Green) is a little see through.
 
 #### Patagonia Nano Air Ultralight Pullover
 
-**Best in Slot**. This is an 'active insulation' pullover that is kind of
-ridiculous, because there's almost no insulation in it. I sized up to a medium
-because it's a slim fit, and now it looks baggy in a trendy way.
+**Best in Slot**. This is an 'active insulation' pullover that is kind of ridiculous, because there's almost no insulation in it. I sized up to a medium because it's a slim fit, and now it looks baggy in a trendy way.
 
-I quite like that it's a pullover, since it reduces bulk in the hood area. It's
-comfy and light enough to wear casually.
+I quite like that it's a pullover, since it reduces bulk in the hood area. It's comfy and light enough to wear casually.
 
 #### Patagonia Strider Pro Shorts
 
@@ -438,8 +474,7 @@ Dislikes: no pocket that fully fits my phone.
 
 ## Shoes
 
-If space is at a premium, take the Nike Pegasus as the only pair. Otherwise,
-pack one in the the [Aer Zip Large Bag](#aer-zip-large-bag).
+If space is at a premium, take the Nike Pegasus as the only pair. Otherwise, pack one in the the [Aer Zip Large Bag](#aer-zip-large-bag).
 
 ### Darn Tough Quarter Cushioned Ultra-Lightweight Running Socks 
 
@@ -487,9 +522,7 @@ For when I don't wanna look like a cyclist.
 
 ### Cafe Du Cyclist Gabin Sunglasses
 
-I like the shield-like coverage of one piece cycling sunglasses and
-photochromatic lenses for changing weather and daylight. These ones fit the bill
-without looking too gaudy.
+I like the shield-like coverage of one piece cycling sunglasses and photochromatic lenses for changing weather and daylight. These ones fit the bill without looking too gaudy.
 
 ### Outdoor Research Sun Gloves
 
@@ -497,8 +530,7 @@ There's holes in it, but used for everything.
 
 ### Linrong Capsule Eyelass Case
 
-Hardshell case without being bulky or heavy. They open up on the short end with a
-click.
+Hardshell case without being bulky or heavy. They open up on the short end with a click.
 
 ## Accessories
 
@@ -513,3 +545,4 @@ Random ones from REI.
 - 2025-05-29: Replaced the Asics Superblast 2 + casual shoe combo for traveling with the [Nike Pegasus 41](#nike-pegasus-41-shoes) running shoes.
 - 2025-05-29: Added an Airtag to my keyring, using a keychain holder from Elevation Labs. I now have 5 airtags: car, ebike, luggage, backpack, and keys.
 - 2025-05-29: Upgraded the USB-A Garmin Watch cable with a USB-C Garmin Watch cable. The slight downside is this might compete with the 2 USB-C slots of the Anker 100 GaN Charger.
+- 2026-03-18: Restructured Specific Kits around core/consumable/conditional framework. Added Health Kit. Replaced minimal/full/standard tiers with explicit conditional items per kit.
