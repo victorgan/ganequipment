@@ -151,8 +151,8 @@ Updated March 2026
 
 ### Reset
 
-- Refill water bottles
-- Restock food
+- Clean and empty water bottles
+- Clear out food wrappers and garbage
 - Hang kit to dry
 - Drink protein
 - Shower
