@@ -18,6 +18,7 @@ Updated March 2026
 - [Hygiene](#hygiene-kit)
 - [Health](#health-kit)
 - [Cycling](#cycling-kit)
+- [Trail Running](#trail-running-kit)
 
 ## [Items](#specific-items)
 
@@ -195,11 +196,13 @@ Vest: Salomon Sense Pro 6
 
 ### Prep
 
+- Check [Trail Running Kit](#trail-running-kit) — top up consumables, add conditionals
 - Check Epic Ride Weather App — designed for cycling, works well for trail running
 - Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Fenix 6X](#garmin-fenix-6x-watch), [Anker 10k](#anker-10k-mah-magnetic-power-bank), headlamp
 
 ### Reset
 
+- Hang [Trail Running Kit](#trail-running-kit) to dry
 - Restock food and electrolytes
 - Refill water flask
 - Drink protein
@@ -437,6 +440,38 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Water bo
 ### Conditional
 
 - Extra food — longer rides
+
+## Trail Running Kit
+
+Container: Salomon Sense Pro 6 vest — stays packed between runs.
+
+### Core
+
+- [Ciele Running Cap](#ciele-running-cap)
+- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
+- [Patagonia Airshed Pro Pullover](#patagonia-airshed-pro-pullover)
+- [Patagonia Strider Pro Shorts](#patagonia-strider-pro-shorts)
+- Socks: [Darn Tough Quarter Cushioned Ultra-Lightweight Running Socks](#darn-tough-quarter-cushioned-ultra-lightweight-running-socks)
+- Shoes: [Saucony Xodus Ultra 4](#saucony-xodus-ultra-4)
+- Gloves: [Outdoor Research Sun Gloves](#outdoor-research-sun-gloves)
+- [Garmin Fenix 6X](#garmin-fenix-6x-watch) — shared with [Cycling Kit](#cycling-kit)
+- Black Diamond Carbon Z Trekking Poles with Salomon Custom Quiver
+- Salomon Soft Flask XA Filter
+- Headlamp: Black Diamond Sprinter 500
+- First aid kit
+- Ziploc bags
+
+### Consumables
+
+- Toilet paper
+- Sunscreen
+- Food: Welches Gummies
+- Electrolyte tablets
+
+### Conditional
+
+- [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover) — cold weather
+- [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank) — longer runs
 
 # Specific Items
 
