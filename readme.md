@@ -436,6 +436,10 @@ For a modest clothing kit: pants, underwear, shirt, lounge wear.
 
 For a full clothing kit including insulation.
 
+### REI Trailgate Gear Cube 25L
+
+18" × 11" × 7" (46 × 28 × 18 cm). 25L. 300-denier recycled polyester with TPU coating and DWR finish. Mesh top panel for visibility and ventilation. Structured and collapsible. For organizing camp gear in a truck bed or at a campsite.
+
 ### Aer Travel Kit 2
 
 9" × 6.5" × 3" (23 × 16.5 × 7.5 cm). 8 oz / 227g. 2.5L. X-Pac version uses VX-42 sailcloth exterior with high-visibility orange interior. Hanging hook, multiple pockets, YKK zippers. Replaces the [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) in the [Hygiene Kit](#hygiene-kit) when additional face products are needed.
