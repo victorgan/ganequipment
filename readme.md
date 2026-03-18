@@ -443,16 +443,25 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Water bo
 
 ## Trail Running Kit
 
-Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l) — stays packed between runs.
+Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l) — vest and all gear stored here between runs. Core clothing is not stored here.
 
 ### Core
 
-- [Ciele Running Cap](#ciele-running-cap)
-- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
 - [Patagonia Airshed Pro Pullover](#patagonia-airshed-pro-pullover)
 - [Patagonia Strider Pro Shorts](#patagonia-strider-pro-shorts)
 - Socks: [Darn Tough Quarter Cushioned Ultra-Lightweight Running Socks](#darn-tough-quarter-cushioned-ultra-lightweight-running-socks)
 - Shoes: [Saucony Xodus Ultra 4](#saucony-xodus-ultra-4)
+
+### Consumables
+
+None.
+
+### Conditional
+
+**+ Salomon Sense Pro 6 vest:**
+
+- [Ciele Running Cap](#ciele-running-cap)
+- [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
 - Gloves: [Outdoor Research Sun Gloves](#outdoor-research-sun-gloves)
 - [Garmin Fenix 6X](#garmin-fenix-6x-watch) — shared with [Cycling Kit](#cycling-kit)
 - Black Diamond Carbon Z Trekking Poles with Salomon Custom Quiver
@@ -460,16 +469,10 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l) — stays
 - Headlamp: Black Diamond Sprinter 500
 - First aid kit
 - Ziploc bags
-
-### Consumables
-
 - Toilet paper
 - Sunscreen
 - Food: Welches Gummies
 - Electrolyte tablets
-
-### Conditional
-
 - [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover) — cold weather
 - [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank) — longer runs
 
