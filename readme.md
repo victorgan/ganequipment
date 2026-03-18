@@ -112,9 +112,7 @@ Updated March 2026
 - [Clothes Kit](#clothes-kit)
 - [Health Kit](#health-kit)
 - [Auth Kit](#auth-kit): passport, visas, home keys, debit card
-- Snack pencil case
 - [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses), [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses), Soundcore Aerofit Pro earbuds
-- A pair of binoculars
 
 ### Wheeled — [Carl Friedrik Hybrid Carry-on](#carl-friedrik-hybrid-carry-on) + [WaterField Shinjuku Brief](#waterfield-shinjuku-laptop-brief-small)
 
@@ -133,13 +131,14 @@ Updated March 2026
 - [Tech Kit](#tech-kit)
 - [Clothes Kit](#clothes-kit)
 - [Health Kit](#health-kit)
-- Snack pencil case
 
 ### Optional
 
 - DSLR
 - Camera
 - Tote bag
+- Snack pencil case
+- A pair of binoculars
 
 ## Cycling
 
