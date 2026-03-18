@@ -406,7 +406,7 @@ Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch).
 
 ### CTactical CT15 Backpack
 
-**Personal Favorite**. A custom version of CTactical's CT15 V3.0 from a Facebook group buy, nicknamed Kevin/Obsidian. After getting this pack, I stopped searching for new packs because I love it so much.
+A custom version of CTactical's CT15 V3.0 from a Facebook group buy, nicknamed Kevin/Obsidian. Ended the bag search.
 
 - The size is great to carry around every day. Anything smaller and an a tote or sling would be more appropriate. I've also used it as my only bag for a 2 week trip with no problems.
 - I like the understated aesthetic. It's shaped like a classic rectangle, similar to GoRuck's GR1, and has no logos.
@@ -428,7 +428,7 @@ For shoes.
 For 3-4 pieces of clothing, or sun gloves/sun hat/running cap.
 
 ### Black Diamond Skin Maintenance Kit Pouch
-**Personal Favorite**. 6 of them. The pencil case shaped bags hold their structure, and is made of nylon with a single zipper, which makes it feel very durable without it having any unnecessary details to weigh it down.
+6 of them. Pencil case shaped, holds structure when partially empty, nylon with a single zipper. Durable without unnecessary details.
 
 ### WaterField Shinjuku Laptop Brief Small
 
@@ -444,11 +444,11 @@ For 3-4 pieces of clothing, or sun gloves/sun hat/running cap.
 
 ## Tech
 ### Iphone 16 Pro Phone
-**Best in Slot**. After using Google Pixels and Nexuses exclusively since 2012, I finally gave in to the ecosystem. I tried my best. I wish it was a bit smaller.
+Switched from Android (Google Pixels and Nexuses) after 2012. A bit bigger than ideal.
 
 ### Garmin Foreunner 255s Watch
 
-**Best in Slot**. A 41mm smartwatch, Garmin's smallest and lightest. It's the last one with an e-ink style display, that saves battery life and is visible in the sun. Garmin's Forerunner 9XX and Fenix watches have the ability to display maps, but none of them are as small as the 255s, and the 255s' breadcrumb feature is good enough for most hikes and trail runs to keep you on course for downloaded trails. 
+A 41mm smartwatch, Garmin's smallest and lightest. It's the last one with an e-ink style display, that saves battery life and is visible in the sun. Garmin's Forerunner 9XX and Fenix watches have the ability to display maps, but none of them are as small as the 255s, and the 255s' breadcrumb feature is good enough for most hikes and trail runs to keep you on course for downloaded trails. 
 
 I've been trying mechanical watches for daily wear, but it's hard to beat the convenience of not having to set the time every day. I also considered the new Pebble time, but the Garmin is just too integrated with running features.
 
@@ -506,7 +506,7 @@ Zipper broke; not that durable.
 
 #### Patagonia Airshed Pro Pullover
 
-**Best in Slot**. This acts as a sun hoodie, running shirt and windshirt combined. In high exertion hot weather, the elastic on the sleeves let you bunch them up securely and the zipper goes down very deep. It's extremely breathable; often more breathable than polyester T-shirts. I can usually run in this until 5C, since it blocks enough wind to keep me warm when moving.
+Acts as a sun hoodie, running shirt, and windshirt combined. In high exertion hot weather, the elastic on the sleeves let you bunch them up securely and the zipper goes down very deep. It's extremely breathable; often more breathable than polyester T-shirts. I can usually run in this until 5C, since it blocks enough wind to keep me warm when moving.
 
 In theory, this combined with the [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover) can be all you need until around 5C, both running and stationary.
 
@@ -518,9 +518,7 @@ The downside is the color (Wispy Green) is a little see through.
 
 #### Patagonia Nano Air Ultralight Pullover
 
-**Best in Slot**. This is an 'active insulation' pullover that is kind of ridiculous, because there's almost no insulation in it. I sized up to a medium because it's a slim fit, and now it looks baggy in a trendy way.
-
-I quite like that it's a pullover, since it reduces bulk in the hood area. It's comfy and light enough to wear casually.
+Active insulation pullover with almost no insulation — runs slim, so sized up to a medium. Pullover design reduces bulk in the hood area. Light enough to wear casually.
 
 #### Patagonia Strider Pro Shorts
 
@@ -534,7 +532,7 @@ If space is at a premium, take the [Nike Pegasus 41](#nike-pegasus-41-shoes) as 
 
 ### Darn Tough Quarter Cushioned Ultra-Lightweight Running Socks 
 
-**Best in Slot**. Before I cycled through Costco Kirkland Signature socks, which got holes in them often. I'll return these if they get any holes.
+Replacing Costco Kirkland socks, which got holes often. Guaranteed for life — will return if they get holes.
 
 ### Costco Slides
 
@@ -546,11 +544,11 @@ Almost 10 years old going strong.
 
 ### Nike Pegasus 41 Shoes
 
-**Personal Like**. Packing running shoes takes a ton of space, and I wanted a pair of primarily casual shoes that I can also run in. Nike recently came out with a colorway (Sail/Blue Tint/Wolf Grey/Anthracite FD2722-113) that looked a lot like the Eliot Tracksmith's but less pretentious, and fit the bill well. I actually like the look of it more than the New Balance 574s and 327s that I was previously using as casual shoes, so even if I'm not running I'll wear them.
+Packing running shoes takes a lot of space, so these double as casual shoes. Nike recently came out with a colorway (Sail/Blue Tint/Wolf Grey/Anthracite FD2722-113) that looked a lot like the Eliot Tracksmith's but less pretentious, and fit the bill well. I actually like the look of it more than the New Balance 574s and 327s that I was previously using as casual shoes, so even if I'm not running I'll wear them.
 
 ### Asics Superblast 2 Shoes
 
-**Personal Like** I partially credit the original Superblasts in getting me into running - they were the first high stack superfoam shoe without a plate, and made recovering from runs a lot faster, and my favorite running shoe of all time. After 500+ miles on them, I replaced it with the successor, but by now other companies have made similar shoes and I'm not as adamant that this model is as far ahead compared to the competition. Still, no complaints.
+The original Superblasts were the first high-stack superfoam shoe without a plate, and made recovery noticeably faster. After 500+ miles replaced with the successor. Other companies have since caught up, so the edge over the competition is smaller now.
 
 ### Saucony Xodus Ultra 4
 
