@@ -429,14 +429,13 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Water bo
 
 ## Trail Running Kit
 
-Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l) — vest and all gear stored here between runs. Core clothing is not stored here.
+Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Core clothing not stored in the cube.
 
 ### Core
 
 - [Patagonia Airshed Pro Pullover](#patagonia-airshed-pro-pullover)
 - [Patagonia Strider Pro Shorts](#patagonia-strider-pro-shorts)
 - Socks: [Darn Tough Quarter Cushioned Ultra-Lightweight Running Socks](#darn-tough-quarter-cushioned-ultra-lightweight-running-socks)
-- Shoes: [Saucony Xodus Ultra 4](#saucony-xodus-ultra-4)
 
 ### Consumables
 
@@ -446,9 +445,13 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l) — vest 
 
 ### Conditional
 
-**+ Salomon Sense Pro 6 vest:**
+**On body — stored in cube:**
 
 - [Ciele Running Cap](#ciele-running-cap)
+- Shoes: [Saucony Xodus Ultra 4](#saucony-xodus-ultra-4)
+
+**+ Salomon Sense Pro 6 vest:**
+
 - [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) — shared with [Cycling Kit](#cycling-kit)
 - Gloves: [Outdoor Research Sun Gloves](#outdoor-research-sun-gloves) — shared with [Cycling Kit](#cycling-kit)
 - [Garmin Fenix 6X](#garmin-fenix-6x-watch) — shared with [Cycling Kit](#cycling-kit)
