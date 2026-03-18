@@ -124,7 +124,7 @@ Updated March 2026
 - [Auth Kit](#auth-kit): passport, visas, home keys, debit card
 - [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses)
 - [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses)
-- [Apple AirPods Pro 3](#apple-airpods-pro-3)
+- [Apple AirPods Pro 3](#apple-airpods-pro-3), [Anker 10k](#anker-10k-mah-magnetic-power-bank)
 - Work Laptop
 - Personal Laptop
 
