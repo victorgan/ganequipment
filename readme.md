@@ -227,7 +227,7 @@ Vest: Salomon Sense Pro 6
 - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
 - Sunscreen: Stick Sunscreen
 - Headlamp: Black Diamond Sprinter 500 Headlamp
-- USB-C battery: Anker 10k Slim
+- USB-C battery: [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank)
 - Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
 - Toilet Paper
 - First Aid
