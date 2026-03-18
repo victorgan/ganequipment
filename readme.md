@@ -1,5 +1,4 @@
 <meta name="robots" content="noindex, nofollow">
-<meta name="robots" content="noindex, nofollow">
 
 Updated October 2025
 
@@ -12,6 +11,9 @@ Updated October 2025
 - [Trail Running](#trail-running)
 - [Cycling](#cycling)
 - [Camping](#camping)
+
+## [Kits](#specific-kits)
+
 
 ## [Items](#specific-items)
 
@@ -58,6 +60,38 @@ backpack.
 
 - Black Diamond Sprinter 500 Headlamp
 
+## Wheeled Carryon Travel
+
+### On Body
+
+- Outerwear: Coat
+- Pants: [Outlier New Dungarees](#outlier-new-dungarees-pants)
+- Underwear: Saxx Synthetic Boxers
+- Shirt
+- Socks
+- Shoes 
+- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
+- Phone: iPhone 16 Pro 
+
+
+### Briefcase
+
+- Magsafe Wallet
+- Eyeglasses
+- Work Laptop
+- Personal Laptop
+
+### Carryon
+
+- Tech Kit
+- Hygiene Kit
+- Clothes Kit
+
+Optional:
+
+- Health Kit
+- Camera
+
 ## Onebag Travel
 
 ### On Body
@@ -100,6 +134,13 @@ Pre-ride checklist:
 - Pump tires
 - Fill water bottles
 - Stock food
+
+
+Post-ride checklist:
+
+- put everything back
+- drink protein
+- shower
 
 ### On Person
 
@@ -185,6 +226,74 @@ Carried in a 40L pack or the red duffle.
 - Sleeping pad
 - Pillow
 - Headlamp: Black Diamond Sprinter 500 Headlamp
+
+# Specific Kits
+
+## Hygiene Kit
+
+### Minimal Hygiene Kit
+
+In a Black Diamond Pouch.
+
+- Toothbrush
+- Floss
+- Razor
+- Nail cutter
+- Consumables
+    - Toothpaste
+    - Shave Cream
+    - Moisturizer
+    - Sunscreen
+    - Cleanser
+
+### Full Hygiene Kit
+
+In the Aer Travel Kit 2.
+
+Everything in minimal plus more face stuff.
+
+## Tech Kit
+
+### Minimal Tech Kit
+
+BD Pouch: 45W charger, two usb-c cables. Garmin usb-c cable, wired earbuds.
+
+In Accessible pockets: 10k Power Bank, airpods pro 3.
+
+### Full Tech Kit
+
+Aero Slim Pouch: 100W GaN charger
+
+## Clothes Kit
+
+Add travel clothesline if necessary.
+
+### Minimal Clothes Kit
+
+Shirts and shorts in a black diamond pouch.
+
+### Accessible Clothes Kit
+
+Shirts and long pants in an Aer Zip Small Bag.
+
+### Standard Clothes Kit
+
+Packing cube: Gym clothes, sleep clothes, nice clothes.
+
+## Auth Kit
+
+Plus Passport for air/international travel.
+
+### Minimal Auth Kit
+
+- Apartment fob
+- 3-card magsafe card holder with driver’s license, credit card.
+
+### Regular Auth Kit
+
+- Keyring with car fob, bike lock key, apartment fob, yubi key, and airtag.
+- 3-card magsafe card holder with driver’s license, bus pass, and credit card.
+- Work badge on fob
 
 # Specific Items
 
