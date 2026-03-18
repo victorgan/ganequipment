@@ -43,6 +43,7 @@ Updated March 2026
 ### Prep
 
 - Add conditionals for the day: [Clothes Kit](#clothes-kit) (gym), bike lock (biking)
+- Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Forerunner 255s](#garmin-foreunner-255s-watch), [AirPods Pro 3](#apple-airpods-pro-3), [Anker 10k](#anker-10k-mah-magnetic-power-bank), laptops
 
 ### Reset
 
@@ -84,7 +85,7 @@ Updated March 2026
 ### Prep
 
 - Pack kits
-- Charge all devices
+- Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Forerunner 255s](#garmin-foreunner-255s-watch), [AirPods Pro 3](#apple-airpods-pro-3), [Anker 10k](#anker-10k-mah-magnetic-power-bank), laptops
 - Download offline maps
 
 ### Reset
@@ -145,7 +146,7 @@ Updated March 2026
 ### Prep
 
 - Download the route to the [Fenix 6X](#garmin-fenix-6x-watch)
-- Charge the [Fenix 6X](#garmin-fenix-6x-watch), [255s](#garmin-foreunner-255s-watch), and Varia
+- Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Fenix 6X](#garmin-fenix-6x-watch), [Forerunner 255s](#garmin-foreunner-255s-watch), Varia, headlamp
 - Check Epic Ride Weather App
 - Pump tires
 - Fill water bottles
@@ -196,6 +197,7 @@ Vest: Salomon Sense Pro 6
 ### Prep
 
 - Check Epic Ride Weather App
+- Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Fenix 6X](#garmin-fenix-6x-watch), [Anker 10k](#anker-10k-mah-magnetic-power-bank), headlamp
 
 ### On Person
 
@@ -252,6 +254,7 @@ Bag: 40L pack or red duffle
 
 - Check weather
 - Verify tent and sleeping bag
+- Charge headlamp
 
 ### Reset
 
