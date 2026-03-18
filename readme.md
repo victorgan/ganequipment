@@ -415,8 +415,7 @@ Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch).
 
 ### Black Diamond Skin Maintenance Kit Pouch
 
-Pencil case shaped, holds structure when partially empty, nylon with a single zipper. Durable without unnecessary details.
-
+Pencil case shaped, holds structure when partially empty, nylon with a single zipper.
 ### Aer Slim Pouch
 
 Flat zippered organizer pouch. Houses the [100W GaN Charger](#100w-gan-charger) in the [Tech Kit](#tech-kit).
