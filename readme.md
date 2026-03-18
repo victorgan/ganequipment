@@ -326,10 +326,6 @@ None.
 
 Container: Scale to trip length.
 
-### Core
-
-None. All items rotate through laundry.
-
 ### Clothing
 
 **[Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch):**
