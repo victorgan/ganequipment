@@ -2,8 +2,6 @@ Updated March 2026
 
 # Contents
 
-## [Overview](#system-overview)
-
 ## [Lists](#equipment-lists)
 
 - [Everyday Carry](#everyday-carry)
@@ -30,14 +28,6 @@ Updated March 2026
 - [Sport Gear](#sport-gear)
 
 [Change Log](#change-log)
-
-# System Overview
-
-Each loadout builds on the previous by adding kits and scaling kit tiers:
-
-- **Minimal daily** (no bag): phone, watch, [Auth Kit](#auth-kit)
-- **Full daily** (backpack): + [Tech Kit](#tech-kit), both laptops, earbuds, glasses
-- **Air travel**: all kits; [CT15](#ctactical-ct15-backpack) (onebag) or [Carl Friedrik carry-on](#carl-friedrik-hybrid-carry-on) + [Shinjuku brief](#waterfield-shinjuku-laptop-brief-small)
 
 # Equipment Lists
 
