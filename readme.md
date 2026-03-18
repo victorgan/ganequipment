@@ -443,7 +443,7 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Water bo
 
 ## Trail Running Kit
 
-Container: Salomon Sense Pro 6 vest — stays packed between runs.
+Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l) — stays packed between runs.
 
 ### Core
 
