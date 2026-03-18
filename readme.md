@@ -277,7 +277,7 @@ Restock consumables immediately after use, not before the next trip.
 
 ## Auth Kit
 
-No dedicated container. Items live on person or in bag pockets.
+Container: none, or passport case if passport is needed.
 
 ### Core
 
