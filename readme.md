@@ -35,15 +35,13 @@ I'll bring my u lock, which generally means I'm bringing my backpack.
 
 - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
-- Authorization: Keyring with car fob, bike lock key, apartment fob, yubi key, and airtag.
-- Authorization: 3-card magsafe card holder with driver's license, bus pass, and credit card.
-- Authorization: Work badge on fob. I carry this separately from the other cards since the badge readers are sensitive to other cards.
+- [Auth Kit](#auth-kit): Car fob keyring, apartment fob, 3-card MagSafe card holder, work badge.
 
 ### Packed
 
 - Backpack: [CTactical CT15](#ctactical-ct15-backpack)
-- Tech Pouch: Aer Slim Pouch with an Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, Crucial X10 Pro 4TB SSD, a Garmin Watch cable, wired earbuds and 0.5, 3, and 10 ft USB-C to USB-C cables
-- Clothes Zip Bag: Aer Zip Bag Small with gym clothes
+- [Tech Kit](#tech-kit): Aer Slim Pouch
+- [Clothes Kit](#clothes-kit): Aer Zip Bag Small
 - Personal Laptop: 13" Macbook Air M2
 - Work Laptop: 13" Macbook Air M3
 - Bike Lock: Kryptonite Evolution U-Lock
@@ -79,13 +77,13 @@ I'll bring my u lock, which generally means I'm bringing my backpack.
 
 ### Carryon
 
-- Tech Kit
-- Hygiene Kit
-- Clothes Kit
+- [Tech Kit](#tech-kit)
+- [Hygiene Kit](#hygiene-kit)
+- [Clothes Kit](#clothes-kit)
 
 Optional:
 
-- Health Kit
+- [Health Kit](#health-kit)
 - Camera
 
 ## Onebag Travel
@@ -104,16 +102,13 @@ Optional:
 ### In the Ctactical CT15
 
 - Backpack: [CTactical CT15](#ctactical-ct15-backpack)
-- A hygiene pouch with a toothbrush, razor, toothpaste, shave cream, moisturizer, toner, sunscreen, floss, tweezers, nail cutter, cleanser, eye cream.
-- A tech pouch with a Anker 100W GaN Charger, Anker 10k mAh magnetic power bank, a Garmin Watch cable, wired earbuds and 0.5/3 ft USB-C cables, SD card reader, Crucial X10 Pro 4TB SSD.
-- Clothes
-    - gym/sleep shorts, gym shirt, lounge shirt, extra underwear
-    - nice t-shirt and pants
-    - Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
-- A pencil case for health: face mask, salt sticks, hand sanitizer, spork, vitamins and OTC medications (Advil, Claritin, Imodium, Peptol Bismol, Dramamine)
+- [Hygiene Kit](#hygiene-kit)
+- [Tech Kit](#tech-kit)
+- [Clothes Kit](#clothes-kit)
+- [Health Kit](#health-kit)
+- [Auth Kit](#auth-kit): passport, visas, home keys, debit card
 - A pencil case for snacks
-- A passport case: passport, visas, home keys, debit card, magsafe card holder, work badge
-- sunglasses, glasses, travel clothesline, ear plugs and Soundcore Aerofit Pro earbuds
+- Sunglasses, glasses, Soundcore Aerofit Pro earbuds
 - Personal laptop: 13" Macbook Air M2
 - Work laptop: 13" Macbook Air M3
 - A pair of binoculars
@@ -345,6 +340,7 @@ Container: Black Diamond Pouch.
 
 - Salt sticks — high exertion or heat
 - Spork — eating on the go
+- Ear plugs — flights, hostels
 
 # Specific Items
 
@@ -546,3 +542,4 @@ Random ones from REI.
 - 2025-05-29: Added an Airtag to my keyring, using a keychain holder from Elevation Labs. I now have 5 airtags: car, ebike, luggage, backpack, and keys.
 - 2025-05-29: Upgraded the USB-A Garmin Watch cable with a USB-C Garmin Watch cable. The slight downside is this might compete with the 2 USB-C slots of the Anker 100 GaN Charger.
 - 2026-03-18: Restructured Specific Kits around core/consumable/conditional framework. Added Health Kit. Replaced minimal/full/standard tiers with explicit conditional items per kit.
+- 2026-03-18: Linked kit references throughout lists (Everyday Carry, Wheeled Carryon, Onebag Travel). Simplified inline kit descriptions to point to canonical kit definitions. Added ear plugs to Health Kit conditionals.
