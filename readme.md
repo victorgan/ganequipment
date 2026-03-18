@@ -111,7 +111,7 @@ Updated March 2026
 ### Onebag — [CTactical CT15](#ctactical-ct15-backpack)
 
 - [Auth Kit](#auth-kit): passport, visas, home keys, debit card
-- [Tech Kit](#tech-kit)
+- [Tech Kit](#tech-kit) — [Apple AirPods Pro 3](#apple-airpods-pro-3) and [Anker 10k](#anker-10k-mah-magnetic-power-bank) in quick access pocket
 - [Clothes Kit](#clothes-kit)
 - [Hygiene Kit](#hygiene-kit)
 - [Health Kit](#health-kit)
