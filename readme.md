@@ -440,13 +440,13 @@ For a full clothing kit including insulation.
 
 9" × 6.5" × 3" (23 × 16.5 × 7.5 cm). 8 oz / 227g. 2.5L. X-Pac version uses VX-42 sailcloth exterior with high-visibility orange interior. Hanging hook, multiple pockets, YKK zippers. Replaces the [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) in the [Hygiene Kit](#hygiene-kit) when additional face products are needed.
 
-### WaterField Shinjuku Laptop Brief Small
-
-14.5" × 3" × 10.5" (368 × 76 × 267 mm). 1.5 lbs / 681g. 7.5L. Made in San Francisco from ballistic nylon with leather trim, magnetic closures, and a water-resistant YKK zipper. Two padded compartments for a laptop and tablet. Slim enough to not look like a hiking bag in an office.
-
 ### Porter International New Heat Shoulder Bag
 
 26.5 × 5 × 19.5 cm (10.4" × 2" × 7.7"). Basket weave nylon. By Yoshida & Co., the Japanese bag maker behind the Porter line. Front zippered pocket, dual press-button pockets, internal zippered pocket, and a back open compartment. Comes with a Maglite flashlight and leather keychain. Narrow profile — more of a document and essentials bag than a full carry.
+
+### WaterField Shinjuku Laptop Brief Small
+
+14.5" × 3" × 10.5" (368 × 76 × 267 mm). 1.5 lbs / 681g. 7.5L. Made in San Francisco from ballistic nylon with leather trim, magnetic closures, and a water-resistant YKK zipper. Two padded compartments for a laptop and tablet. Slim enough to not look like a hiking bag in an office.
 
 ### CTactical CT15 Backpack
 
