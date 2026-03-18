@@ -374,6 +374,14 @@ For 3-4 pieces of clothing, or sun gloves/sun hat/running cap.
 ### Black Diamond Skin Maintenance Kit Pouch
 **Personal Favorite**. 6 of them. The pencil case shaped bags hold their structure, and is made of nylon with a single zipper, which makes it feel very durable without it having any unnecessary details to weigh it down.
 
+### WaterField Shinjuku Laptop Brief Small
+
+14.5" × 3" × 10.5" (368 × 76 × 267 mm). 1.5 lbs / 681g. 7.5L. Made in San Francisco from ballistic nylon with leather trim, magnetic closures, and a water-resistant YKK zipper. Two padded compartments for a laptop and tablet. Slim enough to not look like a hiking bag in an office.
+
+### Porter International New Heat Shoulder Bag
+
+26.5 × 5 × 19.5 cm (10.4" × 2" × 7.7"). Basket weave nylon. By Yoshida & Co., the Japanese bag maker behind the Porter line. Front zippered pocket, dual press-button pockets, internal zippered pocket, and a back open compartment. Comes with a Maglite flashlight and leather keychain. Narrow profile — more of a document and essentials bag than a full carry.
+
 ## Tech
 ### Iphone 16 Pro Phone
 **Best in Slot**. After using Google Pixels and Nexuses exclusively since 2012, I finally gave in to the ecosystem. I tried my best. I wish it was a bit smaller.
