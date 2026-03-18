@@ -2,6 +2,8 @@ Updated March 2026
 
 # Contents
 
+## [Overview](#system-overview)
+
 ## [Lists](#equipment-lists)
 
 - [Everyday Carry](#everyday-carry)
@@ -23,11 +25,19 @@ Updated March 2026
 - [Bags](#bags)
 - [Tech](#tech)
 - [Clothes](#clothes)
-- [Headwear](#headwear)
-- [Gloves](#gloves)
+- [Headwear, Eyewear, and Gloves](#headwear-eyewear-and-gloves)
 - [Shoes](#shoes)
 
 [Change Log](#change-log)
+
+# System Overview
+
+Each loadout builds on the previous by adding kits and scaling kit tiers:
+
+- **Minimal daily** (no bag): phone, watch, [Auth Kit](#auth-kit)
+- **Full daily** (backpack): + [Tech Kit](#tech-kit), both laptops, earbuds, glasses
+- **Wheeled travel**: + [Hygiene Kit](#hygiene-kit), [Clothes Kit](#clothes-kit), [Health Kit](#health-kit)
+- **Onebag travel**: all kits at full tier, everything fits in CT15
 
 # Equipment Lists
 
@@ -115,6 +125,8 @@ Optional:
 - Work laptop: 13" Macbook Air M3
 - A pair of binoculars
 
+Optional:
+
 - DSLR
 - Tote bag
 
@@ -131,9 +143,12 @@ Pre-ride checklist:
 
 Post-ride checklist:
 
-- put everything back
-- drink protein
-- shower
+- Refill water bottles
+- Restock food
+- Charge Fenix 6X, 255s, and Varia
+- Hang kit to dry
+- Drink protein
+- Shower
 
 ### On Person
 
@@ -148,8 +163,7 @@ Post-ride checklist:
 - In jersey pockets
     - Sunscreen
     - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
-    - Apartment Key Fob
-    - Card holder with driver's license, bus pass, and credit card
+    - [Auth Kit](#auth-kit): apartment fob, card holder
     - Gummies
     - Headlamp: Black Diamond Sprinter 500 Headlamp
 
@@ -212,6 +226,8 @@ Post-ride checklist:
 
 ## Camping
 
+*Shelter only — clothing, food, cooking, and water treatment not listed.*
+
 Carried in a 40L pack or the red duffle.
 
 - Tent
@@ -265,6 +281,7 @@ Container: Black Diamond Pouch (minimal) or Aer Slim Pouch (full).
 - USB-C cables (0.5 ft, 3 ft)
 - Garmin USB-C cable
 - Wired earbuds
+- 100W GaN charger
 
 ### Consumables
 
@@ -272,8 +289,7 @@ None.
 
 ### Conditional
 
-- 45W charger — default for single laptop
-- 100W GaN charger — replaces 45W when bringing two laptops
+- 45W charger — lighter substitute when traveling with single laptop
 - 10k Power Bank — longer days, in accessible pocket not in pouch
 - Airpods Pro 3 — in accessible pocket not in pouch
 - Crucial X10 Pro 4TB SSD — if working remotely
@@ -398,8 +414,6 @@ I use this for maps when cycling (on my handlebar) or trail running.
 
 ## Clothes
 
-Clothes go in the large packing cube, zip small bag or multiple pencile cases, depending on the amount and convenience needed.
-
 ### Loungewear
 
 #### Costco Cotton Sweatpants
@@ -414,29 +428,13 @@ Built-in liner.
 
 Gift from Yuri and Edwin
 
-### Casual T Shirts
+### Casual T-Shirts
 
-#### Uniqlo White T-Shirt
-
-Idk just a t-shirt with cool fabric.
-
-#### North Face Sunriser T-Shirt
-
-Also just a t-shirt.
-
-#### Maroon Cotton T-Shirt
-
-Another just a t-shirt.
+Rotation: Uniqlo white, North Face Sunriser, maroon cotton.
 
 ### Casual Sweaters
 
-#### Gap Sweater
-
-Comfy
-
-#### Banana Republic Red Knit Hoodie
-
-Looks kinda cool.
+Rotation: Gap sweater, Banana Republic red knit hoodie.
 
 ### Casual Pants
 
@@ -506,7 +504,7 @@ Almost 10 years old going strong.
 
 Mostly cause of the thick Peba foam and Vibram Megagrip soles.
 
-## Headwear and Gloves
+## Headwear, Eyewear, and Gloves
 
 The sunhat, running cap and gloves fit in the [Aer Zip Small Bag](#aer-zip-small-bag).
 
@@ -553,3 +551,4 @@ Random ones from REI.
 - 2025-05-29: Upgraded the USB-A Garmin Watch cable with a USB-C Garmin Watch cable. The slight downside is this might compete with the 2 USB-C slots of the Anker 100 GaN Charger.
 - 2026-03-18: Restructured Specific Kits around core/consumable/conditional framework. Added Health Kit. Replaced minimal/full/standard tiers with explicit conditional items per kit.
 - 2026-03-18: Linked kit references throughout lists (Everyday Carry, Wheeled Carryon, Onebag Travel). Simplified inline kit descriptions to point to canonical kit definitions. Added ear plugs to Health Kit conditionals.
+- 2026-03-18: Added System Overview escalation model. Moved 100W charger to Tech Kit core. Expanded cycling post-ride checklist. Collapsed casual clothes entries. Renamed Headwear section to include Eyewear. Added shelter-only note to Camping.
