@@ -75,6 +75,7 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 - Earbuds: [Apple AirPods Pro 3](#apple-airpods-pro-3)
 - Glasses: [Lindberg Frameless](#lindberg-frameless-eyeglasses) in a [Linrong Capsule Eyelass Case](#linrong-capsule-eyelass-case)
 - Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
+- Anker 10k mAh magnetic power bank
 
 **+ [WaterField Shinjuku Laptop Brief Small](#waterfield-shinjuku-laptop-brief-small):**
 
