@@ -309,7 +309,7 @@ Carried directly in bag or pocket:
 
 ### Core
 
-- USB-C cables (0.5 ft, 3 ft)
+- USB-C cable (0.5 ft)
 - Garmin USB-C cable
 - [45W Charger](#45w-charger)
 
@@ -319,6 +319,7 @@ None.
 
 ### Conditional
 
+- USB-C cable (3 ft) — longer reach
 - [100W GaN Charger](#100w-gan-charger) — in [Aer Slim Pouch](#aer-slim-pouch); add when charging multiple devices
 - Wired earbuds — in-seat entertainment systems on flights
 - Crucial X10 Pro 4TB SSD — if working remotely
