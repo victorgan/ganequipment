@@ -415,7 +415,7 @@ Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch).
 
 ### Black Diamond Skin Maintenance Kit Pouch
 
-6 of them. Pencil case shaped, holds structure when partially empty, nylon with a single zipper. Durable without unnecessary details.
+Pencil case shaped, holds structure when partially empty, nylon with a single zipper. Durable without unnecessary details.
 
 ### Aer Slim Pouch
 
