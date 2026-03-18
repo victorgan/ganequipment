@@ -454,7 +454,9 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l) — vest 
 
 ### Consumables
 
-None.
+- Sunscreen
+- Food: Welches Gummies
+- Electrolyte tablets
 
 ### Conditional
 
@@ -470,9 +472,6 @@ None.
 - First aid kit
 - Ziploc bags
 - Toilet paper
-- Sunscreen
-- Food: Welches Gummies
-- Electrolyte tablets
 - [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover) — cold weather
 - [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank) — longer runs
 
