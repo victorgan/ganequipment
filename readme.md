@@ -219,25 +219,6 @@ Vest: Salomon Sense Pro 6
 - Gloves: [Outdoor Research Sun Gloves](#outdoor-research-sun-gloves)
 - Watch: [Garmin Fenix 6X Watch](#garmin-fenix-6x-watch)
 
-### In Vest
-
-- Poles: Black Diamond Carbon Z Trekking Poles with Salmon Custom Quiver
-- Water Filter: Salomon Soft Flask XA Filter
-- Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
-- Sunscreen: Stick Sunscreen
-- Headlamp: Black Diamond Sprinter 500 Headlamp
-- USB-C battery: [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank)
-- Insulation: [Patagonia Nano Air Ultralight](#patagonia-nano-air-ultralight-pullover)
-- Toilet Paper
-- First Aid
-- Ziploc Bags
-
-### Consumables
-
-- Water: Water with Gatorade Drink Mix
-- Food: Welches Gummies, one for every 30 mins
-- Electrolyte tablets
-
 ### In the Car
 
 - Extra clothes
