@@ -7,7 +7,7 @@ Updated March 2026
 ## [Lists](#equipment-lists)
 
 - [Everyday Carry](#everyday-carry)
-- [Onebag Travel](#onebag-travel)
+- [Air Travel](#air-travel)
 - [Trail Running](#trail-running)
 - [Cycling](#cycling)
 - [Camping](#camping)
@@ -36,8 +36,7 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 
 - **Minimal daily** (no bag): phone, watch, [Auth Kit](#auth-kit)
 - **Full daily** (backpack): + [Tech Kit](#tech-kit), both laptops, earbuds, glasses
-- **Wheeled travel**: + [Hygiene Kit](#hygiene-kit), [Clothes Kit](#clothes-kit), [Health Kit](#health-kit)
-- **Onebag travel**: all kits at full tier, everything fits in CT15
+- **Air travel**: all kits; CT15 (onebag) or Carl Friedrik carry-on + Shinjuku brief
 
 # Equipment Lists
 
@@ -75,53 +74,9 @@ Bag: [CTactical CT15](#ctactical-ct15-backpack)
 - Bike Lock: Kryptonite Evolution U-Lock — biking
 - Black Diamond Sprinter 500 Headlamp — low light
 
-## Wheeled Carryon Travel
+## Air Travel
 
-Bags: Briefcase + wheeled carryon
-
-### Prep
-
-- Pack kits
-- Charge devices
-
-### Reset
-
-- Restock kit consumables
-- Charge devices
-
-### On Body
-
-- Outerwear: Coat
-- Pants: [Outlier New Dungarees](#outlier-new-dungarees-pants)
-- Underwear: Saxx Synthetic Boxers
-- Shirt
-- Socks
-- Shoes
-
-- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
-- Phone: iPhone 16 Pro  
-
-### Briefcase
-
-- Magsafe Wallet
-- Eyeglasses
-- Work Laptop
-- Personal Laptop
-
-### Carryon
-
-- [Tech Kit](#tech-kit)
-- [Hygiene Kit](#hygiene-kit)
-- [Clothes Kit](#clothes-kit)
-
-Optional:
-
-- [Health Kit](#health-kit)
-- Camera
-
-## Onebag Travel
-
-Bag: [CTactical CT15](#ctactical-ct15-backpack)
+Bags: [CTactical CT15](#ctactical-ct15-backpack) or [Carl Friedrik Hybrid Carry-on](#carl-friedrik-hybrid-carry-on); [WaterField Shinjuku Laptop Brief Small](#waterfield-shinjuku-laptop-brief-small)
 
 ### Prep
 
@@ -137,7 +92,7 @@ Bag: [CTactical CT15](#ctactical-ct15-backpack)
 
 ### On Body
 
-- Outerwear: Chore coat or raincoat
+- Outerwear: Coat or chore coat
 - Pants: [Outlier New Dungarees](#outlier-new-dungarees-pants)
 - Underwear: Saxx Synthetic Boxers
 - Shirt: Wool and Prince Henley
@@ -146,23 +101,28 @@ Bag: [CTactical CT15](#ctactical-ct15-backpack)
 - Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
 - Phone: iPhone 16 Pro with Magsafe Wallet
 
-### In the CT15
+### Shinjuku Brief
+
+- Eyeglasses
+- Work Laptop
+- Personal Laptop
+
+### CT15 or Carry-on
 
 - [Hygiene Kit](#hygiene-kit)
 - [Tech Kit](#tech-kit)
 - [Clothes Kit](#clothes-kit)
 - [Health Kit](#health-kit)
 - [Auth Kit](#auth-kit): passport, visas, home keys, debit card
-- A pencil case for snacks
+- Snack pencil case
 - Sunglasses, glasses, Soundcore Aerofit Pro earbuds
-- Personal laptop: 13" Macbook Air M2
-- Work laptop: 13" Macbook Air M3
 - A pair of binoculars
 
 Optional:
 
 - DSLR
 - Tote bag
+- Camera
 
 ## Cycling
 
@@ -445,6 +405,10 @@ For 3-4 pieces of clothing, or sun gloves/sun hat/running cap.
 
 14.5" × 3" × 10.5" (368 × 76 × 267 mm). 1.5 lbs / 681g. 7.5L. Made in San Francisco from ballistic nylon with leather trim, magnetic closures, and a water-resistant YKK zipper. Two padded compartments for a laptop and tablet. Slim enough to not look like a hiking bag in an office.
 
+### Carl Friedrik Hybrid Carry-on
+
+22.3" × 14.8" × 9.3" (56.6 × 37.7 × 23.7 cm). 9.5 lbs / 4.3 kg. 40L. Polycarbonate shell with aluminium TSA lock frame and vegetable-tanned leather detailing. Hinomoto 360° spinner wheels, any-stop trolley, lifetime warranty. Fits up to 5 days.
+
 ### Porter International New Heat Shoulder Bag
 
 26.5 × 5 × 19.5 cm (10.4" × 2" × 7.7"). Basket weave nylon. By Yoshida & Co., the Japanese bag maker behind the Porter line. Front zippered pocket, dual press-button pockets, internal zippered pocket, and a back open compartment. Comes with a Maglite flashlight and leather keychain. Narrow profile — more of a document and essentials bag than a full carry.
@@ -604,3 +568,4 @@ Random ones from REI.
 - 2026-03-18: Linked kit references throughout lists (Everyday Carry, Wheeled Carryon, Onebag Travel). Simplified inline kit descriptions to point to canonical kit definitions. Added ear plugs to Health Kit conditionals.
 - 2026-03-18: Added System Overview escalation model. Moved 100W charger to Tech Kit core. Expanded cycling post-ride checklist. Collapsed casual clothes entries. Renamed Headwear section to include Eyewear. Added shelter-only note to Camping.
 - 2026-03-18: Added Prep and Reset sections to all lists.
+- 2026-03-18: Merged Wheeled Carryon and Onebag Travel into Air Travel. Bag options are CT15 or Carl Friedrik Hybrid Carry-on, always with the WaterField Shinjuku Brief. Added Carl Friedrik Hybrid Carry-on to Bags section.
