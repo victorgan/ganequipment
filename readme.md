@@ -298,20 +298,11 @@ None.
 
 ## Tech Kit
 
-Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch), or none.
-
-### No container
-
-Carried directly in bag or pocket:
-
-- [Apple AirPods Pro 3](#apple-airpods-pro-3)
-- [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank)
+Container: None, [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch), or [Aer Slim Pouch](#aer-slim-pouch).
 
 ### Core
 
-- USB-C cable (0.5 ft)
-- Garmin USB-C cable
-- [45W Charger](#45w-charger)
+- [Apple AirPods Pro 3](#apple-airpods-pro-3)
 
 ### Consumables
 
@@ -319,8 +310,20 @@ None.
 
 ### Conditional
 
-- USB-C cable (3 ft) — longer reach
-- [100W GaN Charger](#100w-gan-charger) — in [Aer Slim Pouch](#aer-slim-pouch); add when charging multiple devices
+**No container:**
+
+- [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank)
+
+**+ [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch):**
+
+- USB-C cable (0.5 ft)
+- Garmin USB-C cable
+- [45W Charger](#45w-charger)
+
+**+ [Aer Slim Pouch](#aer-slim-pouch):**
+
+- [100W GaN Charger](#100w-gan-charger) (replaces [45W Charger](#45w-charger))
+- USB-C cable (3 ft)
 - Wired earbuds — in-seat entertainment systems on flights
 - Crucial X10 Pro 4TB SSD — if working remotely
 - SD card reader — if shooting
