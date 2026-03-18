@@ -133,6 +133,7 @@ Updated March 2026
 - [Clothes Kit](#clothes-kit)
 - [Hygiene Kit](#hygiene-kit)
 - [Health Kit](#health-kit)
+- [Porter International New Heat](#porter-international-new-heat-shoulder-bag) — daypack
 
 ### Optional
 
