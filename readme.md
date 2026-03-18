@@ -43,6 +43,14 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 
 ## Everyday Carry
 
+### Prep
+
+- Add conditionals for the day: [Clothes Kit](#clothes-kit) (gym), bike lock (biking), headlamp (low light)
+
+### Reset
+
+- Restock sunscreen when low
+
 ### Core
 
 - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
@@ -67,6 +75,16 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 - Black Diamond Sprinter 500 Headlamp — low light
 
 ## Wheeled Carryon Travel
+
+### Prep
+
+- Pack kits
+- Charge devices
+
+### Reset
+
+- Restock kit consumables
+- Charge devices
 
 ### On Body
 
@@ -100,6 +118,18 @@ Optional:
 
 ## Onebag Travel
 
+### Prep
+
+- Pack kits
+- Charge all devices
+- Download offline maps
+
+### Reset
+
+- Launder clothes kit
+- Restock kit consumables
+- Charge devices
+
 ### On Body
 
 - Outerwear: Chore coat or raincoat
@@ -132,16 +162,16 @@ Optional:
 
 ## Cycling
 
-Pre-ride checklist:
+### Prep
 
-- Downlad the route to the 6X
+- Download the route to the 6X
 - Charge the Fenix 6X, 255s, and Varia
 - Check Epic Ride Weather App
 - Pump tires
 - Fill water bottles
-- Stock food 
+- Stock food
 
-Post-ride checklist:
+### Reset
 
 - Refill water bottles
 - Restock food
@@ -216,6 +246,13 @@ Post-ride checklist:
 - Food: Welches Gummies, one for every 30 mins
 - Electrolyte tablets
 
+### Reset
+
+- Restock food and electrolytes
+- Charge watch and headlamp
+- Refill water flask
+- Drink protein
+
 ### In the Car
 
 - Extra clothes
@@ -229,6 +266,15 @@ Post-ride checklist:
 *Shelter only — clothing, food, cooking, and water treatment not listed.*
 
 Carried in a 40L pack or the red duffle.
+
+### Prep
+
+- Check weather
+- Verify tent and sleeping bag
+
+### Reset
+
+- Dry tent and sleeping bag before storing
 
 - Tent
 - Sleeping Bag
@@ -552,3 +598,4 @@ Random ones from REI.
 - 2026-03-18: Restructured Specific Kits around core/consumable/conditional framework. Added Health Kit. Replaced minimal/full/standard tiers with explicit conditional items per kit.
 - 2026-03-18: Linked kit references throughout lists (Everyday Carry, Wheeled Carryon, Onebag Travel). Simplified inline kit descriptions to point to canonical kit definitions. Added ear plugs to Health Kit conditionals.
 - 2026-03-18: Added System Overview escalation model. Moved 100W charger to Tech Kit core. Expanded cycling post-ride checklist. Collapsed casual clothes entries. Renamed Headwear section to include Eyewear. Added shelter-only note to Camping.
+- 2026-03-18: Added Prep and Reset sections to all lists.
