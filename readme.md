@@ -414,7 +414,7 @@ Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch).
 
 ## Cycling Kit
 
-Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Water bottles live with the bike.
+Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Water bottles and hand pump live with the bike.
 
 ### Core
 
@@ -427,7 +427,7 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Water bo
 - [Garmin Fenix 6X](#garmin-fenix-6x-watch)
 - Garmin Varia rear light
 - Headlamp: Black Diamond Sprinter 500
-- Tools: patch kit, hand pump, disc brake pad spacer, multitool
+- Tools: patch kit, disc brake pad spacer, multitool
 
 ### Consumables
 
