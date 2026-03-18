@@ -60,20 +60,28 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 ### Core
 
 - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
-- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
 - [Auth Kit](#auth-kit): Car fob keyring, apartment fob, 3-card MagSafe card holder, work badge.
-- [Tech Kit](#tech-kit): Aer Slim Pouch
-- Personal Laptop: 13" Macbook Air M2
-- Work Laptop: 13" Macbook Air M3
-- Earbuds: Soundcore Aerofit Pro
-- Glasses: [Lindberg Frameless](#lindberg-frameless-eyeglasses) in a [Linrong Capsule Eyelass Case](#linrong-capsule-eyelass-case)
-- Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
 
 ### Consumables
 
 - Sunscreen
 
 ### Conditional
+
+**[Porter International New Heat](#porter-international-new-heat-shoulder-bag):**
+
+- Watch: [Garmin Forerunner 255s](#garmin-foreunner-255s-watch)
+- Earbuds: Soundcore Aerofit Pro
+- Glasses: [Lindberg Frameless](#lindberg-frameless-eyeglasses) in a [Linrong Capsule Eyelass Case](#linrong-capsule-eyelass-case)
+- Sunglasses: [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses) with case
+
+**+ [WaterField Shinjuku Laptop Brief Small](#waterfield-shinjuku-laptop-brief-small):**
+
+- [Tech Kit](#tech-kit): Aer Slim Pouch
+- Personal Laptop: 13" Macbook Air M2
+- Work Laptop: 13" Macbook Air M3
+
+**+ [CTactical CT15](#ctactical-ct15-backpack):**
 
 - [Clothes Kit](#clothes-kit): [Aer Zip Bag Small](#aer-zip-small-bag) — gym days
 - Bike Lock: Kryptonite Evolution U-Lock — biking
