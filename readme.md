@@ -125,11 +125,6 @@ Each loadout builds on the previous by adding kits and scaling kit tiers:
 - [Cafe Du Cyclist Gabin Sunglasses](#cafe-du-cyclist-gabin-sunglasses), [Lindberg Frameless Eyeglasses](#lindberg-frameless-eyeglasses), Soundcore Aerofit Pro earbuds
 - A pair of binoculars
 
-Optional:
-
-- DSLR
-- Tote bag
-
 ### Wheeled — [Carl Friedrik Hybrid Carry-on](#carl-friedrik-hybrid-carry-on) + [WaterField Shinjuku Brief](#waterfield-shinjuku-laptop-brief-small)
 
 [WaterField Shinjuku Brief](#waterfield-shinjuku-laptop-brief-small):
@@ -146,12 +141,14 @@ Optional:
 - [Hygiene Kit](#hygiene-kit)
 - [Tech Kit](#tech-kit)
 - [Clothes Kit](#clothes-kit)
-- [Health Kit](#health-kit) (optional)
+- [Health Kit](#health-kit)
 - Snack pencil case
 
-Optional:
+### Optional
 
+- DSLR
 - Camera
+- Tote bag
 
 ## Cycling
 
