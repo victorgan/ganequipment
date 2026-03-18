@@ -195,6 +195,12 @@ Vest: Salomon Sense Pro 6
 - Check Epic Ride Weather App — designed for cycling, works well for trail running
 - Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Fenix 6X](#garmin-fenix-6x-watch), [Anker 10k](#anker-10k-mah-magnetic-power-bank), headlamp
 
+### Reset
+
+- Restock food and electrolytes
+- Refill water flask
+- Drink protein
+
 ### On Person
 
 - Hat: [Ciele Running Cap](#ciele-running-cap)
@@ -224,12 +230,6 @@ Vest: Salomon Sense Pro 6
 - Water: Water with Gatorade Drink Mix
 - Food: Welches Gummies, one for every 30 mins
 - Electrolyte tablets
-
-### Reset
-
-- Restock food and electrolytes
-- Refill water flask
-- Drink protein
 
 ### In the Car
 
