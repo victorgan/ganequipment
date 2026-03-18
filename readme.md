@@ -308,6 +308,7 @@ Container: [Black Diamond Pouch](#black-diamond-skin-maintenance-kit-pouch) (min
 - Garmin USB-C cable
 - [45W Charger](#45w-charger)
 - [Anker 10k mAh Magnetic Power Bank](#anker-10k-mah-magnetic-power-bank)
+- [Apple AirPods Pro 3](#apple-airpods-pro-3)
 
 ### Consumables
 
@@ -317,7 +318,6 @@ None.
 
 - [Aer Slim Pouch](#aer-slim-pouch) with [100W GaN Charger](#100w-gan-charger) — multiple devices or high-wattage charging
 - Wired earbuds — in-seat entertainment systems on flights
-- [Apple AirPods Pro 3](#apple-airpods-pro-3) — in accessible pocket not in pouch
 - Crucial X10 Pro 4TB SSD — if working remotely
 - SD card reader — if shooting
 - 10 ft USB-C cable — hotel/hostel outlet reach
