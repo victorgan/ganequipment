@@ -195,7 +195,7 @@ Updated March 2026
 
 ## Cycle Touring
 
-### Bike Box (In Transit, Off Bike))
+### Bike Box (In Transit, Off Bike)
 
 - Bike
 - Seat Pack
@@ -205,7 +205,7 @@ Updated March 2026
     - Pump 
     - Manual
     - Airtag
-- All bags and water bottles still attached.
+- All bags and water bottles still attached
 - Bibs and Jersey on top of seat pack
 
 ### Backpack (In Transit, Off Bike)
@@ -255,6 +255,7 @@ Updated March 2026
 
 - [Garmin Fenix 6X](#garmin-fenix-6x-watch)
 - Two water bottles
+- Hand Pump
 - Extra food
 
 ### Seat Pack
