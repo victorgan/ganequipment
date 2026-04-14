@@ -264,7 +264,6 @@ Updated March 2026
 - Passport,
 - Bike Tool Pouch:
     - Patch Kit: extra tube x3, tire levers, patches
-    - Hand pump
     - Disc brake pad spacer
     - Multitool
 - [Tech Kit](#tech-kit) in a small pouch
@@ -283,7 +282,7 @@ Updated March 2026
     - Razor
     - Clothesline
 - Clothes Pouch
-    - Casual shirt, tech pants
+    - Casual shirt, shorts
 - Patagonia Nano Air Pullover
 
 ### Right Feed Bag
