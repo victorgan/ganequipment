@@ -18,6 +18,7 @@ Updated March 2026
 - [Hygiene](#hygiene-kit)
 - [Health](#health-kit)
 - [Cycling](#cycling-kit)
+- [Cycle Touring](#cycle-touring-kit)
 - [Trail Running](#trail-running-kit)
 - [Camping](#camping-kit)
 
@@ -423,6 +424,115 @@ Container: [REI Trailgate Gear Cube 25L](#rei-trailgate-gear-cube-25l). Water bo
 ### Conditional
 
 - Extra food — longer rides
+
+## Cycle Touring Kit
+
+### Bike Box (In Transit, Off Bike))
+
+- Bike
+- Seat Pack
+    - Bike Shoes
+    - Bike Tool Pouch
+- Small pouch 
+    - Pump 
+    - Manual
+    - Airtag
+- All bags and water bottles still attached.
+- Bibs and Jersey on top of seat pack
+
+### Backpack (In Transit, Off Bike)
+
+- Mesh pocket
+    - Rain Jacket
+    - Gloves
+    - Clothesline
+ - Top pouch
+     - Garmin Varia and attachment piece
+     - Garmin Fenix 6X
+     - Soundcore Earbuds + Strap
+     - Earbuds
+     - Glasses Case
+     - Face mask
+     - Magsafe battery bank
+- [Hygiene Kit](#hygiene-kit) in a small pouch
+- [Tech Kit](#tech-kit) in a small pouch
+- [Clothes Kit](#clothes-kit)
+    - Shorts
+    - T shirt
+    - Underwear + Long pants
+- Nano Air Ultralight Pullover
+- Running shoes
+- Sunglasses 
+- Sling
+- Laptop
+- Helmet
+
+### On Person (On Bike)
+
+- Helmet
+- Sunglasses
+- Jersey
+- Bibs
+- Socks
+- Cycling Shoes
+- Watch
+- Gloves
+- In jersey pockets
+    - Sunscreen
+    - Phone: [iPhone 16 Pro](#iphone-16-pro-phone)
+    - Wallet with Credit Card
+    - Gummies
+
+### On Bike
+
+- [Garmin Fenix 6X](#garmin-fenix-6x-watch)
+- Two water bottles
+- Extra food
+
+### Seat Pack
+
+- Outside: Rear Garmin Varia light, sandals
+- Passport,
+- Bike Tool Pouch:
+    - Patch Kit: extra tube x3, tire levers, patches
+    - Hand pump
+    - Disc brake pad spacer
+    - Multitool
+- [Tech Kit](#tech-kit) in a small pouch
+    - Eshifting charger
+    - Charging brick
+    - Garmin Watch to USB-A Cable for the Fenix
+    - USB-C to USB-C Cable for the phone and headlamp
+    - Micro USB to USB-A Cable for the Varia
+    - Magsafe Battery pack
+    - Headlamp
+- [Hygiene Kit](#hygiene-kit) in a small pouch
+    - Shaving Cream
+    - Toothpaste
+    - Face Lotion
+    - Toothbrush
+    - Razor
+    - Clothesline
+- Clothes Pouch
+    - Casual shirt, tech pants
+- Patagonia Nano Air Pullover
+
+### Right Feed Bag
+
+- Eyeglasses
+- Rain jackst
+- Spot for Sunglasses
+
+### Left Feed Bag
+
+- Third Water bottle
+- Sunscreen
+- Ear Plugs
+
+### Top Tube Bag
+
+- Food
+
 
 ## Trail Running Kit
 
