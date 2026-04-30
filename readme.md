@@ -152,7 +152,7 @@ Updated March 2026
 - Charge [iPhone 16 Pro](#iphone-16-pro-phone), [Fenix 6X](#garmin-fenix-6x-watch), [Forerunner 255s](#garmin-forerunner-255s-watch), Varia, headlamp
 - Check Epic Ride Weather App
 - Pump tires
-- Fill water bottles
+- Fill water bottles (1 per 30 miles)
 - Stock food
 
 ### Reset
