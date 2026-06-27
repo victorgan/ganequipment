@@ -213,10 +213,11 @@ Updated March 2026
     - Bike Shoes
     - Bike Tool Pouch
 - Small pouch 
-    - Pump 
     - Manual
     - Airtag
-- All bags and water bottles still attached
+- Pump 
+- Sandals in the front
+- All bags and water bottles still attached x3
 - Bibs and Jersey on top of seat pack
 
 ### Backpack (In Transit, Off Bike)
