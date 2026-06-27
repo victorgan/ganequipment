@@ -195,6 +195,17 @@ Updated March 2026
 
 ## Cycle Touring
 
+### On Person (In Transit, Off Bike)
+
+- Outerwear: Coat
+- Pants: [Outlier New Dungarees](#outlier-new-dungarees-pants)
+- Underwear: Saxx Synthetic Boxers
+- Shirt: Cotton T-Shirt
+- Socks: [Darn Tough Socks](#darn-tough-quarter-cushioned-ultra-lightweight-running-socks)
+- Shoes: [Nike Pegasus 41](#nike-pegasus-41-shoes)
+- Watch: [Garmin Forerunner 255s](#garmin-forerunner-255s-watch)
+- Phone: [iPhone 16 Pro](#iphone-16-pro-phone) with Magsafe Wallet
+
 ### Bike Box (In Transit, Off Bike)
 
 - Bike
@@ -229,11 +240,15 @@ Updated March 2026
     - T shirt
     - Underwear + Long pants
 - Nano Air Ultralight Pullover
-- Running shoes
 - Sunglasses 
-- Sling
-- Laptop
 - Helmet
+
+#### Optional
+
+- Extra pouches for food and overflow
+- Sling
+- Camera with Bag
+- Laptop
 
 ### On Person (On Bike)
 
@@ -430,6 +445,7 @@ None.
 - Crucial X10 Pro 4TB SSD — if working remotely
 - SD card reader — if shooting
 - 10 ft USB-C cable — hotel/hostel outlet reach
+- Travel Adapter
 
 ## Clothes Kit
 
